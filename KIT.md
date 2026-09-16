@@ -4,7 +4,7 @@ Sistema visual EXATO desta apresentação. Deriva do KIT da Trilha Técnica (mod
 **Referência de ouro:** `../GPFTrilhaTecnico/apresentacao/` (KIT.md + slide-01, 04, 20, 29, 61).
 Onde a especificação de conteúdo divergir deste KIT, **prevalece o KIT**.
 
-Total de arquivos: **31** — `slide-01.html` a `slide-31.html`, em sequência única.
+Total de arquivos: **32** — `slide-01.html` a `slide-32.html`, em sequência única.
 Não há slides de reserva.
 
 O antigo bloco 4 (conector e dados abertos) saiu deste deck e virou apresentação própria,
@@ -159,7 +159,7 @@ em conteúdo (só no rodapé, e ainda assim com `px` explícito).
       <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · SFC · ANTAQ</p>
       <!-- linha de fonte, quando o slide exibir números (ver 5.4) -->
     </div>
-    <p class="text-gray-300 font-mono" style="font-size:18px;">NN / 31</p>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">NN / 32</p>
   </div>
 </div>
 ```
@@ -173,9 +173,9 @@ Se o título for longo, reduza para 44px em vez de quebrar o leiaute.
 | 2, 3 | `ABERTURA` | (sem ícone; só o rótulo) |
 | 6–8 | `FUNDAMENTOS` | `fa-diagram-project` |
 | 11–13, 15–19 | `GOVERNANÇA` | `fa-user-shield` |
-| 21–26 | `PROJETO` | `fa-folder-tree` |
-| 29, 30 | `HABILIDADES` | `fa-toolbox` |
-| 31 | (sem tag; o slide L11 usa a faixa "OBRIGADO") | — |
+| 21–27 | `PROJETO` | `fa-folder-tree` |
+| 30, 31 | `HABILIDADES` | `fa-toolbox` |
+| 32 | (sem tag; o slide L11 usa a faixa "OBRIGADO") | — |
 
 A tag `PRIVACIDADE` do deck da SAF virou **`GOVERNANÇA`** aqui: o bloco 2 deixou de tratar
 só de privacidade e passou a tratar também das orientações federais em vigor, da vedação
@@ -184,11 +184,11 @@ de credencial e da transparência sobre o uso.
 A tag `DADOS ABERTOS` saiu junto com o bloco 4: ela agora só existe no deck de
 `../Dados-Abertos-Analise-Tecnica/`.
 
-Slides sem tag: 1, 4, 5, 9, 10, 14, 20, 27, 28 (capas, divisórias e frases L2).
+Slides sem tag: 1, 4, 5, 9, 10, 14, 20, 28, 29 (capas, divisórias e frases L2).
 
 ### 5.2 Numeração no rodapé
 
-- Slides 2 a 31: `NN / 31` (sem zero à esquerda; use `7 / 31`, `27 / 31`).
+- Slides 2 a 32: `NN / 32` (sem zero à esquerda; use `7 / 32`, `27 / 32`).
 - Capa (slide 1): sem numeração.
 
 ### 5.3 Rodapé de slides escuros
@@ -209,6 +209,8 @@ Fontes canônicas desta apresentação (use exatamente):
 - Retenção e treinamento em conta de consumo (slides 16 e 17):
   `Fonte: documentação pública de privacidade da ferramenta demonstrada.`
 - Regimento Interno (slides 13 e 15): `Fonte: Regimento Interno da ANTAQ.`
+- Roteiro da GTGI (slide 25):
+  `Fonte: Roteiro para Proteção de Dados Sensíveis no Uso de IA, versão 2.0, GTGI/ANTAQ, 2026, minuta em validação institucional.`
 - Procedimento sancionador (slide 22): `Fonte: Resolução ANTAQ nº 3.259, de 30 de janeiro de 2014.`
 
 > Regra que não muda: **todo número projetado tem linha de fonte**.
@@ -286,7 +288,7 @@ marcador hoje:** todos foram preenchidos ou removidos em 5 de agosto de 2026.
 Em fundo escuro: `background:rgba(253,224,71,.14); color:#FDE68A; border-color:#FDE68A;`.
 Marcador dentro de linha de rodapé pode usar 19px.
 
-### 6.8 Faixa-âncora (slides 7 e 30 — idêntica nos dois)
+### 6.8 Faixa-âncora (slides 7 e 31 — idêntica nos dois)
 
 ```html
 <div style="margin-top:34px;background:linear-gradient(90deg,#002244 0%,#004488 100%);
@@ -339,7 +341,7 @@ com `filter:brightness(0) invert(1)` a `opacity:.07-.08`.
 opacity:.05`. Padrão de pontos opcional:
 `background-image: radial-gradient(rgba(255,255,255,.05) 1px, transparent 1px); background-size:22px 22px;`
 
-### 7.1 Divisórias de bloco (L10) — slides 4, 10, 20, 28
+### 7.1 Divisórias de bloco (L10) — slides 4, 10, 20, 29
 
 Espelham `../GPFTrilhaTecnico/apresentacao/slide-04.html`:
 rótulo "BLOCO" com barra dourada; número em dourado 188px; título 84px;
@@ -355,7 +357,7 @@ linha-resumo 30px; e, no lugar dos "chips", **uma pílula de tempo estimado**:
 ```
 Mais 3 a 4 "chips" com os pontos do bloco (padrão do slide-04 de referência, 22px).
 
-### 7.2 Frase de impacto em tela cheia (L2) — slides 5, 9, 14, 27
+### 7.2 Frase de impacto em tela cheia (L2) — slides 5, 9, 14, 28
 
 Fundo escuro, sem header. Texto centralizado verticalmente, alinhado à esquerda a partir
 de `padding-left:130px`, largura máxima 1560px. Aspas decorativas `fa-quote-left` em
@@ -413,15 +415,16 @@ Se a especificação não trouxer NOTAS para o slide, escreva uma nota curta e �
 | 17 | L5 | Conta pessoal x institucional | GOVERNANÇA |
 | 18 | L4 | Para testar, use dado que não existe | GOVERNANÇA |
 | 19 | L3 | Dizer que usou não enfraquece o documento | GOVERNANÇA |
-| 20 | L10 | Divisória bloco 3 (20 min) | — |
+| 20 | L10 | Divisória bloco 3 (22 min) | — |
 | 21 | L4 | O que o Projeto resolve | PROJETO |
 | 22 | L3 | Criando o projeto "SFC - Instrução de processo sancionador" | PROJETO |
 | 23 | L6 | As instruções do projeto | PROJETO |
 | 24 | L4 | O que subir (publicado) e o que não subir (interno) | PROJETO |
-| 25 | L5 | As quatro camadas | PROJETO |
-| 26 | L4 | Memória: saber desligar vale mais do que saber ligar | PROJETO |
-| 27 | L2 | Como começar | — |
-| 28 | L10 | Divisória bloco 4 (7 min) | — |
-| 29 | L3 | Habilidades | HABILIDADES |
-| 30 | L3 | Artefatos + faixa-âncora | HABILIDADES |
-| 31 | L11 | Contato, material e código de leitura óptica | — |
+| 25 | L4 | O roteiro da GTGI para dados sensíveis | PROJETO |
+| 26 | L5 | As quatro camadas | PROJETO |
+| 27 | L4 | Memória: saber desligar vale mais do que saber ligar | PROJETO |
+| 28 | L2 | Como começar | — |
+| 29 | L10 | Divisória bloco 4 (7 min) | — |
+| 30 | L3 | Habilidades | HABILIDADES |
+| 31 | L3 | Artefatos + faixa-âncora | HABILIDADES |
+| 32 | L11 | Contato, material e código de leitura óptica | — |

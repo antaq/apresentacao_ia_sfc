@@ -8,6 +8,10 @@ Apresentação conjunta de duas gerências da SFC:
 - **Pedro Henrique Soares** - Gerência de Planejamento e Inteligência da Fiscalização (GPF)
 - **Fábio Queiroz Fonseca** - Gerência de Recursos e de Apoio Técnico (GRAT)
 
+O slide 25 apresenta o **Roteiro para Proteção de Dados Sensíveis no Uso de IA**, da
+Gerência de Tecnologia e Gestão da Informação (GTGI), cujo titular é **Alexandre Ferreira de
+Alencar**. O roteiro está em minuta, em validação institucional.
+
 🔗 **Página publicada:** https://antaq.github.io/apresentacao_ia_sfc/
 
 📦 **Repositório:** https://github.com/antaq/apresentacao_ia_sfc
@@ -24,10 +28,10 @@ Apresentação conjunta de duas gerências da SFC:
 ## Sobre
 
 - **Subtítulo:** o que dá para fazer hoje, o que não pode ser feito nunca, e a decisão que está na mesa
-- **Duração prevista:** 70 minutos (54 de exposição, conforme os chips de tempo das divisórias, e o restante em demonstração ao vivo e perguntas)
+- **Duração prevista:** 70 minutos (56 de exposição, conforme os chips de tempo das divisórias, e o restante em demonstração ao vivo e perguntas)
 - **Plateia:** toda a SFC - gerências da sede (GCOR, GPF, GRAT) e Gerências e Unidades Regionais
 - **Data:** 21 de setembro de 2026, às 16h20
-- **Formato:** 31 slides em sequência única, em HTML 1920×1080
+- **Formato:** 32 slides em sequência única, em HTML 1920×1080
 
 ## Como usar
 
@@ -57,18 +61,18 @@ python3 -m http.server 8130
 | Slides | Bloco | Tempo |
 |---|---|---|
 | 1 a 3 | Abertura | 3 min |
-| 4 a 9 | Bloco 1 · Como funciona e onde quebra | 10 min |
+| 4 a 9 | Bloco 1 · Como funciona e onde falha | 10 min |
 | 10 a 19 | Bloco 2 · O que já está escrito, e o que nunca entra | 14 min |
-| 20 a 27 | Bloco 3 · Projeto, instruções e memória | 20 min |
-| 28 a 30 | Bloco 4 · Habilidades e artefatos | 7 min |
-| 31 | Encerramento | — |
+| 20 a 28 | Bloco 3 · Projeto, instruções e memória | 22 min |
+| 29 a 31 | Bloco 4 · Habilidades e artefatos | 7 min |
+| 32 | Encerramento | — |
 
 ## Arquivos
 
 | Arquivo | Conteúdo |
 |---|---|
 | [`index.html`](index.html) | Navegador dos slides (escala, teclado, notas, progresso) |
-| `slide-01.html` … `slide-31.html` | Os 31 slides |
+| `slide-01.html` … `slide-32.html` | Os 32 slides |
 | [`KIT.md`](KIT.md) | Sistema visual (paleta, tipografia, componentes, mapa dos slides) |
 | [`spec-slides-ia-sfc.md`](spec-slides-ia-sfc.md) | Especificação de conteúdo que originou o deck |
 | [`notas-apresentador.md`](notas-apresentador.md) | Roteiro falado por slide, para impressão |
@@ -76,8 +80,8 @@ python3 -m http.server 8130
 
 ## Antes de apresentar
 
-Leia o [`PENDENCIAS.md`](PENDENCIAS.md). Há **duas pontes verbais obrigatórias** (slides 30
-e 31) que não estão projetadas em tela nenhuma.
+Leia o [`PENDENCIAS.md`](PENDENCIAS.md). Há **duas pontes verbais obrigatórias** (slides 31
+e 32) que não estão projetadas em tela nenhuma.
 
 ## Publicação (GitHub Pages)
 

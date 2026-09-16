@@ -2,16 +2,16 @@
 
 Situação em: **16/09/2026** · Apresentação marcada para **21/09/2026, às 16h20**
 
-> Não há marcador `[CONFIRMAR]`, `[DATA]` ou `[CAPTURA]` em aberto no deck. Os 31 slides
+> Não há marcador `[CONFIRMAR]`, `[DATA]` ou `[CAPTURA]` em aberto no deck. Os 32 slides
 > passaram pela verificação automática de leiaute em 16/09/2026 (ver seção 4). A página já
 > está publicada em **https://antaq.github.io/apresentacao_ia_sfc/**, e o código de leitura
-> óptica do slide 31 foi conferido contra ela. O que continua pendente é **fora do HTML**:
+> óptica do slide 32 foi conferido contra ela. O que continua pendente é **fora do HTML**:
 > duas falas que não estão projetadas em tela nenhuma e duas atribuições a conferir.
 >
 > **Mudança de escopo em 16/09/2026:** o antigo bloco 4 (conector e dados abertos, ex-slides
 > 28 a 37) saiu deste deck e virou apresentação própria para 22/09/2026, em
-> `../Dados-Abertos-Analise-Tecnica/`. O deck passou de 41 para 31 slides e de 72 para 54
-> minutos de exposição. **Confirmar com quem reservou a sala se o horário de 21/09 continua
+> `../Dados-Abertos-Analise-Tecnica/`. Em seguida entrou o slide 25, sobre o roteiro da
+> GTGI, e o deck fechou em 32 slides e 56 minutos de exposição. **Confirmar com quem reservou a sala se o horário de 21/09 continua
 > sendo de 90 minutos**: se continuar, sobra tempo, e o melhor destino dele é demonstração
 > ao vivo do bloco 3.
 
@@ -31,8 +31,8 @@ Situação em: **16/09/2026** · Apresentação marcada para **21/09/2026, às 1
 
 | Slide | O que precisa ser dito em voz alta |
 |---|---|
-| **30** | A GPF e a GRAT se oferecem para montar a **primeira habilidade** junto com a equipe da unidade que pedir. O slide de convite foi suprimido ainda no deck da SAF. |
-| **31** | O convite para a apresentação do dia seguinte, sobre o **conector de Dados Abertos**. Sem essa frase, a apresentação termina sem próximo passo, e o encadeamento entre os dois dias se perde. |
+| **31** | A GPF e a GRAT se oferecem para montar a **primeira habilidade** junto com a equipe da unidade que pedir. O slide de convite foi suprimido ainda no deck da SAF. |
+| **32** | O convite para a apresentação do dia seguinte, sobre o **conector de Dados Abertos**. Sem essa frase, a apresentação termina sem próximo passo, e o encadeamento entre os dois dias se perde. |
 
 ---
 
@@ -42,13 +42,14 @@ Situação em: **16/09/2026** · Apresentação marcada para **21/09/2026, às 1
 |---|---|
 | **Slide 11** | O guia da CGU é atribuído à **Portaria Normativa CGU nº 193, de 6 de janeiro de 2025**, confirmada por busca. O PDF do repositório da CGU **não abriu** na consulta de 16/09/2026 (redirecionamento seguido de erro). Nenhum outro número de deliberação foi citado no slide, justamente por isso. Conferir a referência antes de projetar. |
 | **Slide 15** | Cita o **Ofício Circular nº 3/2023/SFC/ANTAQ** na linha de fonte. Conferir se continua sendo a referência vigente sobre uso de base credenciada. |
+| **Slide 25** | O **Roteiro para Proteção de Dados Sensíveis no Uso de IA** é da GTGI e está em **minuta, em validação institucional** (versão 2.0, 2026). O slide diz isso em tela, no selo ao lado do subtítulo, e quem apresentar precisa repetir em voz alta: não é guia aprovado. Antes de projetar, confirmar com a GTGI (Alexandre Ferreira de Alencar) se a versão continua sendo a 2.0 e se a situação continua sendo de minuta. O documento traz campos entre colchetes ainda não preenchidos pela Agência (canal do Encarregado, canal de incidentes e norma interna), e nenhum deles foi levado para o slide justamente por isso. |
 | **Demonstração ao vivo** | Este deck não tem mais slide de demonstração com número. Se houver demonstração ao vivo, ela é do bloco 3 (criar um projeto), e não depende de rede além do acesso à ferramenta. |
 
 ---
 
 ## 4. Verificação de leiaute (16/09/2026)
 
-Os 31 slides foram medidos dentro do navegador, um `<iframe>` por slide em 1920×1080:
+Os 32 slides foram medidos dentro do navegador, um `<iframe>` por slide em 1920×1080:
 
 - **Estouro de área**: nenhum. Todos os documentos medem exatamente 1920×1080.
 - **Ícone inexistente**: nenhum. Todo elemento `<i class="fa-...">` resolve para um glifo do
@@ -68,19 +69,23 @@ Os 31 slides foram medidos dentro do navegador, um `<iframe>` por slide em 1920�
    abertos, o deck fechou em 31 slides e 54 minutos de exposição.
 2. **A frase-âncora repete duas vezes, não três.** Ela aparecia nos slides 7, 30 e 37; os
    dois últimos foram para o outro deck. Para não perder o fecho, a faixa foi acrescentada
-   ao slide 30 (Artefatos), que passou a ser o último slide de conteúdo. As notas dos slides
+   ao slide 31 (Artefatos), que passou a ser o último slide de conteúdo. As notas dos slides
    5 e 7 foram ajustadas.
-3. **Tag `PRIVACIDADE` virou `GOVERNANÇA`.** O bloco 2 deixou de tratar só de privacidade e
+3. **A régua do slide 24 deixou de ser suficiente por si só.** O deck dizia "foi publicado?
+   então sobe", e isso é falso quando o documento publicado traz dado pessoal. O slide 24
+   passou a fechar com um gancho, e o slide 25 traz o roteiro da GTGI. A régua continua
+   valendo como **primeira** pergunta, não como única.
+4. **Tag `PRIVACIDADE` virou `GOVERNANÇA`.** O bloco 2 deixou de tratar só de privacidade e
    configuração.
-4. **Slide 31 não tem tag de bloco.** O KIT da SAF previa `ENCERRAMENTO` com
+5. **Slide 32 não tem tag de bloco.** O KIT da SAF previa `ENCERRAMENTO` com
    `fa-flag-checkered`, mas o slide L11 nunca a teve. O `KIT.md` foi corrigido para
    descrever o que o deck faz, não o que se pretendia.
-5. **Travessão longo.** As regras proíbem travessão longo em todo texto do deck. Ele
+6. **Travessão longo.** As regras proíbem travessão longo em todo texto do deck. Ele
    sobrevive em um lugar só: a dica de ferramenta dos pontinhos de progresso do
    `index.html`, que é interface de navegação e não texto projetado.
-6. **Leiaute L7 (captura de tela) continua sem uso.** Nenhum slide traz captura; o conteúdo
+7. **Leiaute L7 (captura de tela) continua sem uso.** Nenhum slide traz captura; o conteúdo
    ocupa a largura cheia, com corpo maior. Decisão herdada do deck da SAF.
-7. **Proposta formal.** Continua fora do deck. O slide 11 mostra que a orientação federal
+8. **Proposta formal.** Continua fora do deck. O slide 11 mostra que a orientação federal
    existe e que a Agência não tem política própria, mas o deck **não pede decisão por
    escrito em tela nenhuma**. Se essa mensagem importar nesta plateia, ela depende
    inteiramente da fala.

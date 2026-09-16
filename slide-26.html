@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Memória: saber desligar vale mais do que saber ligar</title>
+<title>Quatro coisas diferentes que todo mundo confunde</title>
 <link rel="icon" href="favicon.ico" sizes="any"/>
 <link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
 <link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
@@ -19,31 +19,23 @@
   .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
   .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
 
-  .linha { display:flex; align-items:stretch; gap:34px; }
+  /* Tabela (KIT 6.4) */
+  .tabela { width:100%; border-collapse:separate; border-spacing:0; }
+  .tabela thead th { background:#003366; color:#fff; font-family:'Montserrat',sans-serif; font-weight:700;
+    font-size:24px; letter-spacing:.05em; text-transform:uppercase; padding:24px 32px; text-align:left; }
+  .tabela thead th i { margin-right:14px; opacity:.85; }
+  .tabela tbody td { padding:50px 32px; font-size:28px; color:#374151; border-bottom:1px solid #E5E7EB;
+    vertical-align:middle; line-height:1.4; }
+  .tabela tbody tr:nth-child(even) td { background:#F8FAFC; }
+  .tabela tbody tr:last-child td { border-bottom:none; }
 
+  .recurso { display:flex; align-items:center; gap:18px; }
+  .recurso-icone { width:56px; height:56px; border-radius:14px; flex-shrink:0; display:flex;
+    align-items:center; justify-content:center; font-size:26px; background:#DBEAFE; color:#0066CC; }
+  .recurso-nome { font-family:'Montserrat',sans-serif; font-weight:800; font-size:27px; color:#003366;
+    line-height:1.25; }
 
-  .cartao { background:#F8FAFC; border:2px solid #E2E8F0; border-left:8px solid #0066CC;
-    border-radius:16px; padding:26px 32px; box-shadow:0 2px 8px rgba(0,0,0,.06); }
-  .cartao-linha { display:flex; align-items:flex-start; gap:24px; }
-  .cartao-icone { width:64px; height:64px; border-radius:16px; flex-shrink:0; display:flex;
-    align-items:center; justify-content:center; font-size:28px; background:#DBEAFE; color:#0066CC; }
-  .cartao-txt { font-size:27px; line-height:1.42; color:#374151; }
-  .realce { background:#DBEAFE; color:#003366; font-weight:800; border-radius:8px; padding:2px 10px; }
-
-  .rotulo { font-family:'Montserrat',sans-serif; font-weight:800; font-size:20px;
-    text-transform:uppercase; letter-spacing:.14em; color:#0066CC; }
-
-  .controles { display:flex; gap:16px; margin-top:18px; }
-  .controle { flex:1; display:flex; flex-direction:column; align-items:center; text-align:center; }
-  .pilula-controle { display:inline-flex; align-items:center; gap:10px; border-radius:999px;
-    padding:10px 18px; font-family:'Montserrat',sans-serif; font-weight:800; font-size:23px;
-    text-transform:uppercase; letter-spacing:.04em; border:3px solid; white-space:nowrap; }
-  .controle-desc { font-size:21px; line-height:1.34; margin-top:12px; color:#4B5563; }
-
-  .aviso { margin-top:22px; background:#F0F9FF; border:2px solid #BAE6FD;
-    border-left:10px solid #0066CC; border-radius:16px; padding:22px 32px;
-    display:flex; align-items:center; gap:24px; }
-  .aviso-txt { font-size:28px; line-height:1.35; color:#003366; font-weight:600; }
+  .analogia { font-style:italic; font-weight:600; font-size:26px; color:#1D4ED8; }
 
   .bg-marca { position:absolute; bottom:-70px; right:-40px; font-size:21rem; opacity:.035; z-index:0; color:#003366; pointer-events:none; line-height:0; }
 </style>
@@ -54,14 +46,15 @@
   <div style="height:6px;background:#0066CC;width:100%;"></div>
 
   <!-- Cabeçalho -->
-  <div class="flex items-center justify-between px-16 pt-7 pb-2 z-10">
+  <div class="flex items-center justify-between px-16 pt-8 pb-3 z-10">
     <div>
       <div class="flex items-center gap-3">
-        <div class="bg-brand-secondary flex-shrink-0" style="width:7px; height:100px;"></div>
-        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:44px; line-height:1.14; letter-spacing:-0.02em;">
-          Memória: saber desligar<br/>vale mais do que saber ligar
+        <div class="w-1.5 h-9 bg-brand-secondary flex-shrink-0"></div>
+        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:44px; line-height:1.12; letter-spacing:-0.02em;">
+          Quatro coisas diferentes que todo mundo confunde
         </h1>
       </div>
+      <p class="text-gray-500 font-medium ml-4" style="font-size:27px; margin-top:6px;">Instruções, conhecimento, contexto e memória</p>
     </div>
     <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
       <i class="fas fa-folder-tree" style="font-size:26px;"></i>
@@ -70,87 +63,67 @@
   </div>
 
   <!-- Conteúdo -->
-  <div class="flex-1 flex flex-col justify-center px-16 pb-4 z-10 min-h-0">
+  <div class="flex-1 flex flex-col justify-center px-16 pb-5 z-10 min-h-0">
 
-    <div class="linha" style="flex-direction:column; gap:22px;">
-
-      <div class="cartao">
-        <div class="cartao-linha">
-          <div class="cartao-icone"><i class="fas fa-shield-halved"></i></div>
-          <p class="cartao-txt">
-            Cada projeto tem <span class="realce">espaço de memória separado</span>. É o que impede a conversa
-            de um processo sancionador de vazar para o projeto de outro.
-          </p>
-        </div>
-      </div>
-
-      <div class="cartao" style="border-left-color:#003366;">
-        <p class="rotulo"><i class="fas fa-sliders" style="margin-right:12px;"></i>Três controles</p>
-        <div class="controles">
-
-          <div class="controle">
-            <span class="pilula-controle" style="background:#EFF6FF; border-color:#93C5FD; color:#1D4ED8;">
-              <i class="fas fa-circle-plus"></i>Gerar
-            </span>
-          </div>
-
-          <div class="controle">
-            <span class="pilula-controle" style="background:#FFFBEB; border-color:#FCD34D; color:#B45309;">
-              <i class="fas fa-circle-pause"></i>Pausar
-            </span>
-            <p class="controle-desc">mantém o que existe,<br/>para de criar</p>
-          </div>
-
-          <div class="controle">
-            <span class="pilula-controle" style="background:#FEF2F2; border-color:#FCA5A5; color:#B91C1C;">
-              <i class="fas fa-trash-can"></i>Redefinir
-            </span>
-            <p class="controle-desc" style="color:#B91C1C; font-weight:600;">apaga tudo,<br/>sem volta</p>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="cartao">
-        <div class="cartao-linha">
-          <div class="cartao-icone"><i class="fas fa-user-secret"></i></div>
-          <p class="cartao-txt">
-            Existe também conversa anônima, que não alimenta a memória.
-          </p>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Conta gratuita -->
-    <div class="aviso">
-      <i class="fas fa-circle-check" style="color:#0066CC; font-size:36px; flex-shrink:0;"></i>
-      <p class="aviso-txt">
-        Em <span class="realce">conta gratuita</span> a memória existe em versão reduzida, e os controles de
-        desligar e apagar estão disponíveis.
-      </p>
+    <div style="border-radius:16px; overflow:hidden; border:1px solid #E5E7EB; box-shadow:0 12px 28px -10px rgba(0,0,0,.18);">
+      <table class="tabela">
+        <thead>
+          <tr>
+            <th style="width:28%;"><i class="fas fa-layer-group"></i>Recurso</th>
+            <th style="width:33%;"><i class="fas fa-circle-info"></i>O que é</th>
+            <th style="width:39%;"><i class="fas fa-building-columns"></i>Equivalente administrativo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <span class="recurso"><span class="recurso-icone"><i class="fas fa-scroll"></i></span><span class="recurso-nome">Instruções do projeto</span></span>
+            </td>
+            <td>Regra permanente, vale em toda conversa daquele projeto</td>
+            <td><span class="analogia">A Ordem de Serviço da unidade</span></td>
+          </tr>
+          <tr>
+            <td>
+              <span class="recurso"><span class="recurso-icone"><i class="fas fa-folder-open"></i></span><span class="recurso-nome">Conhecimento do projeto</span></span>
+            </td>
+            <td>Arquivos disponíveis a todas as conversas</td>
+            <td><span class="analogia">O armário de normas e decisões da sala</span></td>
+          </tr>
+          <tr>
+            <td>
+              <span class="recurso"><span class="recurso-icone"><i class="fas fa-file-arrow-up"></i></span><span class="recurso-nome">Contexto da conversa</span></span>
+            </td>
+            <td>O que você anexa ou escreve agora</td>
+            <td><span class="analogia">O processo que está na sua mesa hoje</span></td>
+          </tr>
+          <tr>
+            <td>
+              <span class="recurso"><span class="recurso-icone"><i class="fas fa-brain"></i></span><span class="recurso-nome">Memória</span></span>
+            </td>
+            <td>O que persiste entre conversas</td>
+            <td><span class="analogia">O colega que lembra do que foi combinado</span></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
   </div>
 
   <!-- Rodapé -->
   <div class="px-16 pb-5 flex justify-between items-end z-10">
-    <div>
-      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · SFC · ANTAQ</p>
-      <p class="text-gray-400" style="font-size:17px; margin-top:4px;">Fonte: documentação pública da ferramenta demonstrada.</p>
-    </div>
-    <p class="text-gray-300 font-mono" style="font-size:18px;">26 / 31</p>
+    <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · SFC · ANTAQ</p>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">26 / 32</p>
   </div>
 
-  <div class="bg-marca"><i class="fas fa-brain"></i></div>
+  <div class="bg-marca"><i class="fas fa-layer-group"></i></div>
 </div>
 
 <div id="notas-apresentador" style="display:none;">
-  <p>Último slide da parte de projeto. O título é o recado: aqui o que interessa não é ligar a memória, é saber desligar.</p>
-  <p>Comece pelo isolamento, que nesta sala é o ponto sensível. Cada projeto tem espaço de memória separado, e é isso que impede que o que você conversou sobre um processo sancionador reapareça quando você estiver instruindo outro, de outra autuada. Diga isso devagar: contaminação entre processos não é problema de tecnologia, é problema de nulidade.</p>
-  <p>Depois mostre os três controles na tela, devagar: gerar, pausar e redefinir. Deixe claro o que cada um faz. Pausar mantém o que já existe e para de criar. Redefinir apaga tudo, e não tem volta.</p>
-  <p>Feche com a conversa anônima: serve para o assunto que você não quer que fique registrado em lugar nenhum.</p>
-  <p>Se perguntarem sobre conta gratuita, a resposta está na faixa azul: a memória existe em versão reduzida, e os controles de desligar e apagar estão lá. Cerca de dois minutos.</p>
+  <p>Este é o slide que a plateia mais vai fotografar. Anuncie isso: "se você for guardar um slide desta apresentação, guarde este". Depois pare de falar por alguns segundos e deixe a sala registrar.</p>
+  <p>São só quatro linhas, então não corra. Leia cada uma pela coluna da direita, que é a analogia, porque é ela que fixa: a Ordem de Serviço da unidade, o armário de normas e decisões da sala, o processo que está na sua mesa hoje, e o colega que lembra do que foi combinado.</p>
+  <p>A primeira analogia é literal nesta casa, e vale dizer: instrução de projeto é Ordem de Serviço. Vocês já sabem o que acontece quando a unidade não tem uma, e é exatamente o que acontece com uma ferramenta sem instruções.</p>
+  <p>Deixe claro o que muda de lugar. Instrução e conhecimento pertencem ao projeto e valem sempre. Contexto morre com a conversa. Memória atravessa conversas, e é justamente por isso que ela precisa de controle, assunto do próximo slide.</p>
+  <p>Cerca de dois minutos e meio. Slide de respiro: sem pressa.</p>
 </div>
 <script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
 <script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>

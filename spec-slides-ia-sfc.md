@@ -29,7 +29,7 @@ afirmação e por que ela mudou em relação ao deck da SAF.
 ### Tese central, reforçada três vezes
 > **A IA é revisora, pesquisadora e tradutora de dados. O autor e o responsável continuam sendo o servidor.**
 
-Frase-âncora, idêntica nos slides **7 e 30**:
+Frase-âncora, idêntica nos slides **7 e 31**:
 > **"A IA não assina. Quem assina é você - e quem assina responde."**
 
 ### Regras de escrita (obrigatórias em todo texto do deck)
@@ -45,7 +45,7 @@ Frase-âncora, idêntica nos slides **7 e 30**:
 - **Não invente nada.** Todo número, data, valor e norma deste deck foi conferido na fonte antes de entrar.
 - **Neutralidade de fornecedor**: o deck não recomenda produto.
 - Nenhuma demonstração usa processo em tramitação, dado pessoal ou base credenciada. Só dado que a própria Agência publica. Isso é argumento, não acaso, e passou a ser o assunto da apresentação de 22/09/2026 sobre dados abertos.
-- Rodapé padrão em todos os slides de conteúdo: identificação da unidade, fonte e numeração `NN / 31`.
+- Rodapé padrão em todos os slides de conteúdo: identificação da unidade, fonte e numeração `NN / 32`.
 
 ### Vocabulário de leiaute
 | Código | Leiaute |
@@ -64,7 +64,7 @@ O leiaute **L7** (captura de tela) não é usado. O deck foi entregue sem nenhum
 decisão tomada ainda no deck da SAF; o conteúdo ocupa a largura cheia, com corpo maior.
 
 ### Divisórias
-Uma divisória **L10** antes de cada bloco, com número, título e tempo: slides **4, 10, 20 e 28**.
+Uma divisória **L10** antes de cada bloco, com número, título e tempo: slides **4, 10, 20 e 29**.
 A abertura (slides 1 a 3) não tem divisória.
 
 ---
@@ -79,7 +79,7 @@ A abertura (slides 1 a 3) não tem divisória.
 | 2 | L3 | Duas declarações, ditas no plural porque são dois apresentadores. (1) Somos duas gerências desta Superintendência, não somos fornecedor. (2) A Agência não tem política de uso de IA; o que existe é orientação federal, e ela já diz bastante coisa. | Regimento Interno da ANTAQ, arts. 80 e 82 |
 | 3 | L3 | Três perguntas de mão levantada. A segunda cita relatório, auto de infração e defesa. A terceira (quem sabe dizer se a conta usada treina modelo com o conteúdo) fica sem mãos, e esse silêncio é o gancho do bloco 2. | — |
 
-### Bloco 1 · Como funciona e onde quebra (10 min)
+### Bloco 1 · Como funciona e onde falha (10 min)
 
 | # | Leiaute | Conteúdo | Fonte |
 |---|---|---|---|
@@ -108,7 +108,7 @@ configuração. Aqui são 10 slides, e o eixo é a orientação federal já publ
 | 18 | L4 | **Para testar, use dado que não existe.** Coluna vermelha (como quase todo mundo testa) contra coluna azul (como o guia manda testar), mais quatro técnicas: mascaramento, tokenização, generalização e dado sintético. Faixa dourada sobre credencial genérica desvinculada da instituição. | Guias federais citados no slide 11 |
 | 19 | L3 | **Dizer que usou não enfraquece o documento.** Fecha com o carimbo de transparência: "Parte do conteúdo foi gerado com o auxílio de IA." | Guias federais citados no slide 11 |
 
-### Bloco 3 · Projeto, instruções e memória (20 min)
+### Bloco 3 · Projeto, instruções e memória (22 min)
 
 | # | Leiaute | Conteúdo | Fonte |
 |---|---|---|---|
@@ -116,18 +116,19 @@ configuração. Aqui são 10 slides, e o eixo é a orientação federal já publ
 | 21 | L4 | O que o projeto resolve: sem projeto, você reexplica o que é uma NOCI, qual resolução tipifica o quê e o que a sua unidade fiscaliza, e recola os mesmos manuais. | — |
 | 22 | L3 | Criando o projeto **"SFC - Instrução de processo sancionador"**, em quatro passos. | Resolução ANTAQ nº 3.259/2014 |
 | 23 | L6 | **As instruções do projeto**, escritas uma vez e válidas para sempre. É o slide central do deck. Contexto (regime legal, produtos, SFIS e SEI), como trabalhar (nunca inventar norma; citar norma, artigo, inciso e alínea com aviso de conferir vigência; confrontar conduta com dispositivo e evidência; devolver achados como CRÍTICO / RELEVANTE / FORMAL) e um bloco dourado de vedações (não decidir nem graduar sanção; dado aberto é indício, não prova; nada de dado pessoal, sigilo ou base credenciada). | Lei 10.233/2001, Lei 12.815/2013, Resolução ANTAQ nº 3.259/2014 |
-| 24 | L4 | **A régua é "foi publicado?"**. Sobe: resoluções que tipificam infração, Resolução 3.259/2014, leis e decretos do setor, Regimento Interno, acórdãos e decisões já publicados. Não sobe: **Manuais de Fiscalização da SFC, Ordens de Serviço da SFC, modelos e minutas internas** (documento interno não publicado não vai para ferramenta de terceiro, ainda que não tenha dado pessoal) e qualquer coisa do slide 13. | Regimento Interno da ANTAQ; vedações do slide 13 |
-| 25 | L5 | As quatro camadas que todo mundo confunde: instruções, conhecimento, contexto e memória. | — |
-| 26 | L4 | Memória: saber desligar vale mais do que saber ligar. O isolamento impede que a conversa de um processo sancionador vaze para o projeto de outro. | — |
-| 27 | L2 | Como começar: "Vou criar um projeto para a minha Unidade Regional, que fiscaliza navegação interior." | — |
+| 24 | L4 | **A régua é "foi publicado?"**. Sobe: resoluções que tipificam infração, Resolução 3.259/2014, leis e decretos do setor, Regimento Interno, acórdãos e decisões já publicados. Não sobe: **Manuais de Fiscalização da SFC, Ordens de Serviço da SFC, modelos e minutas internas** (documento interno não publicado não vai para ferramenta de terceiro, ainda que não tenha dado pessoal) e qualquer coisa do slide 13. Fecha com o gancho para o slide 25: publicado não quer dizer sem dado pessoal. | Regimento Interno da ANTAQ; vedações do slide 13 |
+| 25 | L4 | **O roteiro da GTGI para dados sensíveis.** Trilha de seis etapas (planejar, exportar, tarjar, validar, usar, descartar); o que não sobe nem tarjado (dado pessoal sensível ainda que o processo seja público, processo sancionador em curso, minuta não publicada, sigilo fiscal, bancário, industrial ou comercial); os três testes do arquivo tratado; e o alerta de que retângulo preto por cima não apaga. | Roteiro para Proteção de Dados Sensíveis no Uso de IA, versão 2.0, GTGI/ANTAQ, 2026, minuta em validação institucional |
+| 26 | L5 | As quatro camadas que todo mundo confunde: instruções, conhecimento, contexto e memória. | — |
+| 27 | L4 | Memória: saber desligar vale mais do que saber ligar. O isolamento impede que a conversa de um processo sancionador vaze para o projeto de outro. | — |
+| 28 | L2 | Como começar: "Vou criar um projeto para a minha Unidade Regional, que fiscaliza navegação interior." | — |
 
 ### Bloco 4 · Habilidades e artefatos (7 min)
 
 | # | Leiaute | Conteúdo | Fonte |
 |---|---|---|---|
-| 28 | L10 | Divisória. | — |
-| 29 | L3 | Habilidade é o procedimento da casa virando ferramenta reutilizável. Exemplo: uma "Conferência de relatório de fiscalização" que roda sempre igual, em qualquer unidade. | — |
-| 30 | L3 | Artefato é a resposta virando arquivo: quadro de acompanhamento do plano de fiscalização, consolidação de resultados das unidades, relatórios periódicos. O arquivo ainda precisa ser conferido. Sempre. **Faixa-âncora #2.** | — |
+| 29 | L10 | Divisória. | — |
+| 30 | L3 | Habilidade é o procedimento da casa virando ferramenta reutilizável. Exemplo: uma "Conferência de relatório de fiscalização" que roda sempre igual, em qualquer unidade. | — |
+| 31 | L3 | Artefato é a resposta virando arquivo: quadro de acompanhamento do plano de fiscalização, consolidação de resultados das unidades, relatórios periódicos. O arquivo ainda precisa ser conferido. Sempre. **Faixa-âncora #2.** | — |
 
 > **Bloco removido.** O bloco "Conector e dados abertos" (ex-slides 28 a 37, 18 min) saiu
 > deste deck em 16/09/2026 e virou apresentação própria, *"Utilização de Dados Abertos da
@@ -140,7 +141,7 @@ configuração. Aqui são 10 slides, e o eixo é a orientação federal já publ
 
 | # | Leiaute | Conteúdo | Fonte |
 |---|---|---|---|
-| 31 | L11 | Contato, material de apoio e código de leitura óptica apontando para `antaq.github.io/apresentacao_ia_sfc`. | — |
+| 32 | L11 | Contato, material de apoio e código de leitura óptica apontando para `antaq.github.io/apresentacao_ia_sfc`. | — |
 
 
 ---
@@ -168,5 +169,6 @@ Este deck deriva do `apresentacao_ia_saf`, apresentado em 5 de agosto de 2026. O
 5. **Deck de 37 para 41 e depois para 31 slides.** A especificação da SAF mandava gastar a
    folga dos 90 minutos em demonstração, não em slides novos. Aqui a folga foi gasta em
    quatro slides novos de governança (11, 12, 18 e 19), o que levou o deck a 41 slides. Com
-   a saída do bloco de dados abertos, ele fechou em 31 slides e 54 minutos de exposição. A
+   a saída do bloco de dados abertos, ele fechou em 31 slides. Depois, o slide 25 (roteiro da GTGI) entrou, e o deck ficou em
+   32 slides e 56 minutos de exposição. A
    divergência está registrada no [`PENDENCIAS.md`](PENDENCIAS.md).

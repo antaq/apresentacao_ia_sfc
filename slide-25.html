@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Quatro coisas diferentes que todo mundo confunde</title>
+<title>O roteiro da GTGI para dados sensíveis</title>
 <link rel="icon" href="favicon.ico" sizes="any"/>
 <link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
 <link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
@@ -19,23 +19,40 @@
   .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
   .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
 
-  /* Tabela (KIT 6.4) */
-  .tabela { width:100%; border-collapse:separate; border-spacing:0; }
-  .tabela thead th { background:#003366; color:#fff; font-family:'Montserrat',sans-serif; font-weight:700;
-    font-size:24px; letter-spacing:.05em; text-transform:uppercase; padding:24px 32px; text-align:left; }
-  .tabela thead th i { margin-right:14px; opacity:.85; }
-  .tabela tbody td { padding:50px 32px; font-size:28px; color:#374151; border-bottom:1px solid #E5E7EB;
-    vertical-align:middle; line-height:1.4; }
-  .tabela tbody tr:nth-child(even) td { background:#F8FAFC; }
-  .tabela tbody tr:last-child td { border-bottom:none; }
+  /* Selo de situação do documento */
+  .selo-minuta { display:inline-flex; align-items:center; gap:12px; background:#FEF3C7; border:2px solid #FCD34D;
+                 color:#92400E; font-family:'Montserrat',sans-serif; font-weight:800; font-size:20px;
+                 border-radius:999px; padding:7px 20px; letter-spacing:.03em; }
 
-  .recurso { display:flex; align-items:center; gap:18px; }
-  .recurso-icone { width:56px; height:56px; border-radius:14px; flex-shrink:0; display:flex;
-    align-items:center; justify-content:center; font-size:26px; background:#DBEAFE; color:#0066CC; }
-  .recurso-nome { font-family:'Montserrat',sans-serif; font-weight:800; font-size:27px; color:#003366;
-    line-height:1.25; }
+  /* Trilha das seis etapas */
+  .trilha { display:flex; align-items:stretch; gap:14px; }
+  .etapa { flex:1; background:#F8FAFC; border:2px solid #E2E8F0; border-radius:16px;
+           padding:18px 12px 16px 12px; text-align:center; position:relative; }
+  .etapa-num { font-family:'Montserrat',sans-serif; font-weight:900; font-size:19px; color:#0066CC; letter-spacing:.08em; }
+  .etapa i { display:block; font-size:32px; color:#0066CC; margin:8px 0 8px 0; }
+  .etapa p { font-family:'Montserrat',sans-serif; font-weight:800; font-size:23px; color:#003366; line-height:1.15; }
+  .etapa-ia { background:#F0F9FF; border-color:#7DD3FC; }
 
-  .analogia { font-style:italic; font-weight:600; font-size:26px; color:#1D4ED8; }
+  /* Colunas de baixo */
+  .duplo { display:flex; gap:30px; align-items:stretch; margin-top:26px; }
+  .caixa { flex:1; border-radius:18px; padding:26px 32px 28px 32px; display:flex; flex-direction:column; }
+  .caixa-veto { background:#FEF2F2; border:3px solid #DC2626; border-left:12px solid #DC2626; }
+  .caixa-teste { background:#F0F9FF; border:3px solid #BAE6FD; }
+
+  .caixa h2 { font-family:'Montserrat',sans-serif; font-weight:800; font-size:26px; text-transform:uppercase;
+              letter-spacing:.06em; display:flex; align-items:center; gap:14px; }
+  .caixa-veto h2 { color:#991B1B; }
+  .caixa-teste h2 { color:#003366; }
+
+  .itens { display:flex; flex-direction:column; gap:14px; margin-top:18px; }
+  .item { display:flex; align-items:flex-start; gap:16px; }
+  .item i { font-size:22px; flex-shrink:0; width:26px; text-align:center; margin-top:5px; }
+  .item p { font-size:24px; line-height:1.3; font-weight:600; }
+  .caixa-veto .item i { color:#DC2626; } .caixa-veto .item p { color:#7F1D1D; }
+  .caixa-teste .item i { color:#0066CC; } .caixa-teste .item p { color:#1F2937; }
+
+  .alerta-tarja { margin-top:18px; background:#FFFFFF; border:2px dashed #7DD3FC; border-radius:12px;
+                  padding:14px 20px; font-size:22px; line-height:1.3; color:#003366; font-weight:700; }
 
   .bg-marca { position:absolute; bottom:-70px; right:-40px; font-size:21rem; opacity:.035; z-index:0; color:#003366; pointer-events:none; line-height:0; }
 </style>
@@ -46,15 +63,18 @@
   <div style="height:6px;background:#0066CC;width:100%;"></div>
 
   <!-- Cabeçalho -->
-  <div class="flex items-center justify-between px-16 pt-8 pb-3 z-10">
+  <div class="flex items-center justify-between px-16 pt-7 pb-2 z-10">
     <div>
       <div class="flex items-center gap-3">
         <div class="w-1.5 h-9 bg-brand-secondary flex-shrink-0"></div>
-        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:44px; line-height:1.12; letter-spacing:-0.02em;">
-          Quatro coisas diferentes que todo mundo confunde
+        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:46px; line-height:1.12; letter-spacing:-0.02em;">
+          O roteiro da GTGI para dados sensíveis
         </h1>
       </div>
-      <p class="text-gray-500 font-medium ml-4" style="font-size:27px; margin-top:6px;">Instruções, conhecimento, contexto e memória</p>
+      <div class="ml-4 flex items-center gap-5" style="margin-top:8px;">
+        <p class="text-gray-500 font-medium" style="font-size:25px;">Roteiro para Proteção de Dados Sensíveis no Uso de IA</p>
+        <span class="selo-minuta"><i class="fas fa-hourglass-half"></i>Minuta em validação</span>
+      </div>
     </div>
     <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
       <i class="fas fa-folder-tree" style="font-size:26px;"></i>
@@ -63,67 +83,88 @@
   </div>
 
   <!-- Conteúdo -->
-  <div class="flex-1 flex flex-col justify-center px-16 pb-5 z-10 min-h-0">
+  <div class="flex-1 flex flex-col justify-center px-16 pb-4 z-10 min-h-0">
 
-    <div style="border-radius:16px; overflow:hidden; border:1px solid #E5E7EB; box-shadow:0 12px 28px -10px rgba(0,0,0,.18);">
-      <table class="tabela">
-        <thead>
-          <tr>
-            <th style="width:28%;"><i class="fas fa-layer-group"></i>Recurso</th>
-            <th style="width:33%;"><i class="fas fa-circle-info"></i>O que é</th>
-            <th style="width:39%;"><i class="fas fa-building-columns"></i>Equivalente administrativo</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <span class="recurso"><span class="recurso-icone"><i class="fas fa-scroll"></i></span><span class="recurso-nome">Instruções do projeto</span></span>
-            </td>
-            <td>Regra permanente, vale em toda conversa daquele projeto</td>
-            <td><span class="analogia">A Ordem de Serviço da unidade</span></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="recurso"><span class="recurso-icone"><i class="fas fa-folder-open"></i></span><span class="recurso-nome">Conhecimento do projeto</span></span>
-            </td>
-            <td>Arquivos disponíveis a todas as conversas</td>
-            <td><span class="analogia">O armário de normas e decisões da sala</span></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="recurso"><span class="recurso-icone"><i class="fas fa-file-arrow-up"></i></span><span class="recurso-nome">Contexto da conversa</span></span>
-            </td>
-            <td>O que você anexa ou escreve agora</td>
-            <td><span class="analogia">O processo que está na sua mesa hoje</span></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="recurso"><span class="recurso-icone"><i class="fas fa-brain"></i></span><span class="recurso-nome">Memória</span></span>
-            </td>
-            <td>O que persiste entre conversas</td>
-            <td><span class="analogia">O colega que lembra do que foi combinado</span></td>
-          </tr>
-        </tbody>
-      </table>
+    <!-- Seis etapas -->
+    <div class="trilha">
+      <div class="etapa">
+        <span class="etapa-num">01</span>
+        <i class="fas fa-list-check"></i>
+        <p>Planejar</p>
+      </div>
+      <div class="etapa">
+        <span class="etapa-num">02</span>
+        <i class="fas fa-file-pdf"></i>
+        <p>Exportar</p>
+      </div>
+      <div class="etapa">
+        <span class="etapa-num">03</span>
+        <i class="fas fa-marker"></i>
+        <p>Tarjar</p>
+      </div>
+      <div class="etapa">
+        <span class="etapa-num">04</span>
+        <i class="fas fa-magnifying-glass"></i>
+        <p>Validar</p>
+      </div>
+      <div class="etapa etapa-ia">
+        <span class="etapa-num">05</span>
+        <i class="fas fa-robot"></i>
+        <p>Usar</p>
+      </div>
+      <div class="etapa">
+        <span class="etapa-num">06</span>
+        <i class="fas fa-trash-can"></i>
+        <p>Descartar</p>
+      </div>
+    </div>
+
+    <!-- Duas caixas -->
+    <div class="duplo">
+
+      <div class="caixa caixa-veto">
+        <h2><i class="fas fa-ban"></i>Não sobe, mesmo tarjado</h2>
+        <div class="itens">
+          <div class="item"><i class="fas fa-xmark"></i><p>Dado pessoal sensível, ainda que o processo seja público</p></div>
+          <div class="item"><i class="fas fa-xmark"></i><p>Processo sancionador ou investigativo em curso</p></div>
+          <div class="item"><i class="fas fa-xmark"></i><p>Minuta de decisão que ainda não foi publicada</p></div>
+          <div class="item"><i class="fas fa-xmark"></i><p>Sigilo fiscal, bancário, industrial ou comercial</p></div>
+        </div>
+      </div>
+
+      <div class="caixa caixa-teste">
+        <h2><i class="fas fa-vial-circle-check"></i>Três testes no arquivo tratado</h2>
+        <div class="itens">
+          <div class="item"><i class="fas fa-magnifying-glass"></i><p>Procure o nome ou o CPF: não pode aparecer</p></div>
+          <div class="item"><i class="fas fa-copy"></i><p>Selecione e cole o trecho: não pode voltar</p></div>
+          <div class="item"><i class="fas fa-eye"></i><p>Percorra página a página, sem pular anexo</p></div>
+        </div>
+        <p class="alerta-tarja"><i class="fas fa-triangle-exclamation" style="color:#DC2626; margin-right:10px;"></i>Retângulo preto por cima não apaga nada. Só a ocultação aplicada remove o dado do arquivo.</p>
+      </div>
+
     </div>
 
   </div>
 
   <!-- Rodapé -->
   <div class="px-16 pb-5 flex justify-between items-end z-10">
-    <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · SFC · ANTAQ</p>
-    <p class="text-gray-300 font-mono" style="font-size:18px;">25 / 31</p>
+    <div>
+      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · SFC · ANTAQ</p>
+      <p class="text-gray-400" style="font-size:17px;">Fonte: Roteiro para Proteção de Dados Sensíveis no Uso de IA, versão 2.0, GTGI/ANTAQ, 2026, minuta em validação institucional.</p>
+    </div>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">25 / 32</p>
   </div>
 
-  <div class="bg-marca"><i class="fas fa-layer-group"></i></div>
+  <div class="bg-marca"><i class="fas fa-user-shield"></i></div>
 </div>
 
 <div id="notas-apresentador" style="display:none;">
-  <p>Este é o slide que a plateia mais vai fotografar. Anuncie isso: "se você for guardar um slide desta apresentação, guarde este". Depois pare de falar por alguns segundos e deixe a sala registrar.</p>
-  <p>São só quatro linhas, então não corra. Leia cada uma pela coluna da direita, que é a analogia, porque é ela que fixa: a Ordem de Serviço da unidade, o armário de normas e decisões da sala, o processo que está na sua mesa hoje, e o colega que lembra do que foi combinado.</p>
-  <p>A primeira analogia é literal nesta casa, e vale dizer: instrução de projeto é Ordem de Serviço. Vocês já sabem o que acontece quando a unidade não tem uma, e é exatamente o que acontece com uma ferramenta sem instruções.</p>
-  <p>Deixe claro o que muda de lugar. Instrução e conhecimento pertencem ao projeto e valem sempre. Contexto morre com a conversa. Memória atravessa conversas, e é justamente por isso que ela precisa de controle, assunto do próximo slide.</p>
-  <p>Cerca de dois minutos e meio. Slide de respiro: sem pressa.</p>
+  <p>Este slide é a correção do anterior, e é importante que a sala perceba isso. Digam com todas as letras: <strong>"foi publicado" não quer dizer "não tem dado pessoal"</strong>. Um processo público pode ter CPF, endereço, laudo médico e assinatura digitalizada na mesma página.</p>
+  <p>Apresentem o documento pelo nome e pela origem: <em>Roteiro para Proteção de Dados Sensíveis no Uso de IA</em>, versão 2.0, da GTGI, a Gerência de Tecnologia e Gestão da Informação. Digam também a situação dele, porque ninguém deve sair daqui achando que é norma: é <strong>minuta em validação institucional</strong>. Não é guia aprovado ainda, mas já é o parâmetro que a casa vai usar, e é bem melhor do que cada um inventar o seu.</p>
+  <p>Percorram as seis etapas apontando, sem explicar cada uma: planejar, exportar, tarjar, validar, usar e descartar. A mensagem da trilha é uma só: o tratamento do arquivo acontece <em>antes</em> de a ferramenta entrar em cena, e termina depois dela, no descarte.</p>
+  <p>Parem na coluna vermelha, que é o que interessa a esta sala. A primeira linha é a regra nova: dado pessoal sensível não sobe nem tarjado, ainda que o processo seja público. A segunda já estava no slide 13 e agora tem respaldo escrito. A terceira pega um hábito comum: minuta de decisão não publicada não é documento público. A quarta lembra que o fiscalizado também tem sigilo a preservar, e que ele não deixa de existir porque o processo virou PDF.</p>
+  <p>A caixa azul é o que evita o acidente mais comum da casa. Digam devagar: <strong>desenhar um retângulo preto por cima não apaga nada</strong>. Basta mover o objeto, ou abrir o arquivo em outro leitor, e o dado reaparece. Só a ocultação do Acrobat, com o comando Aplicar, remove de verdade. E os três testes levam menos de um minuto: procurar, copiar e olhar.</p>
+  <p>Se alguém perguntar onde conseguir o roteiro, a resposta é a GTGI, e o titular é o Alexandre Alencar. O contato está no último slide. Cerca de dois minutos e meio, que é tempo bem gasto.</p>
 </div>
 <script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
 <script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>

@@ -17,7 +17,7 @@ Não edite este arquivo: edite o slide e gere de novo.
 ### Slide 2 — Antes de começar, duas declarações
 
 - Digam as duas declarações **textualmente**, sem improvisar. Elas protegem vocês e preparam o fechamento da palestra.
-- Na primeira, deixem claro de onde falam, e ancorem no Regimento: a GPF propõe os Planos de Fiscalização, define métodos e rotinas para aumentar a efetividade das ações e mantém o banco de jurisprudência administrativa (art. 80); a GRAT aprecia recurso, presta apoio técnico à SFC e mantém o repositório de melhores práticas e diretrizes de fiscalização (art. 82). Nenhuma das duas é área de tecnologia, e é justamente esse o ponto: o que vem a seguir é método de trabalho, não sistema, e não depende de comprar ferramenta.
+- Na primeira, o essencial é separar método de produto: o que vocês trazem é uma forma de trabalhar, e ela não depende de comprar nada. Se alguém perguntar qual ferramenta a Agência deveria adotar, devolvam para a declaração. Deixem claro também de onde falam, e ancorem no Regimento: a GPF propõe os Planos de Fiscalização, define métodos e rotinas para aumentar a efetividade das ações e mantém o banco de jurisprudência administrativa (art. 80); a GRAT aprecia recurso, presta apoio técnico à SFC e mantém o repositório de melhores práticas e diretrizes de fiscalização (art. 82). Nenhuma das duas é área de tecnologia, e é justamente esse o ponto: o que vem a seguir é método de trabalho, não sistema, e não depende de comprar ferramenta.
 - Na segunda, *olhem para o Superintendente*. E completem o que está na tela: a Agência não tem política, mas a administração pública federal já publicou guias, e o slide 11 mostra quais. É a semente da decisão que vocês vão cobrar no encerramento.
 - Combinem antes quem diz qual declaração. A plateia precisa entender, já no slide 2, que são dois apresentadores e duas gerências.
 - Ritmo: cerca de 40 segundos no total. Não abram debate aqui, apenas anunciem.
@@ -31,18 +31,18 @@ Não edite este arquivo: edite o slide e gere de novo.
 
 ---
 
-## Bloco 1 · Como funciona e onde quebra
+## Bloco 1 · Como funciona e onde falha
 
-### Slide 4 — Bloco 1 - Como funciona e onde quebra
+### Slide 4 — Bloco 1 - Como funciona e onde falha
 
 - Placa de sinalização. Quinze a vinte segundos, no máximo. Não comece o conteúdo aqui.
-- Diga: "Bloco 1, dez minutos. Aqui a gente vê o que a ferramenta é de fato e onde ela quebra."
+- Diga: "Bloco 1, dez minutos. Aqui a gente vê o que a ferramenta é de fato e onde ela falha."
 - Anuncie os quatro pontos apontando para os chips: completação de texto, contexto, alucinação e conferência na fonte. Avise que o bloco termina com uma regra que não tem exceção, e que ela vale para tudo que vai para dentro de um auto de infração.
 - Olhe para a plateia, não para a tela. Passe adiante assim que terminar a frase.
 
 ### Slide 5 — A tese - A IA é revisora, pesquisadora e tradutora de dados
 
-- Primeira das três repetições da tese central. Ela volta nos slides 7 e 30, sempre com a frase-âncora.
+- Primeira das três repetições da tese central. Ela volta nos slides 7 e 31, sempre com a frase-âncora.
 - Leia a frase em voz alta, devagar, e faça uma pausa antes da segunda linha. Olhe para a plateia, não para a tela.
 - Para esta sala, vale acrescentar uma frase e só uma: quem lavra o auto é o Agente de Fiscalização, e é a assinatura dele que sustenta o processo. Não explique mais do que isso agora: o bloco inteiro é a explicação.
 - Segure no máximo trinta segundos e siga.
@@ -59,7 +59,7 @@ Não edite este arquivo: edite o slide e gere de novo.
 - Este é o slide que resolve a primeira das duas limitações apresentadas no slide anterior: a ferramenta não conhece o processo de vocês. A saída é simples e está ao alcance de todo mundo hoje: anexar o documento.
 - Diga com estas palavras: sem o documento anexado, ele opina sobre relatório de fiscalização em geral, e vai devolver lugar-comum. Com o documento anexado, ele revisa o seu relatório, com as datas, a descrição da conduta e as contradições que estão lá dentro. É a mesma ferramenta, mudou só o contexto.
 - Exemplo que a sala reconhece na hora: a diferença entre perguntar "o que deve ter um auto de infração" e pedir "aponte as contradições entre a descrição da conduta e as evidências anexadas neste auto". Atenção: só vale com processo que possa ser usado, e o slide 13 diz quais não podem.
-- Agora leia a faixa dourada em voz alta e faça uma pausa: a IA não assina, quem assina é você, e quem assina responde. É a primeira das duas repetições (volta no slide 30, no fim da apresentação). Cerca de dois minutos no slide.
+- Agora leia a faixa dourada em voz alta e faça uma pausa: a IA não assina, quem assina é você, e quem assina responde. É a primeira das duas repetições (volta no slide 31, no fim da apresentação). Cerca de dois minutos no slide.
 
 ### Slide 8 — Alucinação não é acidente. É característica.
 
@@ -164,7 +164,7 @@ Não edite este arquivo: edite o slide e gere de novo.
 
 - Placa de sinalização. Quinze a vinte segundos, no máximo. Não comece o conteúdo aqui.
 - Avise que este é o bloco mais longo da apresentação, vinte minutos, e diga por quê: é a parte de maior retorno imediato. Quem sair daqui sabendo montar um projeto com instruções já leva sozinho oitenta por cento do proveito.
-- Anuncie os quatro pontos apontando para os chips: projeto, instruções, conhecimento e memória. Diga que são quatro coisas diferentes, que quase todo mundo confunde, e que o slide 25 coloca as quatro lado a lado.
+- Anuncie os quatro pontos apontando para os chips: projeto, instruções, conhecimento e memória. Diga que são quatro coisas diferentes, que quase todo mundo confunde, e que o slide 26 coloca as quatro lado a lado.
 - Emende com a frase-ponte: até aqui a gente falou do que não fazer; a partir de agora é o que fazer.
 
 ### Slide 21 — O que o Projeto resolve
@@ -178,8 +178,8 @@ Não edite este arquivo: edite o slide e gere de novo.
 
 - Aqui a tela sai do slide e vai para a ferramenta. Deixe este slide aberto só o tempo de anunciar os quatro passos, e então troque para a demonstração ao vivo.
 - Regra de ouro: tenha o texto das instruções pronto em arquivo, aberto ao lado, para colar. Não digite nada ao vivo. Digitar ao vivo quebra o ritmo e a sala se dispersa.
-- Nomeie o projeto na frente deles, letra por letra: SFC - Instrução de processo sancionador. O nome importa porque é o que separa este espaço de trabalho dos outros, e porque o isolamento entre projetos é assunto do slide 26.
-- No passo 3, digam que dois ou três arquivos bem escolhidos rendem mais do que trinta, e que o que sobe é só documento publicado, conforme o slide 24. Resolução e Regimento sobem; manual e ordem de serviço, não. Digam isso em voz alta, porque é contraintuitivo.
+- Nomeie o projeto na frente deles, letra por letra: SFC - Instrução de processo sancionador. O nome importa porque é o que separa este espaço de trabalho dos outros, e porque o isolamento entre projetos é assunto do slide 27.
+- No passo 3, digam que dois ou três arquivos bem escolhidos rendem mais do que trinta, e que o que sobe é só documento publicado, conforme os slides 24 e 25. Resolução e Regimento sobem; manual e ordem de serviço, não. Digam isso em voz alta, porque é contraintuitivo.
 - Se a rede falhar, narre o procedimento pelos quatro passos que estão na tela. Cerca de quatro minutos, contando a demonstração.
 
 ### Slide 23 — As instruções, escritas uma vez, valem para sempre
@@ -198,9 +198,18 @@ Não edite este arquivo: edite o slide e gere de novo.
 - A coluna vermelha é a correção importante, e digam com todas as letras: **os Manuais de Fiscalização e as Ordens de Serviço da SFC são documentos internos, não são publicados, e por isso não sobem para ferramenta de terceiro** - ainda que não contenham nenhum dado pessoal. O mesmo vale para modelos e minutas da casa. Quem quiser usar o manual continua usando o manual, na tela ao lado; o que não se faz é entregar o arquivo à ferramenta.
 - Vale um aviso técnico, porque a sala é de fiscalização: manual não tipifica. O manual comenta o dispositivo de outra norma, então "art. 28 do Manual" não sustenta autuação nenhuma. Isso é mais um motivo para o projeto se apoiar na norma publicada, e não no manual.
 - Se alguém perguntar do slide 13, aponte para trás em vez de repetir de cabeça: o slide 13 continua valendo inteiro, e esta coluna acrescenta a ele.
-- Fechem com a faixa azul, que é a régua que a pessoa leva para casa: foi publicado, sobe; não foi, fica fora. Cerca de dois minutos.
+- Fechem com a faixa azul, e não a suavizem: "foi publicado?" é a primeira pergunta, não a única. Documento público também traz CPF, endereço e laudo, e é por isso que existe o roteiro da GTGI, que é o slide seguinte. Cerca de dois minutos.
 
-### Slide 25 — Quatro coisas diferentes que todo mundo confunde
+### Slide 25 — O roteiro da GTGI para dados sensíveis
+
+- Este slide é a correção do anterior, e é importante que a sala perceba isso. Digam com todas as letras: **"foi publicado" não quer dizer "não tem dado pessoal"**. Um processo público pode ter CPF, endereço, laudo médico e assinatura digitalizada na mesma página.
+- Apresentem o documento pelo nome e pela origem: *Roteiro para Proteção de Dados Sensíveis no Uso de IA*, versão 2.0, da GTGI, a Gerência de Tecnologia e Gestão da Informação. Digam também a situação dele, porque ninguém deve sair daqui achando que é norma: é **minuta em validação institucional**. Não é guia aprovado ainda, mas já é o parâmetro que a casa vai usar, e é bem melhor do que cada um inventar o seu.
+- Percorram as seis etapas apontando, sem explicar cada uma: planejar, exportar, tarjar, validar, usar e descartar. A mensagem da trilha é uma só: o tratamento do arquivo acontece *antes* de a ferramenta entrar em cena, e termina depois dela, no descarte.
+- Parem na coluna vermelha, que é o que interessa a esta sala. A primeira linha é a regra nova: dado pessoal sensível não sobe nem tarjado, ainda que o processo seja público. A segunda já estava no slide 13 e agora tem respaldo escrito. A terceira pega um hábito comum: minuta de decisão não publicada não é documento público. A quarta lembra que o fiscalizado também tem sigilo a preservar, e que ele não deixa de existir porque o processo virou PDF.
+- A caixa azul é o que evita o acidente mais comum da casa. Digam devagar: **desenhar um retângulo preto por cima não apaga nada**. Basta mover o objeto, ou abrir o arquivo em outro leitor, e o dado reaparece. Só a ocultação do Acrobat, com o comando Aplicar, remove de verdade. E os três testes levam menos de um minuto: procurar, copiar e olhar.
+- Se alguém perguntar onde conseguir o roteiro, a resposta é a GTGI, e o titular é o Alexandre Alencar. O contato está no último slide. Cerca de dois minutos e meio, que é tempo bem gasto.
+
+### Slide 26 — Quatro coisas diferentes que todo mundo confunde
 
 - Este é o slide que a plateia mais vai fotografar. Anuncie isso: "se você for guardar um slide desta apresentação, guarde este". Depois pare de falar por alguns segundos e deixe a sala registrar.
 - São só quatro linhas, então não corra. Leia cada uma pela coluna da direita, que é a analogia, porque é ela que fixa: a Ordem de Serviço da unidade, o armário de normas e decisões da sala, o processo que está na sua mesa hoje, e o colega que lembra do que foi combinado.
@@ -208,7 +217,7 @@ Não edite este arquivo: edite o slide e gere de novo.
 - Deixe claro o que muda de lugar. Instrução e conhecimento pertencem ao projeto e valem sempre. Contexto morre com a conversa. Memória atravessa conversas, e é justamente por isso que ela precisa de controle, assunto do próximo slide.
 - Cerca de dois minutos e meio. Slide de respiro: sem pressa.
 
-### Slide 26 — Memória: saber desligar vale mais do que saber ligar
+### Slide 27 — Memória: saber desligar vale mais do que saber ligar
 
 - Último slide da parte de projeto. O título é o recado: aqui o que interessa não é ligar a memória, é saber desligar.
 - Comece pelo isolamento, que nesta sala é o ponto sensível. Cada projeto tem espaço de memória separado, e é isso que impede que o que você conversou sobre um processo sancionador reapareça quando você estiver instruindo outro, de outra autuada. Diga isso devagar: contaminação entre processos não é problema de tecnologia, é problema de nulidade.
@@ -216,7 +225,7 @@ Não edite este arquivo: edite o slide e gere de novo.
 - Feche com a conversa anônima: serve para o assunto que você não quer que fique registrado em lugar nenhum.
 - Se perguntarem sobre conta gratuita, a resposta está na faixa azul: a memória existe em versão reduzida, e os controles de desligar e apagar estão lá. Cerca de dois minutos.
 
-### Slide 27 — Como começar sem saber por onde
+### Slide 28 — Como começar sem saber por onde
 
 - Este slide responde à objeção que sempre aparece depois do bloco de projeto: "tudo bem, mas eu não sei o que escrever nas instruções".
 - Leia a instrução em voz alta, exatamente como está na tela. É curta de propósito, e qualquer pessoa da sala consegue digitar isso hoje mesmo.
@@ -228,21 +237,21 @@ Não edite este arquivo: edite o slide e gere de novo.
 
 ## Bloco 4 · Habilidades e artefatos
 
-### Slide 28 — Bloco 4 - Habilidades e artefatos
+### Slide 29 — Bloco 4 - Habilidades e artefatos
 
 - Bloco curto, sete minutos. Aqui você mostra para onde isso escala depois que a pessoa já sabe montar um projeto.
 - Dois conceitos apenas: habilidade, que é o procedimento da casa transformado em ferramenta reutilizável, e artefato, que é a resposta virando arquivo de verdade.
 - Numa Superintendência com sede e unidades regionais, o argumento forte é a padronização: o mesmo procedimento rodando igual em Belém, em Santos e em Brasília.
 - Não se alongue: o tempo que sobrar é mais bem gasto na demonstração ao vivo e nas perguntas.
 
-### Slide 29 — O procedimento da casa vira ferramenta
+### Slide 30 — O procedimento da casa vira ferramenta
 
 - Aqui a conversa sai do indivíduo e vai para a unidade. O projeto resolve o seu trabalho; a habilidade resolve o trabalho da equipe.
 - Use um exemplo que a sala reconhece: uma conferência de relatório de fiscalização, que roda sempre igual, com qualquer relatório e por qualquer pessoa. Se a plateia for majoritariamente da sede, troque por conferência de minuta de decisão.
 - O terceiro item é o que interessa ao gestor, e vale dizer olhando para a chefia: a qualidade da revisão deixa de depender de quem está na sala naquele dia. Numa Superintendência com unidades espalhadas pelo país, isso é padronização entre regionais, não novidade tecnológica.
 - Cerca de dois minutos. Não entre em detalhe técnico de como se cria a habilidade.
 
-### Slide 30 — Da resposta ao arquivo
+### Slide 31 — Da resposta ao arquivo
 
 - Último slide antes do encerramento. Artefato é a resposta virando arquivo: planilha, documento formatado, painel.
 - Os exemplos úteis para esta sala são quadro de acompanhamento do plano de fiscalização, consolidação de resultados das unidades e relatórios periódicos. São tarefas que hoje consomem tempo de servidor e rendem pouco.
@@ -254,7 +263,7 @@ Não edite este arquivo: edite o slide e gere de novo.
 
 ## Encerramento
 
-### Slide 31 — Material e contato
+### Slide 32 — Material e contato
 
 - Slide de contato e último da apresentação. Deixem-no projetado durante todas as perguntas: é ele que fica na tela enquanto a sala conversa.
 - Peçam que peguem o telefone e apontem a câmera para o código: ele abre esta mesma apresentação, com as notas e o material de apoio. Digam o endereço em voz alta também, para quem preferir anotar. Para quem está nas unidades regionais, o endereço é o caminho mais prático, porque o material fica disponível depois.
