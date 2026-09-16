@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contexto é tudo</title>
+<link rel="icon" href="favicon.ico" sizes="any"/>
+<link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
+<link rel="apple-touch-icon" href="Imagens/apple-touch-icon.png"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  html { font-size: 26px; }
+  body { margin:0; padding:0; background-color:#f3f4f6; overflow:hidden; font-family:'Open Sans', sans-serif; }
+  .slide-container { width:100vw; height:100vh; position:relative; display:flex; flex-direction:column; background-color:#ffffff; overflow:hidden; }
+  .font-montserrat { font-family:'Montserrat', sans-serif; }
+  .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
+  .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
+
+  /* Colunas comparativas (L4) */
+  .comparativo { display:flex; align-items:stretch; gap:34px; }
+  .coluna { flex:1; border-radius:18px; padding:52px 48px 58px 48px; display:flex; flex-direction:column; }
+  .coluna-neutra { background:#F8FAFC; border:3px solid #E2E8F0; }
+  .coluna-certa  { background:#F0F9FF; border:3px solid #0066CC; box-shadow:0 12px 28px -12px rgba(0,102,204,.35); }
+
+  .pilula { display:inline-flex; align-items:center; align-self:flex-start; gap:14px;
+            font-family:'Montserrat', sans-serif; font-weight:700; font-size:26px;
+            text-transform:uppercase; letter-spacing:.06em; border-radius:999px; padding:11px 26px; }
+  .pilula-neutra { background:#E2E8F0; color:#475569; }
+  .pilula-certa  { background:#003366; color:#FFFFFF; }
+
+  .corpo { font-size:32px; line-height:1.45; }
+  .corpo-neutro { color:#475569; }
+  .corpo-certo  { color:#1F2937; }
+
+  .realce { background:#DBEAFE; color:#003366; font-weight:800; border-radius:8px; padding:2px 12px; }
+
+  .seta { display:flex; align-items:center; justify-content:center; flex-shrink:0; width:52px; }
+
+  .badge-icone { width:96px; height:96px; border-radius:22px; display:flex; align-items:center;
+                 justify-content:center; font-size:44px; margin-top:34px; margin-bottom:28px; }
+
+  .faixa-ancora { margin-top:34px; background:linear-gradient(90deg,#002244 0%,#004488 100%);
+    border-left:12px solid #FFD700; border-radius:0 14px 14px 0; padding:26px 40px;
+    display:flex; align-items:center; gap:24px; }
+  .faixa-ancora p { color:#FFFFFF; font-size:36px; font-weight:800; line-height:1.2;
+    font-family:'Montserrat', sans-serif; }
+
+  .bg-marca { position:absolute; bottom:-70px; right:-40px; font-size:21rem; opacity:.035; z-index:0; color:#003366; pointer-events:none; line-height:0; }
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div style="height:12px;background:#003366;width:100%;"></div>
+  <div style="height:6px;background:#0066CC;width:100%;"></div>
+
+  <!-- Cabeçalho -->
+  <div class="flex items-center justify-between px-16 pt-8 pb-3 z-10">
+    <div>
+      <div class="flex items-center gap-3">
+        <div class="w-1.5 h-9 bg-brand-secondary flex-shrink-0"></div>
+        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:48px; line-height:1.12; letter-spacing:-0.02em;">
+          Contexto é tudo
+        </h1>
+      </div>
+      <p class="text-gray-500 font-medium ml-4" style="font-size:27px; margin-top:6px;">O mesmo pedido, com e sem o processo na mesa</p>
+    </div>
+    <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
+      <i class="fas fa-diagram-project" style="font-size:26px;"></i>
+      <p class="font-montserrat font-bold text-gray-400" style="font-size:19px; letter-spacing:.16em;">FUNDAMENTOS</p>
+    </div>
+  </div>
+
+  <!-- Conteúdo -->
+  <div class="flex-1 flex flex-col justify-center px-16 pb-6 z-10 min-h-0">
+
+    <div class="comparativo">
+      <!-- Coluna esquerda -->
+      <div class="coluna coluna-neutra">
+        <span class="pilula pilula-neutra">Sem o documento anexado</span>
+        <div class="badge-icone" style="background:#E2E8F0; color:#64748B;">
+          <i class="fas fa-comment-dots"></i>
+        </div>
+        <p class="corpo corpo-neutro">
+          Ele opina sobre relatório de fiscalização em geral.
+        </p>
+      </div>
+
+      <!-- Conector -->
+      <div class="seta">
+        <i class="fas fa-arrow-right-long" style="font-size:44px; color:#0066CC;"></i>
+      </div>
+
+      <!-- Coluna direita -->
+      <div class="coluna coluna-certa">
+        <span class="pilula pilula-certa">Com o documento anexado</span>
+        <div class="badge-icone" style="background:#DBEAFE; color:#0066CC;">
+          <i class="fas fa-file-circle-check"></i>
+        </div>
+        <p class="corpo corpo-certo">
+          Ele revisa o <span class="realce">SEU</span> relatório de fiscalização.
+        </p>
+      </div>
+    </div>
+
+    <!-- Faixa-âncora (repete nos slides 30 e 37) -->
+    <div class="faixa-ancora">
+      <i class="fas fa-signature" style="color:#FFD700; font-size:40px; flex-shrink:0;"></i>
+      <p>A IA não assina. Quem assina é você - e quem assina responde.</p>
+    </div>
+
+  </div>
+
+  <!-- Rodapé -->
+  <div class="px-16 pb-6 flex justify-between items-end z-10">
+    <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">7 / 41</p>
+  </div>
+
+  <div class="bg-marca"><i class="fas fa-paperclip"></i></div>
+</div>
+
+<div id="notas-apresentador" style="display:none;">
+  <p>Este é o slide que resolve a primeira das duas limitações apresentadas no slide anterior: a ferramenta não conhece o processo de vocês. A saída é simples e está ao alcance de todo mundo hoje: anexar o documento.</p>
+  <p>Diga com estas palavras: sem o documento anexado, ele opina sobre relatório de fiscalização em geral, e vai devolver lugar-comum. Com o documento anexado, ele revisa o seu relatório, com as datas, a descrição da conduta e as contradições que estão lá dentro. É a mesma ferramenta, mudou só o contexto.</p>
+  <p>Exemplo que a sala reconhece na hora: a diferença entre perguntar "o que deve ter um auto de infração" e pedir "aponte as contradições entre a descrição da conduta e as evidências anexadas neste auto". Atenção: só vale com processo que possa ser usado, e o slide 13 diz quais não podem.</p>
+  <p>Agora leia a faixa dourada em voz alta e faça uma pausa: a IA não assina, quem assina é você, e quem assina responde. É a primeira das três repetições (volta nos slides 30 e 37). Cerca de dois minutos no slide.</p>
+</div>
+<script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
+<script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>
+</body>
+</html>

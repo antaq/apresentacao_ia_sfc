@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>A regra - Tudo que tem número, você confere na fonte</title>
+<link rel="icon" href="favicon.ico" sizes="any"/>
+<link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
+<link rel="apple-touch-icon" href="Imagens/apple-touch-icon.png"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  html { font-size: 26px; }
+  body { margin:0; padding:0; background-color:#f3f4f6; overflow:hidden; font-family:'Open Sans', sans-serif; }
+  .slide-container {
+    width:100vw; height:100vh; position:relative; display:flex; flex-direction:column;
+    background: linear-gradient(135deg, #002244 0%, #003366 50%, #004488 100%);
+    overflow:hidden; color:white;
+  }
+  .font-montserrat { font-family:'Montserrat', sans-serif; }
+  .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
+  .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
+
+  /* Acentos à esquerda */
+  .accent-left-gold { position:absolute; left:0; top:0; width:12px; height:100%; background-color:#FFD700; z-index:20; }
+  .accent-left-blue { position:absolute; left:12px; top:0; width:4px; height:100%; background-color:#0066CC; z-index:20; }
+
+  /* Formas decorativas */
+  .shape-circle { position:absolute; border-radius:50%; z-index:0; }
+  .shape-1 { width:600px; height:600px; top:-190px; right:-170px; border:60px solid rgba(255,255,255,0.03); }
+  .shape-2 { width:400px; height:400px; bottom:-150px; right:16%; border:40px solid rgba(255,255,255,0.03); }
+  .bg-pattern { background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px); background-size:22px 22px; }
+
+  /* Frase de impacto */
+  .frase {
+    font-family:'Montserrat', sans-serif; font-weight:800;
+    font-size:72px; line-height:1.22; color:#FFFFFF;
+    max-width:1560px; letter-spacing:-1px;
+    text-shadow:0 6px 18px rgba(0,0,0,0.30);
+  }
+  .frase-ouro { color:#FFD700; }
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <!-- Acentos à esquerda -->
+  <div class="accent-left-gold"></div>
+  <div class="accent-left-blue"></div>
+
+  <!-- Fundo decorativo -->
+  <div class="shape-circle shape-1"></div>
+  <div class="shape-circle shape-2"></div>
+  <div class="absolute inset-0 bg-pattern"></div>
+
+  <!-- Marca d'água: logo ANTAQ -->
+  <img src="Imagens/logo-antaq-azul.png" alt="" class="absolute"
+       style="top:50%; left:66%; width:50vw; max-width:760px; transform:translate(-50%,-50%);
+              opacity:0.07; z-index:0; pointer-events:none; filter:brightness(0) invert(1);" />
+
+  <!-- Ícone decorativo gigante -->
+  <div class="absolute text-white z-0"
+       style="bottom:-70px; right:-50px; font-size:490px; line-height:0; opacity:0.05; transform:translate(8%,8%);">
+    <i class="fas fa-check-double"></i>
+  </div>
+
+  <!-- Frase em tela cheia -->
+  <div class="relative z-10 flex-1 flex flex-col justify-center"
+       style="padding-left:130px; padding-right:120px; padding-bottom:20px;">
+
+    <i class="fas fa-quote-left" style="color:#FFD700; opacity:.5; font-size:90px; line-height:1; margin-bottom:38px;"></i>
+
+    <p class="frase">Tudo que tem número,<br/>você confere na fonte.</p>
+
+    <p class="frase" style="font-size:60px; margin-top:36px;">
+      Norma, artigo, inciso, processo, valor.<br/><span class="frase-ouro">Sempre.</span>
+    </p>
+
+    <div style="width:150px; height:6px; background-color:#FFD700; margin-top:44px;"></div>
+  </div>
+
+  <!-- Rodapé -->
+  <div class="relative z-10 flex justify-between items-end" style="padding:0 130px 34px;">
+    <p class="font-montserrat" style="font-size:18px; color:#BFDBFE; opacity:.75;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+    <p class="font-mono" style="font-size:18px; color:#BFDBFE; opacity:.75;">9 / 41</p>
+  </div>
+</div>
+
+<div id="notas-apresentador" style="display:none;">
+  <p>Esta é a regra prática que fecha o bloco 1. Se a plateia esquecer todo o resto, precisa sair com esta frase.</p>
+  <p>Leia devagar, em voz alta, e pare depois de "na fonte". Depois enumere: norma, artigo, inciso, processo, valor. Termine com a palavra dourada, "sempre", olhando para a sala.</p>
+  <p>Vale amarrar com o slide anterior: não é desconfiança da ferramenta, é a mesma conferência que vocês já fazem antes de expedir uma NOCI ou lavrar um auto. A fonte é o diário oficial e o texto vigente da norma, não a resposta na tela.</p>
+  <p>Trinta segundos, no máximo. Não abra discussão aqui: o bloco 2 vem logo em seguida.</p>
+</div>
+<script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
+<script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>
+</body>
+</html>

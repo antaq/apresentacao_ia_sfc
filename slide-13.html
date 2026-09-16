@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>O que nunca entra em uma ferramenta de IA generativa</title>
+<link rel="icon" href="favicon.ico" sizes="any"/>
+<link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
+<link rel="apple-touch-icon" href="Imagens/apple-touch-icon.png"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  html { font-size: 26px; }
+  body { margin:0; padding:0; background-color:#f3f4f6; overflow:hidden; font-family:'Open Sans', sans-serif; }
+  .slide-container { width:100vw; height:100vh; position:relative; display:flex; flex-direction:column; background-color:#ffffff; overflow:hidden; }
+  .font-montserrat { font-family:'Montserrat', sans-serif; }
+  .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
+  .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
+
+  /* Itens de proibição (KIT 6.11) */
+  .lista { display:flex; flex-direction:column; gap:17px; }
+  .veto { background:#FEF2F2; border:3px solid #FCA5A5; border-left:10px solid #DC2626;
+          border-radius:14px; padding:18px 30px; display:flex; align-items:center; gap:24px; }
+  .veto i { color:#DC2626; font-size:36px; flex-shrink:0; }
+  .veto p { font-size:27px; color:#7F1D1D; font-weight:600; line-height:1.28; }
+
+  .norma { background:#FECACA; color:#7F1D1D; font-weight:800; border-radius:8px; padding:2px 10px; }
+
+  .bg-marca { position:absolute; bottom:-70px; right:-40px; font-size:21rem; opacity:.022; z-index:0; color:#991B1B; pointer-events:none; line-height:0; }
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div style="height:12px;background:#003366;width:100%;"></div>
+  <div style="height:6px;background:#0066CC;width:100%;"></div>
+
+  <!-- Cabeçalho -->
+  <div class="flex items-center justify-between px-16 pt-8 pb-3 z-10">
+    <div>
+      <div class="flex items-center gap-3">
+        <div class="bg-brand-secondary flex-shrink-0" style="width:7px; height:104px;"></div>
+        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:46px; line-height:1.14; letter-spacing:-0.02em;">
+          O que nunca entra em uma<br/>ferramenta de IA generativa
+        </h1>
+      </div>
+    </div>
+    <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
+      <i class="fas fa-user-shield" style="font-size:26px;"></i>
+      <p class="font-montserrat font-bold text-gray-400" style="font-size:19px; letter-spacing:.16em;">GOVERNANÇA</p>
+    </div>
+  </div>
+
+  <!-- Conteúdo -->
+  <div class="flex-1 flex flex-col justify-center px-16 pb-6 z-10 min-h-0">
+    <div class="lista">
+
+      <div class="veto">
+        <i class="fas fa-ban"></i>
+        <p>Dado pessoal ou sensível: CPF, dado de tripulante ou de passageiro, dado funcional individualizado, dado de saúde.</p>
+      </div>
+
+      <div class="veto">
+        <i class="fas fa-ban"></i>
+        <p>Resultado de consulta ao <span class="norma">Sinesp Infoseg</span> ou a qualquer base credenciada. O acesso é individual, funcional e fica registrado no seu nome.</p>
+      </div>
+
+      <div class="veto">
+        <i class="fas fa-ban"></i>
+        <p>Processo em sigilo, documento classificado ou denúncia que permita identificar o denunciante.</p>
+      </div>
+
+      <div class="veto">
+        <i class="fas fa-ban"></i>
+        <p>Planejamento de ação fiscal ainda não deflagrada: Ordem de Serviço, alvo, data e roteiro.</p>
+      </div>
+
+      <div class="veto">
+        <i class="fas fa-ban"></i>
+        <p>Informação econômico-financeira de regulado sob sigilo <span class="norma">(art. 86 do Regimento Interno)</span>.</p>
+      </div>
+
+      <div class="veto">
+        <i class="fas fa-ban"></i>
+        <p>Credencial e conta: senha, chave, marca de acesso, e <span class="norma">correio eletrônico institucional</span> para abrir conta em ferramenta não aprovada.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <div class="px-16 pb-6 flex justify-between items-end z-10">
+    <div>
+      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+      <p class="text-gray-400" style="font-size:17px;">Fonte: Regimento Interno da ANTAQ; Guia de Uso Responsável de Ferramentas de IA Generativa (CGU); Guia de IA Generativa no Serviço Público (SGD/MGI e SERPRO).</p>
+    </div>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">13 / 41</p>
+  </div>
+
+  <div class="bg-marca"><i class="fas fa-ban"></i></div>
+</div>
+
+<div id="notas-apresentador" style="display:none;">
+  <p>Este é o slide mais importante do bloco. Diga em voz alta: "este slide é para fotografar". Espere a sala pegar o telefone e só então continue. Não passe adiante antes disso.</p>
+  <p>Leia os seis itens devagar, um por um, sem comentar cada um. A lista já fala sozinha.</p>
+  <p>Pare em dois. O do <em>Sinesp Infoseg</em>, porque o acesso é credenciado, individual e com registro de consultas: colar aquele retorno numa ferramenta externa é problema de quem consultou, com nome e matrícula. E o do <em>planejamento de ação fiscal não deflagrada</em>, porque ali o dano não é de privacidade, é operacional: perdeu-se o efeito da ação.</p>
+  <p>No item do sigilo econômico-financeiro, aponte para o destaque: art. 86 do Regimento Interno. É base normativa que já existe hoje, mesmo sem política de IA na Agência.</p>
+  <p>O último item é o que o guia da CGU e o guia da SGD dizem com todas as letras e quase ninguém sabe: não use o correio eletrônico institucional para abrir conta em ferramenta não aprovada. Para experimentar, use credencial genérica, desvinculada da instituição.</p>
+  <p>Feche com a regra prática: se você não mandaria por correio eletrônico para fora da Agência, não cola na ferramenta. Cerca de dois minutos e meio.</p>
+</div>
+<script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
+<script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>As instruções, escritas uma vez, valem para sempre</title>
+<link rel="icon" href="favicon.ico" sizes="any"/>
+<link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
+<link rel="apple-touch-icon" href="Imagens/apple-touch-icon.png"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  html { font-size: 26px; }
+  body { margin:0; padding:0; background-color:#f3f4f6; overflow:hidden; font-family:'Open Sans', sans-serif; }
+  .slide-container { width:100vw; height:100vh; position:relative; display:flex; flex-direction:column; background-color:#ffffff; overflow:hidden; }
+  .font-montserrat { font-family:'Montserrat', sans-serif; }
+  .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
+  .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
+
+  /* Bloco monoespaçado (KIT 6.5) */
+  .bloco-codigo { width:1290px; max-width:100%; margin:0 auto; background:#0F172A; border-radius:16px;
+                  box-shadow:0 14px 30px -12px rgba(0,0,0,.45); overflow:hidden; }
+  .barra-titulo { background:#1E293B; display:flex; align-items:center; gap:16px; padding:10px 26px; }
+  .bola { width:14px; height:14px; border-radius:50%; flex-shrink:0; }
+  .nome-arquivo { font-family:'Montserrat',sans-serif; font-weight:700; font-size:20px;
+                  color:#94A3B8; letter-spacing:.06em; margin-left:12px; }
+
+  .corpo-codigo { padding:24px 54px 26px 54px; }
+  pre.codigo { margin:0; font-family:'Courier New', monospace; font-size:21px; line-height:1.38;
+               color:#E2E8F0; white-space:pre-wrap; }
+  .rotulo { color:#FCD34D; font-weight:700; letter-spacing:.04em; }
+
+  .veto-bloco { margin-top:22px; background:rgba(255,215,0,.13); border-left:10px solid #FFD700;
+                border-radius:0 12px 12px 0; padding:20px 26px 20px 24px; }
+  .veto-bloco pre { color:#FDE68A; }
+
+  .bg-marca { position:absolute; bottom:-70px; right:-40px; font-size:21rem; opacity:.035; z-index:0; color:#003366; pointer-events:none; line-height:0; }
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div style="height:12px;background:#003366;width:100%;"></div>
+  <div style="height:6px;background:#0066CC;width:100%;"></div>
+
+  <!-- Cabeçalho -->
+  <div class="flex items-center justify-between px-16 pt-7 pb-3 z-10">
+    <div>
+      <div class="flex items-center gap-3">
+        <div class="w-1.5 h-9 bg-brand-secondary flex-shrink-0"></div>
+        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:44px; line-height:1.12; letter-spacing:-0.02em;">
+          As instruções, escritas uma vez, valem para sempre
+        </h1>
+      </div>
+    </div>
+    <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
+      <i class="fas fa-folder-tree" style="font-size:26px;"></i>
+      <p class="font-montserrat font-bold text-gray-400" style="font-size:19px; letter-spacing:.16em;">PROJETO</p>
+    </div>
+  </div>
+
+  <!-- Conteúdo -->
+  <div class="flex-1 flex flex-col justify-center px-16 pb-4 z-10 min-h-0">
+
+    <div class="bloco-codigo">
+      <div class="barra-titulo">
+        <span class="bola" style="background:#EF4444;"></span>
+        <span class="bola" style="background:#F59E0B;"></span>
+        <span class="bola" style="background:#22C55E;"></span>
+        <span class="nome-arquivo">INSTRUÇÕES DO PROJETO · SFC - INSTRUÇÃO DE PROCESSO SANCIONADOR</span>
+      </div>
+
+      <div class="corpo-codigo">
+<pre class="codigo">Você apoia a fiscalização da ANTAQ (SFC).
+
+<span class="rotulo">CONTEXTO</span>
+- Regime: Lei 10.233/2001, Lei 12.815/2013, Resolução 3.259/2014
+  (procedimento sancionador) e as resoluções que tipificam infração.
+- Produzimos: relatórios de fiscalização, NOCI, autos de infração,
+  despachos de julgamento e opinativos de recurso.
+- Tudo tramita no SFIS e no SEI.
+
+<span class="rotulo">COMO TRABALHAR COMIGO</span>
+- Nunca invente norma, artigo, inciso, número de processo ou de acórdão.
+  Sem certeza da fonte, diga "não localizei a fonte" em vez de estimar.
+- Ao citar dispositivo, indique norma, artigo, inciso e alínea, e avise
+  que a vigência precisa ser conferida no diário oficial.
+- Confronte a descrição da conduta com o dispositivo indicado e com as
+  evidências anexadas. Aponte a contradição, não reescreva o texto.
+- Em revisão, devolva achados classificados em CRÍTICO / RELEVANTE /
+  FORMAL, com a localização exata no texto.
+- Português formal da administração pública, sem estrangeirismos.</pre>
+
+        <div class="veto-bloco">
+<pre class="codigo"><span class="rotulo">O QUE NÃO FAZER</span>
+- Não decida, não sugira decisão e não gradue sanção em processo
+  sancionador.
+- Não trate consulta a dado aberto como prova: é indício, a confirmar
+  na fonte primária.
+- Não peça nem processe dado pessoal, processo em sigilo ou retorno de
+  base credenciada.</pre>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Rodapé -->
+  <div class="px-16 pb-5 flex justify-between items-end z-10">
+    <div>
+      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+      <p class="text-gray-400" style="font-size:17px;">Fonte: texto de instruções preparado para esta demonstração (GPF/SFC), com as vedações do Guia de IA Generativa no Serviço Público (SGD/MGI e SERPRO).</p>
+    </div>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">23 / 41</p>
+  </div>
+
+  <div class="bg-marca"><i class="fas fa-file-lines"></i></div>
+</div>
+
+<div id="notas-apresentador" style="display:none;">
+  <p>Não leia o bloco inteiro. Diga logo de saída: "isto cabe em uma tela, e foi escrito uma única vez". A plateia precisa ver que é curto e concreto, não decorar o conteúdo.</p>
+  <p>Percorra rápido os dois primeiros rótulos. CONTEXTO é quem somos e o que produzimos. COMO TRABALHAR COMIGO é o padrão que a fiscalização exige: não inventar dispositivo, citar norma, artigo, inciso e alínea, avisar que vigência se confere no diário oficial, e confrontar a conduta descrita com o dispositivo e com as evidências.</p>
+  <p>Pare na quarta linha do segundo bloco, porque é a que traduz o slide 8: <em>aponte a contradição, não reescreva o texto</em>. É o que transforma a ferramenta em revisor e impede que ela vire redator do auto.</p>
+  <p>Depois pare no bloco dourado e segure ali. O bloco de restrições é o que separa uso profissional de uso amador. As três vedações não são invenção minha: a primeira é o princípio da imparcialidade do slide 12, a segunda é o enquadramento honesto do slide 37, e a terceira é o slide 13 inteiro.</p>
+  <p>A primeira é a mais importante desta sala: a ferramenta não decide, não sugere decisão e não gradua sanção. Dosimetria é competência da autoridade julgadora, e não se delega a um programa.</p>
+  <p>Cerca de três minutos. Ofereça o texto por escrito depois, para ninguém tentar copiar da tela.</p>
+</div>
+<script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
+<script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>
+</body>
+</html>

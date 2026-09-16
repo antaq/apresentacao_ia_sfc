@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Criando o projeto "SFC - Instrução de processo sancionador"</title>
+<link rel="icon" href="favicon.ico" sizes="any"/>
+<link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
+<link rel="apple-touch-icon" href="Imagens/apple-touch-icon.png"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  html { font-size: 26px; }
+  body { margin:0; padding:0; background-color:#f3f4f6; overflow:hidden; font-family:'Open Sans', sans-serif; }
+  .slide-container { width:100vw; height:100vh; position:relative; display:flex; flex-direction:column; background-color:#ffffff; overflow:hidden; }
+  .font-montserrat { font-family:'Montserrat', sans-serif; }
+  .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
+  .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
+
+
+  /* Passos (6.10) */
+  .passo { display:flex; align-items:center; gap:34px; background:#F8FAFC; border-radius:16px;
+           padding:34px 44px; box-shadow:0 2px 8px rgba(0,0,0,.06); }
+  .pilula-passo { font-family:'Montserrat',sans-serif; font-weight:800; font-size:24px; color:#1E3A8A;
+    padding:12px 28px; border-radius:999px; background:#DBEAFE; text-transform:uppercase;
+    letter-spacing:.06em; flex-shrink:0; }
+  .passo-txt { font-size:42px; line-height:1.2; color:#374151; font-weight:600; }
+
+  .bg-marca { position:absolute; bottom:-70px; right:-40px; font-size:21rem; opacity:.035; z-index:0; color:#003366; pointer-events:none; line-height:0; }
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div style="height:12px;background:#003366;width:100%;"></div>
+  <div style="height:6px;background:#0066CC;width:100%;"></div>
+
+  <!-- Cabeçalho -->
+  <div class="flex items-center justify-between px-16 pt-8 pb-3 z-10">
+    <div>
+      <div class="flex items-center gap-3">
+        <div class="w-1.5 h-9 bg-brand-secondary flex-shrink-0"></div>
+        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:44px; line-height:1.12; letter-spacing:-0.02em;">
+          Criando o projeto &ldquo;SFC - Instrução de processo sancionador&rdquo;
+        </h1>
+      </div>
+      <p class="text-gray-500 font-medium ml-4" style="font-size:26px; margin-top:6px;">Demonstração ao vivo</p>
+    </div>
+    <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
+      <i class="fas fa-folder-tree" style="font-size:26px;"></i>
+      <p class="font-montserrat font-bold text-gray-400" style="font-size:19px; letter-spacing:.16em;">PROJETO</p>
+    </div>
+  </div>
+
+  <!-- Conteúdo -->
+  <div class="flex-1 flex flex-col justify-center px-16 pb-6 z-10 min-h-0">
+
+    <div style="display:flex; flex-direction:column; gap:26px;">
+      <div class="passo" style="border-left:10px solid #94A3B8;">
+        <span class="pilula-passo">Passo 1</span>
+        <p class="passo-txt">Criar o projeto</p>
+      </div>
+      <div class="passo" style="border-left:10px solid #60A5FA;">
+        <span class="pilula-passo">Passo 2</span>
+        <p class="passo-txt">Escrever as instruções</p>
+      </div>
+      <div class="passo" style="border-left:10px solid #2563EB;">
+        <span class="pilula-passo">Passo 3</span>
+        <p class="passo-txt">Subir 2 ou 3 arquivos de conhecimento</p>
+      </div>
+      <div class="passo" style="border-left:10px solid #003366;">
+        <span class="pilula-passo">Passo 4</span>
+        <p class="passo-txt">Fazer a primeira pergunta</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Rodapé -->
+  <div class="px-16 pb-6 flex justify-between items-end z-10">
+    <div>
+      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+      <p class="text-gray-400" style="font-size:17px;">Fonte: Resolução ANTAQ nº 3.259/2014, referida no nome do projeto usado na demonstração.</p>
+    </div>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">22 / 41</p>
+  </div>
+
+  <div class="bg-marca"><i class="fas fa-folder-plus"></i></div>
+</div>
+
+<div id="notas-apresentador" style="display:none;">
+  <p>Aqui a tela sai do slide e vai para a ferramenta. Deixe este slide aberto só o tempo de anunciar os quatro passos, e então troque para a demonstração ao vivo.</p>
+  <p>Regra de ouro: tenha o texto das instruções pronto em arquivo, aberto ao lado, para colar. Não digite nada ao vivo. Digitar ao vivo quebra o ritmo e a sala se dispersa.</p>
+  <p>Nomeie o projeto na frente deles, letra por letra: SFC - Instrução de processo sancionador. O nome importa porque é o que separa este espaço de trabalho dos outros, e porque o isolamento entre projetos é assunto do slide 26.</p>
+  <p>No passo 3, diga que dois ou três arquivos bem escolhidos rendem mais do que trinta, e lembre que o que sobe é só o que pode subir, conforme o slide 13. Use manual e resolução, que são públicos, e diga isso em voz alta.</p>
+  <p>Se a rede falhar, narre o procedimento pelos quatro passos que estão na tela. Cerca de quatro minutos, contando a demonstração.</p>
+</div>
+<script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
+<script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Da resposta ao arquivo</title>
+<link rel="icon" href="favicon.ico" sizes="any"/>
+<link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
+<link rel="apple-touch-icon" href="Imagens/apple-touch-icon.png"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  html { font-size: 26px; }
+  body { margin:0; padding:0; background-color:#f3f4f6; overflow:hidden; font-family:'Open Sans', sans-serif; }
+  .slide-container { width:100vw; height:100vh; position:relative; display:flex; flex-direction:column; background-color:#ffffff; overflow:hidden; }
+  .font-montserrat { font-family:'Montserrat', sans-serif; }
+  .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
+  .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
+
+  .lista { display:flex; flex-direction:column; gap:26px; }
+  .item { display:flex; align-items:flex-start; gap:28px; background:#F8FAFC; border-radius:16px;
+          padding:30px 38px; box-shadow:0 2px 8px rgba(0,0,0,.06); }
+  .item-icone { width:72px; height:72px; border-radius:18px; flex-shrink:0; display:flex;
+                align-items:center; justify-content:center; font-size:32px; }
+  .item-txt { font-size:32px; line-height:1.38; color:#374151; }
+
+  .tipos { display:flex; gap:18px; margin-top:14px; }
+  .tipo { display:inline-flex; align-items:center; gap:12px; background:#EFF6FF; border:2px solid #BFDBFE;
+          border-radius:999px; padding:9px 22px; font-family:'Montserrat',sans-serif; font-weight:700;
+          font-size:22px; color:#1E40AF; }
+
+  .alerta { background:#FEF2F2; border:3px solid #FCA5A5; border-left:10px solid #DC2626; }
+  .realce-alerta { background:#FEE2E2; color:#991B1B; font-weight:800; border-radius:8px; padding:2px 12px; }
+
+  .bg-marca { position:absolute; bottom:-70px; right:-40px; font-size:21rem; opacity:.035; z-index:0; color:#003366; pointer-events:none; line-height:0; }
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div style="height:12px;background:#003366;width:100%;"></div>
+  <div style="height:6px;background:#0066CC;width:100%;"></div>
+
+  <!-- Cabeçalho -->
+  <div class="flex items-center justify-between px-16 pt-8 pb-3 z-10">
+    <div>
+      <div class="flex items-center gap-3">
+        <div class="w-1.5 h-9 bg-brand-secondary flex-shrink-0"></div>
+        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:48px; line-height:1.12; letter-spacing:-0.02em;">
+          Da resposta ao arquivo
+        </h1>
+      </div>
+      <p class="text-gray-500 font-medium ml-4" style="font-size:27px; margin-top:6px;">Artefatos</p>
+    </div>
+    <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
+      <i class="fas fa-toolbox" style="font-size:26px;"></i>
+      <p class="font-montserrat font-bold text-gray-400" style="font-size:19px; letter-spacing:.16em;">HABILIDADES</p>
+    </div>
+  </div>
+
+  <!-- Conteúdo -->
+  <div class="flex-1 flex flex-col justify-center px-16 pb-6 z-10 min-h-0">
+    <div class="lista">
+
+      <div class="item" style="border-left:8px solid #60A5FA;">
+        <div class="item-icone" style="background:#DBEAFE; color:#0066CC;"><i class="fas fa-file-export"></i></div>
+        <div>
+          <p class="item-txt">Planilha, documento formatado ou painel gerados a partir de dado bruto.</p>
+          <div class="tipos">
+            <span class="tipo"><i class="fas fa-table"></i>Planilha</span>
+            <span class="tipo"><i class="fas fa-file-word"></i>Documento</span>
+            <span class="tipo"><i class="fas fa-chart-column"></i>Painel</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="item" style="border-left:8px solid #2563EB;">
+        <div class="item-icone" style="background:#DBEAFE; color:#1D4ED8;"><i class="fas fa-clipboard-list"></i></div>
+        <p class="item-txt">
+          Útil para quadros de acompanhamento do plano de fiscalização, consolidação de resultados das unidades e relatórios periódicos.
+        </p>
+      </div>
+
+      <div class="item alerta">
+        <div class="item-icone" style="background:#FEE2E2; color:#DC2626;"><i class="fas fa-file-circle-check"></i></div>
+        <p class="item-txt" style="color:#7F1D1D; font-weight:700;">
+          O arquivo ainda precisa ser conferido. <span class="realce-alerta">Sempre.</span>
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <div class="px-16 pb-6 flex justify-between items-end z-10">
+    <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">40 / 41</p>
+  </div>
+
+  <div class="bg-marca"><i class="fas fa-file-export"></i></div>
+</div>
+
+<div id="notas-apresentador" style="display:none;">
+  <p>Último slide antes do encerramento. Artefato é a resposta virando arquivo: planilha, documento formatado, painel.</p>
+  <p>Os exemplos úteis para esta sala são quadro de acompanhamento do plano de fiscalização, consolidação de resultados das unidades e relatórios periódicos. São tarefas que hoje consomem tempo de servidor e rendem pouco.</p>
+  <p>Feche no terceiro item, sem suavizar: o arquivo ainda precisa ser conferido, sempre. É a mesma regra do slide 9, agora aplicada ao produto final. E vale lembrar o slide 35: se o dado de origem tem três estados, a planilha bonita continua tendo três estados.</p>
+  <p>Ponte verbal obrigatória para o encerramento, porque não está projetada em lugar nenhum: a GPF se oferece para montar a primeira habilidade junto com a equipe da unidade que pedir. O slide de convite foi suprimido do deck, então essa oferta precisa ser dita em voz alta, aqui.</p>
+</div>
+<script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
+<script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>
+</body>
+</html>

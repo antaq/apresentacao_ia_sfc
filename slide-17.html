@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>A diferença não é o preço. É o contrato.</title>
+<link rel="icon" href="favicon.ico" sizes="any"/>
+<link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
+<link rel="apple-touch-icon" href="Imagens/apple-touch-icon.png"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  html { font-size: 26px; }
+  body { margin:0; padding:0; background-color:#f3f4f6; overflow:hidden; font-family:'Open Sans', sans-serif; }
+  .slide-container { width:100vw; height:100vh; position:relative; display:flex; flex-direction:column; background-color:#ffffff; overflow:hidden; }
+  .font-montserrat { font-family:'Montserrat', sans-serif; }
+  .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
+  .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
+
+  .tabela { width:100%; border-collapse:separate; border-spacing:0; table-layout:fixed; }
+  .tabela thead th { background:#003366; color:#fff; font-family:'Montserrat',sans-serif; font-weight:700;
+    font-size:23px; letter-spacing:.04em; text-transform:uppercase; padding:24px 28px;
+    text-align:left; vertical-align:bottom; }
+  .tabela thead th i { margin-right:12px; opacity:.85; }
+  .th-sub { display:block; font-weight:500; font-size:22px; text-transform:none; letter-spacing:0;
+    color:#BFDBFE; margin-top:6px; line-height:1.2; }
+
+  .tabela tbody td { padding:30px 28px; font-size:27px; color:#374151; border-bottom:1px solid #E5E7EB;
+    vertical-align:middle; line-height:1.35; }
+  .tabela tbody tr:nth-child(even) td { background:#F8FAFC; }
+  .tabela tbody tr:last-child td { border-bottom:none; }
+  .tabela tbody td.criterio { font-family:'Montserrat',sans-serif; font-weight:700; font-size:26px; color:#003366; }
+
+  .nao-existe { font-family:'Montserrat',sans-serif; font-weight:800; font-size:30px; color:#B91C1C; }
+  .veredito { display:flex; align-items:center; gap:16px; font-family:'Montserrat',sans-serif; font-weight:800; font-size:30px; }
+  .veredito-nao { color:#B91C1C; }
+  .veredito-sim { color:#15803D; }
+
+  .faixa { margin-top:28px; background:#FEF2F2; border:3px solid #FCA5A5; border-left:12px solid #DC2626;
+    border-radius:0 16px 16px 0; padding:26px 40px; display:flex; align-items:center; gap:26px; }
+  .sombra { background:#DC2626; color:#FFFFFF; border-radius:10px; padding:2px 14px; font-weight:900; }
+
+
+  .bg-marca { position:absolute; bottom:-70px; right:-40px; font-size:21rem; opacity:.035; z-index:0; color:#003366; pointer-events:none; line-height:0; }
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div style="height:12px;background:#003366;width:100%;"></div>
+  <div style="height:6px;background:#0066CC;width:100%;"></div>
+
+  <!-- Cabeçalho -->
+  <div class="flex items-center justify-between px-16 pt-7 pb-2 z-10">
+    <div>
+      <div class="flex items-center gap-3">
+        <div class="w-1.5 h-9 bg-brand-secondary flex-shrink-0"></div>
+        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:48px; line-height:1.12; letter-spacing:-0.02em;">
+          A diferença não é o preço. É o contrato.
+        </h1>
+      </div>
+      <p class="text-gray-500 font-medium ml-4" style="font-size:26px; margin-top:6px;">Conta pessoal e conta institucional</p>
+    </div>
+    <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
+      <i class="fas fa-user-shield" style="font-size:26px;"></i>
+      <p class="font-montserrat font-bold text-gray-400" style="font-size:19px; letter-spacing:.16em;">GOVERNANÇA</p>
+    </div>
+  </div>
+
+  <!-- Conteúdo -->
+  <div class="flex-1 flex flex-col justify-center px-16 pb-4 z-10 min-h-0">
+
+    <div style="border-radius:16px; overflow:hidden; border:1px solid #E5E7EB; box-shadow:0 12px 28px -10px rgba(0,0,0,.18);">
+      <table class="tabela">
+        <thead>
+          <tr>
+            <th style="width:24%;"></th>
+            <th style="width:34%;">
+              <i class="fas fa-user"></i>Conta de consumo
+              <span class="th-sub">(gratuita ou individual paga)</span>
+            </th>
+            <th style="width:42%;">
+              <i class="fas fa-building-columns"></i>Conta institucional
+              <span class="th-sub">(corporativa ou por interface de programação)</span>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="criterio">Uso para treinamento</td>
+            <td>Escolha individual, conta por conta</td>
+            <td>Excluído por contrato</td>
+          </tr>
+          <tr>
+            <td class="criterio">Retenção</td>
+            <td>Até 5 anos se ligado, 30 dias se desligado</td>
+            <td>30 dias como padrão</td>
+          </tr>
+          <tr>
+            <td class="criterio">Controle organizacional</td>
+            <td>
+              <span class="veredito veredito-nao"><i class="fas fa-ban"></i><span class="nao-existe">Não existe</span></span>
+            </td>
+            <td>Administração central, registro de uso</td>
+          </tr>
+          <tr>
+            <td class="criterio">Adequado a dado administrativo real</td>
+            <td>
+              <span class="veredito veredito-nao"><i class="fas fa-circle-xmark"></i>Não</span>
+            </td>
+            <td>
+              <span class="veredito veredito-sim"><i class="fas fa-circle-check"></i>Sim</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="faixa">
+      <i class="fas fa-user-secret" style="color:#DC2626; font-size:42px; flex-shrink:0;"></i>
+      <p class="font-montserrat" style="font-size:33px; font-weight:800; color:#7F1D1D; line-height:1.3;">
+        Sem plano institucional, o que existe é uso institucional em conta pessoal.
+        Isso tem nome: <span class="sombra">IA sombra</span>.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Rodapé -->
+  <div class="px-16 pb-5 flex justify-between items-end z-10">
+    <div>
+      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+      <p class="text-gray-400" style="font-size:17px; margin-top:4px;">Fonte: documentação pública de privacidade da ferramenta demonstrada; Guia de IA Generativa no Serviço Público (SGD/MGI e SERPRO), item sobre priorizar soluções aprovadas.</p>
+    </div>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">17 / 41</p>
+  </div>
+
+  <div class="bg-marca"><i class="fas fa-file-contract"></i></div>
+</div>
+
+<div id="notas-apresentador" style="display:none;">
+  <p>Comece pelo título, porque ele desarma a objeção mais comum: a diferença entre uma conta e outra não é o preço, é o contrato. Conta paga individual continua sendo conta de consumo.</p>
+  <p>Percorra a tabela de cima para baixo. Em conta de consumo, o uso para treinamento é escolha de cada pessoa, uma a uma. Em conta institucional, isso é excluído por contrato, e não depende de ninguém lembrar de desligar.</p>
+  <p>Segure na linha do controle organizacional. Hoje a Agência não tem como saber quem usou, com qual dado e para quê. Não existe registro, não existe administração central. Diga isso olhando para o Superintendente.</p>
+  <p>Feche com a faixa vermelha, sem suavizar: sem plano institucional, o que existe é uso institucional em conta pessoal. Isso tem nome, e o nome é IA sombra. Não é acusação a ninguém da sala, é constatação de governança, e é exatamente a decisão que está na mesa.</p>
+  <p>Se a sala reagir, use o argumento de controle, que é o terreno dela: a fiscalização é a área que mais produz decisão contestada, em recurso, em juízo e perante o TCU. É a última área da Agência que deveria operar sem rastro de como o documento foi produzido.</p>
+</div>
+<script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
+<script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>
+</body>
+</html>

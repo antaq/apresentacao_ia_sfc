@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Antes de começar, duas declarações</title>
+<link rel="icon" href="favicon.ico" sizes="any"/>
+<link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
+<link rel="apple-touch-icon" href="Imagens/apple-touch-icon.png"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  html { font-size: 26px; }
+  body { margin:0; padding:0; background-color:#f3f4f6; overflow:hidden; font-family:'Open Sans', sans-serif; }
+  .slide-container { width:100vw; height:100vh; position:relative; display:flex; flex-direction:column; background-color:#ffffff; overflow:hidden; }
+  .font-montserrat { font-family:'Montserrat', sans-serif; }
+  .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
+  .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
+
+  .decl-grid {
+    display:grid; grid-template-columns:1fr 1fr; gap:44px; align-items:stretch;
+  }
+  .decl-card {
+    background:#F8FAFC; border-left:10px solid #0066CC; border-radius:16px;
+    padding:50px 54px 54px 54px; box-shadow:0 6px 18px rgba(0,0,0,.07);
+    display:flex; flex-direction:column; position:relative; overflow:hidden;
+  }
+  .decl-topo { display:flex; align-items:center; gap:24px; padding-bottom:30px; border-bottom:2px solid #E2E8F0; }
+  .decl-num {
+    width:84px; height:84px; border-radius:22px; background:#003366; color:#ffffff;
+    display:flex; align-items:center; justify-content:center; flex-shrink:0;
+    font-family:'Montserrat', sans-serif; font-weight:900; font-size:44px;
+  }
+  .decl-pill {
+    font-family:'Montserrat', sans-serif; font-weight:800; font-size:20px; color:#1E3A8A;
+    padding:9px 22px; border-radius:999px; background:#DBEAFE; text-transform:uppercase;
+    letter-spacing:.06em;
+  }
+  .decl-icone {
+    position:absolute; top:44px; right:46px; font-size:60px; color:#0066CC; opacity:.13;
+  }
+  .decl-texto { font-size:34px; line-height:1.5; color:#374151; margin-top:32px; }
+  .decl-texto strong { font-family:'Montserrat', sans-serif; font-weight:800; color:#003366; }
+
+  .bg-pattern { position:absolute; bottom:-150px; right:-118px; font-size:10rem; opacity:.03; z-index:0; color:#003366; pointer-events:none; }
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div style="height:12px;background:#003366;width:100%;"></div>
+  <div style="height:6px;background:#0066CC;width:100%;"></div>
+
+  <!-- Cabeçalho -->
+  <div class="flex items-center justify-between px-16 pt-9 pb-3 z-10">
+    <div>
+      <div class="flex items-center gap-3 mb-1">
+        <div class="w-1.5 h-9 bg-brand-secondary"></div>
+        <h1 class="font-montserrat font-bold text-brand-primary uppercase tracking-tight" style="font-size:48px;line-height:1.1;">Antes de começar, duas declarações</h1>
+      </div>
+      <p class="text-gray-500 font-medium ml-4" style="font-size:27px;">Posição de quem fala e situação da Agência</p>
+    </div>
+    <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
+      <i class="fas fa-flag" style="font-size:26px;"></i>
+      <p class="font-montserrat font-bold text-gray-400 tracking-widest" style="font-size:19px;">ABERTURA</p>
+    </div>
+  </div>
+
+  <!-- Conteúdo -->
+  <div class="flex-1 flex flex-col justify-center px-16 pb-6 z-10 min-h-0">
+    <div class="decl-grid">
+
+      <div class="decl-card">
+        <i class="fas fa-file-signature decl-icone"></i>
+        <div class="decl-topo">
+          <div class="decl-num">1</div>
+          <span class="decl-pill">Declaração</span>
+        </div>
+        <p class="decl-texto">
+          A GPF é a gerência que constrói e mantém os sistemas que vocês usam todo dia.
+          <strong>Não vim recomendar produto nem marca.</strong>
+          Vou demonstrar em uma ferramenta porque demonstração precisa de uma ferramenta.
+        </p>
+      </div>
+
+      <div class="decl-card">
+        <i class="fas fa-file-circle-question decl-icone"></i>
+        <div class="decl-topo">
+          <div class="decl-num">2</div>
+          <span class="decl-pill">Declaração</span>
+        </div>
+        <p class="decl-texto">
+          <strong>Não vim trazer política de IA da Agência, porque ela não existe.</strong>
+          O que existe é orientação federal, e ela já diz bastante coisa. A ausência de norma
+          nossa é uma das coisas que eu queria discutir com vocês hoje.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <div class="px-16 pb-6 flex justify-between items-end z-10">
+    <div>
+      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+    </div>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">2 / 41</p>
+  </div>
+
+  <div class="bg-pattern"><i class="fas fa-flag"></i></div>
+</div>
+
+<div id="notas-apresentador" style="display:none;">
+  <p>Diga as duas declarações <strong>textualmente</strong>, sem improvisar. Elas protegem você e preparam o fechamento da palestra.</p>
+  <p>Na primeira, deixe claro de onde você fala: a GPF constrói SFIS, SisPAT, SAI e os conectores. É o que dá autoridade ao que vem depois e afasta a leitura de que você veio vender alguma coisa. Diga também que nada do que vem a seguir depende de comprar ferramenta.</p>
+  <p>Na segunda, <em>olhe para o Superintendente</em>. E complete o que está na tela: a Agência não tem política, mas a administração pública federal já publicou guias, e o slide 11 mostra quais. É a semente da decisão que você vai cobrar no encerramento.</p>
+  <p>Ritmo: cerca de 40 segundos no total. Não abra debate aqui, apenas anuncie.</p>
+</div>
+<script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
+<script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>
+</body>
+</html>

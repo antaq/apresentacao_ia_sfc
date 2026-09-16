@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Para testar, use dado que não existe</title>
+<link rel="icon" href="favicon.ico" sizes="any"/>
+<link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
+<link rel="apple-touch-icon" href="Imagens/apple-touch-icon.png"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  html { font-size: 26px; }
+  body { margin:0; padding:0; background-color:#f3f4f6; overflow:hidden; font-family:'Open Sans', sans-serif; }
+  .slide-container { width:100vw; height:100vh; position:relative; display:flex; flex-direction:column; background-color:#ffffff; overflow:hidden; }
+  .font-montserrat { font-family:'Montserrat', sans-serif; }
+  .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
+  .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
+
+  .comparativo { display:flex; align-items:stretch; gap:34px; }
+  .coluna { flex:1; border-radius:18px; padding:34px 40px 38px 40px; display:flex; flex-direction:column; }
+  .coluna-neutra { background:#FEF2F2; border:3px solid #FCA5A5; }
+  .coluna-certa  { background:#F0F9FF; border:3px solid #0066CC; box-shadow:0 12px 28px -12px rgba(0,102,204,.35); }
+
+  .pilula { display:inline-flex; align-items:center; align-self:flex-start; gap:14px;
+            font-family:'Montserrat', sans-serif; font-weight:700; font-size:25px;
+            text-transform:uppercase; letter-spacing:.06em; border-radius:999px; padding:10px 24px; }
+  .pilula-neutra { background:#FECACA; color:#7F1D1D; }
+  .pilula-certa  { background:#003366; color:#FFFFFF; }
+
+  .corpo { font-size:29px; line-height:1.4; margin-top:22px; }
+  .corpo-neutro { color:#7F1D1D; }
+  .corpo-certo  { color:#1F2937; }
+
+  .realce { background:#DBEAFE; color:#003366; font-weight:800; border-radius:8px; padding:2px 10px; }
+
+  .badge-icone { width:78px; height:78px; border-radius:20px; display:flex; align-items:center;
+                 justify-content:center; font-size:35px; margin-top:24px; }
+
+  .tecnicas { margin-top:26px; background:#F8FAFC; border:3px solid #E2E8F0; border-radius:18px;
+              padding:22px 36px; display:flex; align-items:center; gap:24px; }
+  .tecnicas .rot { font-family:'Montserrat',sans-serif; font-weight:800; font-size:22px; color:#0066CC;
+                   text-transform:uppercase; letter-spacing:.1em; flex-shrink:0; width:230px; line-height:1.2; }
+  .tec { display:inline-flex; align-items:center; gap:12px; background:#FFFFFF; border:2px solid #CBD5E1;
+         border-radius:999px; padding:10px 22px; font-family:'Montserrat',sans-serif; font-weight:700;
+         font-size:23px; color:#334155; }
+
+  .bg-marca { position:absolute; bottom:-70px; right:-40px; font-size:21rem; opacity:.035; z-index:0; color:#003366; pointer-events:none; line-height:0; }
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div style="height:12px;background:#003366;width:100%;"></div>
+  <div style="height:6px;background:#0066CC;width:100%;"></div>
+
+  <!-- Cabeçalho -->
+  <div class="flex items-center justify-between px-16 pt-7 pb-2 z-10">
+    <div>
+      <div class="flex items-center gap-3">
+        <div class="w-1.5 h-9 bg-brand-secondary flex-shrink-0"></div>
+        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:48px; line-height:1.12; letter-spacing:-0.02em;">
+          Para testar, use dado que não existe
+        </h1>
+      </div>
+      <p class="text-gray-500 font-medium ml-4" style="font-size:26px; margin-top:6px;">O problema continua sendo o mesmo depois de trocar nome, número e data</p>
+    </div>
+    <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
+      <i class="fas fa-user-shield" style="font-size:26px;"></i>
+      <p class="font-montserrat font-bold text-gray-400" style="font-size:19px; letter-spacing:.16em;">GOVERNANÇA</p>
+    </div>
+  </div>
+
+  <!-- Conteúdo -->
+  <div class="flex-1 flex flex-col justify-center px-16 pb-4 z-10 min-h-0">
+
+    <div class="comparativo">
+      <div class="coluna coluna-neutra">
+        <span class="pilula pilula-neutra">Como quase todo mundo testa</span>
+        <div class="badge-icone" style="background:#FECACA; color:#B91C1C;">
+          <i class="fas fa-paste"></i>
+        </div>
+        <p class="corpo corpo-neutro">
+          Cola o trecho real do auto, com a razão social da autuada, o CNPJ e o número do processo,
+          só para ver se a ferramenta ajuda em alguma coisa.
+        </p>
+      </div>
+
+      <div class="coluna coluna-certa">
+        <span class="pilula pilula-certa">Como o guia manda testar</span>
+        <div class="badge-icone" style="background:#DBEAFE; color:#0066CC;">
+          <i class="fas fa-mask"></i>
+        </div>
+        <p class="corpo corpo-certo">
+          Troca razão social, CNPJ, processo e datas por dados fictícios.
+          <span class="realce">A estrutura do problema continua inteira</span>, e a resposta é a mesma.
+        </p>
+      </div>
+    </div>
+
+    <div class="tecnicas">
+      <p class="rot">Como descaracterizar</p>
+      <span class="tec"><i class="fas fa-eye-slash" style="color:#0066CC;"></i>Mascaramento</span>
+      <span class="tec"><i class="fas fa-shuffle" style="color:#0066CC;"></i>Tokenização</span>
+      <span class="tec"><i class="fas fa-layer-group" style="color:#0066CC;"></i>Generalização</span>
+      <span class="tec"><i class="fas fa-wand-magic-sparkles" style="color:#0066CC;"></i>Dado sintético</span>
+    </div>
+
+    <div class="tecnicas" style="background:#FFFBEB; border-color:#FDE68A; margin-top:18px;">
+      <i class="fas fa-id-badge" style="color:#B45309; font-size:36px; flex-shrink:0;"></i>
+      <p style="font-size:27px; color:#92400E; line-height:1.32; font-weight:600;">
+        E para experimentar, conta aberta com <strong>credencial genérica, desvinculada da instituição</strong>.
+        Correio eletrônico institucional em ferramenta não aprovada é uso desaconselhado pelo guia.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Rodapé -->
+  <div class="px-16 pb-5 flex justify-between items-end z-10">
+    <div>
+      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+      <p class="text-gray-400" style="font-size:17px;">Fonte: Guia de IA Generativa no Serviço Público (SGD/MGI e SERPRO), itens de anonimização e de uso de credenciais, consultado em 16 de setembro de 2026.</p>
+    </div>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">18 / 41</p>
+  </div>
+
+  <div class="bg-marca"><i class="fas fa-mask"></i></div>
+</div>
+
+<div id="notas-apresentador" style="display:none;">
+  <p>Este slide existe porque o slide 13 só proibiu. Aqui você devolve um caminho. Sem ele, metade da sala conclui que não pode usar nada e a outra metade usa escondido.</p>
+  <p>Leia a coluna vermelha reconhecendo a prática, sem acusar ninguém: é assim que quase todo mundo testa, inclusive gente experiente, porque parece inofensivo.</p>
+  <p>Na coluna azul, o argumento que convence não é jurídico, é técnico: <em>a ferramenta não precisa do nome da empresa para achar a contradição entre a conduta descrita e o dispositivo citado</em>. Trocar razão social, CNPJ, processo e datas não tira nada da qualidade da resposta. Se tirar, a pergunta estava errada.</p>
+  <p>Passe rápido pelas quatro técnicas: são os nomes que o guia usa, e servem para quem quiser procurar depois. Não explique cada uma.</p>
+  <p>Feche na faixa amarela, que costuma surpreender: abrir conta com o correio institucional é justamente o que o guia desaconselha, porque vincula a Agência a um serviço que ela não aprovou nem contratou. Cerca de dois minutos.</p>
+</div>
+<script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
+<script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>
+</body>
+</html>

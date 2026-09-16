@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>O que subir, e o que não subir</title>
+<link rel="icon" href="favicon.ico" sizes="any"/>
+<link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
+<link rel="apple-touch-icon" href="Imagens/apple-touch-icon.png"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  html { font-size: 26px; }
+  body { margin:0; padding:0; background-color:#f3f4f6; overflow:hidden; font-family:'Open Sans', sans-serif; }
+  .slide-container { width:100vw; height:100vh; position:relative; display:flex; flex-direction:column; background-color:#ffffff; overflow:hidden; }
+  .font-montserrat { font-family:'Montserrat', sans-serif; }
+  .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
+  .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
+
+  /* Colunas comparativas (KIT 6.3) */
+  .comparativo { display:flex; align-items:stretch; gap:34px; }
+  .coluna { flex:1; border-radius:18px; padding:38px 44px 40px 44px; display:flex; flex-direction:column;
+            min-height:580px; }
+  .coluna-sobe { background:#F6FDF8; border:3px solid #A7E8BE; }
+  .coluna-veto { background:#FEF2F2; border:3px solid #DC2626; border-left:14px solid #DC2626;
+                 box-shadow:0 12px 28px -12px rgba(220,38,38,.40); }
+
+  .pilula { display:inline-flex; align-items:center; align-self:flex-start; gap:16px;
+            font-family:'Montserrat', sans-serif; font-weight:800; font-size:28px;
+            text-transform:uppercase; letter-spacing:.08em; border-radius:999px; padding:12px 30px; }
+  .pilula-sobe { background:#DCFCE7; color:#166534; }
+  .pilula-veto { background:#DC2626; color:#FFFFFF; }
+
+  .itens { display:flex; flex-direction:column; gap:22px; margin-top:32px; }
+  .item { display:flex; align-items:center; gap:22px; }
+  .item i { color:#16A34A; font-size:34px; flex-shrink:0; width:38px; text-align:center; }
+  .item p { font-size:29px; line-height:1.35; color:#374151; font-weight:600; }
+
+  .veto-texto { font-family:'Montserrat', sans-serif; font-weight:800; font-size:50px;
+                line-height:1.18; color:#7F1D1D; text-align:center; }
+
+  .pilula-ref { display:inline-flex; align-items:center; gap:14px; background:#FEE2E2;
+                border:3px solid #DC2626; color:#991B1B; font-family:'Montserrat',sans-serif;
+                font-weight:800; font-size:24px; border-radius:999px; padding:12px 28px;
+                letter-spacing:.04em; }
+
+  .faixa-destaque { margin-top:30px; background:#F0F9FF; border:3px solid #BAE6FD; border-radius:18px;
+                    box-shadow:0 10px 25px -5px rgba(0,102,204,.15); padding:26px 44px;
+                    display:flex; align-items:center; gap:26px; }
+
+  .bg-marca { position:absolute; bottom:-70px; right:-40px; font-size:21rem; opacity:.035; z-index:0; color:#003366; pointer-events:none; line-height:0; }
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div style="height:12px;background:#003366;width:100%;"></div>
+  <div style="height:6px;background:#0066CC;width:100%;"></div>
+
+  <!-- Cabeçalho -->
+  <div class="flex items-center justify-between px-16 pt-8 pb-3 z-10">
+    <div>
+      <div class="flex items-center gap-3">
+        <div class="w-1.5 h-9 bg-brand-secondary flex-shrink-0"></div>
+        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:48px; line-height:1.12; letter-spacing:-0.02em;">
+          O que subir, e o que não subir
+        </h1>
+      </div>
+      <p class="text-gray-500 font-medium ml-4" style="font-size:27px; margin-top:6px;">Conhecimento do projeto</p>
+    </div>
+    <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
+      <i class="fas fa-folder-tree" style="font-size:26px;"></i>
+      <p class="font-montserrat font-bold text-gray-400" style="font-size:19px; letter-spacing:.16em;">PROJETO</p>
+    </div>
+  </div>
+
+  <!-- Conteúdo -->
+  <div class="flex-1 flex flex-col justify-center px-16 pb-5 z-10 min-h-0">
+
+    <div class="comparativo">
+      <!-- Coluna esquerda: SOBE -->
+      <div class="coluna coluna-sobe">
+        <span class="pilula pilula-sobe"><i class="fas fa-circle-check"></i>Sobe</span>
+        <div class="flex-1 flex flex-col justify-center" style="min-height:0;">
+          <div class="itens">
+            <div class="item"><i class="fas fa-check"></i><p>Manuais de Fiscalização da SFC</p></div>
+            <div class="item"><i class="fas fa-check"></i><p>Resoluções que tipificam infração</p></div>
+            <div class="item"><i class="fas fa-check"></i><p>Ordens de Serviço da SFC</p></div>
+            <div class="item"><i class="fas fa-check"></i><p>Regimento Interno da ANTAQ</p></div>
+            <div class="item"><i class="fas fa-check"></i><p>Modelos e listas de verificação da casa</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coluna direita: NÃO SOBE -->
+      <div class="coluna coluna-veto">
+        <span class="pilula pilula-veto"><i class="fas fa-ban"></i>Não sobe</span>
+        <div class="flex-1 flex flex-col items-center justify-center" style="min-height:0;">
+          <i class="fas fa-ban" style="color:#DC2626; font-size:92px; opacity:.85; margin-bottom:30px;"></i>
+          <p class="veto-texto">Qualquer coisa<br/>do slide 13.</p>
+          <span class="pilula-ref" style="margin-top:30px;"><i class="fas fa-arrow-left-long"></i>ver slide 13</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Faixa de fechamento -->
+    <div class="faixa-destaque">
+      <i class="fas fa-folder-open" style="color:#0066CC; font-size:40px; flex-shrink:0;"></i>
+      <p class="font-montserrat" style="font-size:34px; font-weight:800; color:#003366; line-height:1.25;">
+        Dois ou três arquivos bem escolhidos rendem mais do que trinta.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Rodapé -->
+  <div class="px-16 pb-5 flex justify-between items-end z-10">
+    <div>
+      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+      <p class="text-gray-400" style="font-size:17px;">Fonte: vedações do slide 13 desta apresentação (Regimento Interno da ANTAQ e guias federais).</p>
+    </div>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">24 / 41</p>
+  </div>
+
+  <div class="bg-marca"><i class="fas fa-folder-open"></i></div>
+</div>
+
+<div id="notas-apresentador" style="display:none;">
+  <p>Conhecimento do projeto é o armário de arquivos que fica disponível para toda conversa daquele projeto. Aqui a plateia decide o que vai para dentro do armário.</p>
+  <p>Leia a coluna verde rápido, item por item. Todos são documentos públicos ou que já circulam livremente dentro da casa: os Manuais de Fiscalização, as resoluções que tipificam infração, as Ordens de Serviço da SFC, o Regimento e os modelos internos. Nada de novidade e nada de risco.</p>
+  <p>Vale um aviso técnico aqui, porque a sala é de fiscalização: manual não tipifica. O manual comenta o dispositivo de outra norma, então "art. 28 do Manual" não sustenta autuação nenhuma. Subir o manual ajuda a instruir; citar o manual como tipo infracional é erro.</p>
+  <p>Na coluna vermelha, não invente lista nova. Aponte para trás: qualquer coisa do slide 13 não sobe. Se alguém não lembrar, volte um instante ao slide 13 em vez de repetir de cabeça.</p>
+  <p>Feche com a faixa azul: dois ou três arquivos bem escolhidos rendem mais do que trinta. Arquivo demais dilui o contexto e ainda aumenta a superfície de risco. Cerca de um minuto e meio.</p>
+</div>
+<script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
+<script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>
+</body>
+</html>

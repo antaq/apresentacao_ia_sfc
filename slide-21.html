@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>O que o Projeto resolve</title>
+<link rel="icon" href="favicon.ico" sizes="any"/>
+<link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
+<link rel="apple-touch-icon" href="Imagens/apple-touch-icon.png"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  html { font-size: 26px; }
+  body { margin:0; padding:0; background-color:#f3f4f6; overflow:hidden; font-family:'Open Sans', sans-serif; }
+  .slide-container { width:100vw; height:100vh; position:relative; display:flex; flex-direction:column; background-color:#ffffff; overflow:hidden; }
+  .font-montserrat { font-family:'Montserrat', sans-serif; }
+  .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
+  .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
+
+  /* Colunas comparativas (L4) */
+  .comparativo { display:flex; align-items:stretch; gap:34px; }
+  .coluna { flex:1; border-radius:18px; padding:42px 46px 46px 46px; display:flex; flex-direction:column;
+            min-height:560px; }
+  .coluna-neutra { background:#F8FAFC; border:3px solid #E2E8F0; }
+  .coluna-certa  { background:#F0F9FF; border:3px solid #0066CC; box-shadow:0 12px 28px -12px rgba(0,102,204,.35); }
+
+  .pilula { display:inline-flex; align-items:center; align-self:flex-start; gap:14px;
+            font-family:'Montserrat', sans-serif; font-weight:700; font-size:27px;
+            text-transform:uppercase; letter-spacing:.06em; border-radius:999px; padding:11px 28px; }
+  .pilula-neutra { background:#E2E8F0; color:#475569; }
+  .pilula-certa  { background:#003366; color:#FFFFFF; }
+
+  .badge-icone { width:84px; height:84px; border-radius:20px; display:flex; align-items:center;
+                 justify-content:center; font-size:38px; margin-top:30px; margin-bottom:22px; }
+
+  .corpo-neutro { font-size:31px; line-height:1.45; color:#475569; }
+
+  .frase-curta { font-family:'Montserrat', sans-serif; font-weight:800; font-size:52px;
+                 line-height:1.2; color:#003366; text-align:center; }
+
+  .seta { display:flex; align-items:center; justify-content:center; flex-shrink:0; width:52px; }
+
+  .bg-marca { position:absolute; bottom:-70px; right:-40px; font-size:21rem; opacity:.035; z-index:0; color:#003366; pointer-events:none; line-height:0; }
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div style="height:12px;background:#003366;width:100%;"></div>
+  <div style="height:6px;background:#0066CC;width:100%;"></div>
+
+  <!-- Cabeçalho -->
+  <div class="flex items-center justify-between px-16 pt-8 pb-3 z-10">
+    <div>
+      <div class="flex items-center gap-3">
+        <div class="w-1.5 h-9 bg-brand-secondary flex-shrink-0"></div>
+        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:48px; line-height:1.12; letter-spacing:-0.02em;">
+          O que o Projeto resolve
+        </h1>
+      </div>
+      <p class="text-gray-500 font-medium ml-4" style="font-size:27px; margin-top:6px;">O mesmo trabalho, feito uma vez em vez de toda vez</p>
+    </div>
+    <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
+      <i class="fas fa-folder-tree" style="font-size:26px;"></i>
+      <p class="font-montserrat font-bold text-gray-400" style="font-size:19px; letter-spacing:.16em;">PROJETO</p>
+    </div>
+  </div>
+
+  <!-- Conteúdo -->
+  <div class="flex-1 flex flex-col justify-center px-16 pb-6 z-10 min-h-0">
+
+    <div class="comparativo">
+      <!-- Coluna esquerda -->
+      <div class="coluna coluna-neutra">
+        <span class="pilula pilula-neutra">Sem projeto</span>
+        <div class="flex-1 flex flex-col justify-center" style="min-height:0;">
+          <div class="badge-icone" style="background:#E2E8F0; color:#64748B;">
+            <i class="fas fa-arrows-rotate"></i>
+          </div>
+          <p class="corpo-neutro">
+            Toda conversa começa do zero. Você reexplica o que é uma NOCI, qual resolução tipifica o quê,
+            o que a sua unidade fiscaliza, e recola os mesmos manuais.
+          </p>
+        </div>
+      </div>
+
+      <!-- Conector -->
+      <div class="seta">
+        <i class="fas fa-arrow-right-long" style="font-size:44px; color:#0066CC;"></i>
+      </div>
+
+      <!-- Coluna direita -->
+      <div class="coluna coluna-certa">
+        <span class="pilula pilula-certa">Com projeto</span>
+        <div class="flex-1 flex items-center justify-center" style="min-height:0;">
+          <p class="frase-curta">
+            <i class="fas fa-folder-tree text-brand-secondary" style="font-size:64px; display:block; margin-bottom:28px; opacity:.9;"></i>
+            Você explica uma vez.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Rodapé -->
+  <div class="px-16 pb-6 flex justify-between items-end z-10">
+    <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">21 / 41</p>
+  </div>
+
+  <div class="bg-marca"><i class="fas fa-folder-tree"></i></div>
+</div>
+
+<div id="notas-apresentador" style="display:none;">
+  <p>Este slide é de contraste puro. A coluna da esquerda é longa e cansativa de propósito; a da direita tem cinco palavras. A diferença de tamanho entre as duas é a mensagem.</p>
+  <p>Leia a coluna da esquerda em voz alta, devagar, com cara de tédio: toda conversa começa do zero, você reexplica o que é uma NOCI, qual resolução tipifica o quê, o que a sua unidade fiscaliza, e recola os mesmos manuais. A sala se reconhece nisso na hora.</p>
+  <p>Depois aponte para a direita e diga só a frase, sem completar nada: "Com projeto, você explica uma vez." Faça uma pausa e deixe o silêncio trabalhar.</p>
+  <p>Cerca de um minuto. Não explique aqui como se cria o projeto: isso é o próximo slide, e é ao vivo.</p>
+</div>
+<script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
+<script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>
+</body>
+</html>

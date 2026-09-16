@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Alucinação não é acidente. É característica.</title>
+<link rel="icon" href="favicon.ico" sizes="any"/>
+<link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
+<link rel="apple-touch-icon" href="Imagens/apple-touch-icon.png"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  html { font-size: 26px; }
+  body { margin:0; padding:0; background-color:#f3f4f6; overflow:hidden; font-family:'Open Sans', sans-serif; }
+  .slide-container { width:100vw; height:100vh; position:relative; display:flex; flex-direction:column; background-color:#ffffff; overflow:hidden; }
+  .font-montserrat { font-family:'Montserrat', sans-serif; }
+  .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
+  .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
+
+  .lista { display:flex; flex-direction:column; gap:24px; }
+  .item { display:flex; align-items:flex-start; gap:28px; background:#F8FAFC; border-radius:16px;
+          padding:28px 38px; box-shadow:0 2px 8px rgba(0,0,0,.06); }
+  .item-icone { width:72px; height:72px; border-radius:18px; flex-shrink:0; display:flex;
+                align-items:center; justify-content:center; font-size:32px; }
+  .item-txt { font-size:32px; line-height:1.38; color:#374151; }
+
+  .realce { background:#DBEAFE; color:#003366; font-weight:800; border-radius:8px; padding:2px 10px; }
+
+  /* Espaço reservado para demonstração ao vivo (não é marcador pendente) */
+  .demo-vivo { margin-top:32px; border:4px dashed #0066CC; background:#F0F9FF; border-radius:18px;
+               padding:28px 40px; display:flex; align-items:center; gap:30px; }
+
+  .bg-marca { position:absolute; bottom:-70px; right:-40px; font-size:21rem; opacity:.035; z-index:0; color:#003366; pointer-events:none; line-height:0; }
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div style="height:12px;background:#003366;width:100%;"></div>
+  <div style="height:6px;background:#0066CC;width:100%;"></div>
+
+  <!-- Cabeçalho -->
+  <div class="flex items-center justify-between px-16 pt-8 pb-3 z-10">
+    <div>
+      <div class="flex items-center gap-3">
+        <div class="w-1.5 h-9 bg-brand-secondary flex-shrink-0"></div>
+        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:46px; line-height:1.12; letter-spacing:-0.02em;">
+          Alucinação não é acidente. É característica.
+        </h1>
+      </div>
+    </div>
+    <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
+      <i class="fas fa-diagram-project" style="font-size:26px;"></i>
+      <p class="font-montserrat font-bold text-gray-400" style="font-size:19px; letter-spacing:.16em;">FUNDAMENTOS</p>
+    </div>
+  </div>
+
+  <!-- Conteúdo -->
+  <div class="flex-1 flex flex-col justify-center px-16 pb-6 z-10 min-h-0">
+    <div class="lista">
+
+      <div class="item" style="border-left:8px solid #60A5FA;">
+        <div class="item-icone" style="background:#DBEAFE; color:#0066CC;"><i class="fas fa-comment-dots"></i></div>
+        <p class="item-txt">
+          O modelo prefere uma resposta plausível a nenhuma resposta.
+        </p>
+      </div>
+
+      <div class="item" style="border-left:8px solid #2563EB;">
+        <div class="item-icone" style="background:#DBEAFE; color:#1D4ED8;"><i class="fas fa-gavel"></i></div>
+        <p class="item-txt">
+          Ele erra melhor exatamente naquilo que é padronizado e caro de conferir:
+          <strong style="color:#003366; font-weight:800;">norma, artigo, inciso, número de processo e valor</strong>.
+        </p>
+      </div>
+
+      <div class="item" style="border-left:8px solid #003366;">
+        <div class="item-icone" style="background:#003366; color:#FFFFFF;"><i class="fas fa-eye-slash"></i></div>
+        <p class="item-txt" style="font-weight:700; color:#003366;">
+          Erro de redação você percebe. Erro de enquadramento, não - até a defesa apontar.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Demonstração ao vivo -->
+    <div class="demo-vivo">
+      <i class="fas fa-circle-play" style="color:#0066CC; font-size:52px; flex-shrink:0;"></i>
+      <div>
+        <p class="font-montserrat" style="font-size:32px; font-weight:800; color:#003366; line-height:1.2;">
+          Espaço reservado para demonstração ao vivo
+        </p>
+        <p style="font-size:24px; color:#1E40AF; line-height:1.35; margin-top:8px;">
+          Pedir a tipificação de uma conduta sem indicar a norma, e conferir o dispositivo na hora, diante da plateia.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Rodapé -->
+  <div class="px-16 pb-6 flex justify-between items-end z-10">
+    <div>
+      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+      <p class="text-gray-400" style="font-size:17px;">Fonte: Guia de IA Generativa no Serviço Público (SGD/MGI e SERPRO), capítulo de alucinações.</p>
+    </div>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">8 / 41</p>
+  </div>
+
+  <div class="bg-marca"><i class="fas fa-triangle-exclamation"></i></div>
+</div>
+
+<div id="notas-apresentador" style="display:none;">
+  <p>Segunda limitação do slide 6: a ferramenta não admite que não sabe. Deixe claro que isso não é defeito de fábrica de um produto específico, é característica de como a tecnologia funciona. Por isso o título diz "característica", e não "acidente". O guia federal usa a mesma palavra, alucinação, e registra que os modelos chegam a apontar referências inexistentes.</p>
+  <p>O ponto do meio é o que interessa a esta sala: ele erra melhor justamente naquilo que é padronizado e caro de conferir, ou seja, norma, artigo, inciso, número de processo e valor. Um dispositivo inventado tem exatamente a cara de um dispositivo verdadeiro.</p>
+  <p>Feche com a terceira linha, que é a que fica, e traduza para o processo sancionador: enquadramento errado não aparece na revisão da chefia, aparece na defesa e no recurso. Citação errada é vício de tipificação, e vício de tipificação derruba auto.</p>
+  <p>Demonstração ao vivo: descreva uma conduta comum de fiscalização, peça a tipificação sem dar a norma, e confira o dispositivo na frente da plateia. Não anuncie o resultado antes de conferir. Se a rede falhar ou a resposta vier correta, conte o caso em vez de demonstrar e siga. Reserve cerca de três minutos, contando a demonstração.</p>
+</div>
+<script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
+<script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>
+</body>
+</html>

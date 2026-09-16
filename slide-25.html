@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Quatro coisas diferentes que todo mundo confunde</title>
+<link rel="icon" href="favicon.ico" sizes="any"/>
+<link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
+<link rel="apple-touch-icon" href="Imagens/apple-touch-icon.png"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  html { font-size: 26px; }
+  body { margin:0; padding:0; background-color:#f3f4f6; overflow:hidden; font-family:'Open Sans', sans-serif; }
+  .slide-container { width:100vw; height:100vh; position:relative; display:flex; flex-direction:column; background-color:#ffffff; overflow:hidden; }
+  .font-montserrat { font-family:'Montserrat', sans-serif; }
+  .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
+  .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
+
+  /* Tabela (KIT 6.4) */
+  .tabela { width:100%; border-collapse:separate; border-spacing:0; }
+  .tabela thead th { background:#003366; color:#fff; font-family:'Montserrat',sans-serif; font-weight:700;
+    font-size:24px; letter-spacing:.05em; text-transform:uppercase; padding:24px 32px; text-align:left; }
+  .tabela thead th i { margin-right:14px; opacity:.85; }
+  .tabela tbody td { padding:50px 32px; font-size:28px; color:#374151; border-bottom:1px solid #E5E7EB;
+    vertical-align:middle; line-height:1.4; }
+  .tabela tbody tr:nth-child(even) td { background:#F8FAFC; }
+  .tabela tbody tr:last-child td { border-bottom:none; }
+
+  .recurso { display:flex; align-items:center; gap:18px; }
+  .recurso-icone { width:56px; height:56px; border-radius:14px; flex-shrink:0; display:flex;
+    align-items:center; justify-content:center; font-size:26px; background:#DBEAFE; color:#0066CC; }
+  .recurso-nome { font-family:'Montserrat',sans-serif; font-weight:800; font-size:27px; color:#003366;
+    line-height:1.25; }
+
+  .analogia { font-style:italic; font-weight:600; font-size:26px; color:#1D4ED8; }
+
+  .bg-marca { position:absolute; bottom:-70px; right:-40px; font-size:21rem; opacity:.035; z-index:0; color:#003366; pointer-events:none; line-height:0; }
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div style="height:12px;background:#003366;width:100%;"></div>
+  <div style="height:6px;background:#0066CC;width:100%;"></div>
+
+  <!-- Cabeçalho -->
+  <div class="flex items-center justify-between px-16 pt-8 pb-3 z-10">
+    <div>
+      <div class="flex items-center gap-3">
+        <div class="w-1.5 h-9 bg-brand-secondary flex-shrink-0"></div>
+        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:44px; line-height:1.12; letter-spacing:-0.02em;">
+          Quatro coisas diferentes que todo mundo confunde
+        </h1>
+      </div>
+      <p class="text-gray-500 font-medium ml-4" style="font-size:27px; margin-top:6px;">Instruções, conhecimento, contexto e memória</p>
+    </div>
+    <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
+      <i class="fas fa-folder-tree" style="font-size:26px;"></i>
+      <p class="font-montserrat font-bold text-gray-400" style="font-size:19px; letter-spacing:.16em;">PROJETO</p>
+    </div>
+  </div>
+
+  <!-- Conteúdo -->
+  <div class="flex-1 flex flex-col justify-center px-16 pb-5 z-10 min-h-0">
+
+    <div style="border-radius:16px; overflow:hidden; border:1px solid #E5E7EB; box-shadow:0 12px 28px -10px rgba(0,0,0,.18);">
+      <table class="tabela">
+        <thead>
+          <tr>
+            <th style="width:28%;"><i class="fas fa-layer-group"></i>Recurso</th>
+            <th style="width:33%;"><i class="fas fa-circle-info"></i>O que é</th>
+            <th style="width:39%;"><i class="fas fa-building-columns"></i>Equivalente administrativo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <span class="recurso"><span class="recurso-icone"><i class="fas fa-scroll"></i></span><span class="recurso-nome">Instruções do projeto</span></span>
+            </td>
+            <td>Regra permanente, vale em toda conversa daquele projeto</td>
+            <td><span class="analogia">A Ordem de Serviço da unidade</span></td>
+          </tr>
+          <tr>
+            <td>
+              <span class="recurso"><span class="recurso-icone"><i class="fas fa-folder-open"></i></span><span class="recurso-nome">Conhecimento do projeto</span></span>
+            </td>
+            <td>Arquivos disponíveis a todas as conversas</td>
+            <td><span class="analogia">O armário de manuais e resoluções da sala</span></td>
+          </tr>
+          <tr>
+            <td>
+              <span class="recurso"><span class="recurso-icone"><i class="fas fa-file-arrow-up"></i></span><span class="recurso-nome">Contexto da conversa</span></span>
+            </td>
+            <td>O que você anexa ou escreve agora</td>
+            <td><span class="analogia">O processo que está na sua mesa hoje</span></td>
+          </tr>
+          <tr>
+            <td>
+              <span class="recurso"><span class="recurso-icone"><i class="fas fa-brain"></i></span><span class="recurso-nome">Memória</span></span>
+            </td>
+            <td>O que persiste entre conversas</td>
+            <td><span class="analogia">O colega que lembra do que foi combinado</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <!-- Rodapé -->
+  <div class="px-16 pb-5 flex justify-between items-end z-10">
+    <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">25 / 41</p>
+  </div>
+
+  <div class="bg-marca"><i class="fas fa-layer-group"></i></div>
+</div>
+
+<div id="notas-apresentador" style="display:none;">
+  <p>Este é o slide que a plateia mais vai fotografar. Anuncie isso: "se você for guardar um slide desta apresentação, guarde este". Depois pare de falar por alguns segundos e deixe a sala registrar.</p>
+  <p>São só quatro linhas, então não corra. Leia cada uma pela coluna da direita, que é a analogia, porque é ela que fixa: a Ordem de Serviço da unidade, o armário de manuais e resoluções da sala, o processo que está na sua mesa hoje, e o colega que lembra do que foi combinado.</p>
+  <p>A primeira analogia é literal nesta casa, e vale dizer: instrução de projeto é Ordem de Serviço. Vocês já sabem o que acontece quando a unidade não tem uma, e é exatamente o que acontece com uma ferramenta sem instruções.</p>
+  <p>Deixe claro o que muda de lugar. Instrução e conhecimento pertencem ao projeto e valem sempre. Contexto morre com a conversa. Memória atravessa conversas, e é justamente por isso que ela precisa de controle, assunto do próximo slide.</p>
+  <p>Cerca de dois minutos e meio. Slide de respiro: sem pressa.</p>
+</div>
+<script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
+<script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>
+</body>
+</html>

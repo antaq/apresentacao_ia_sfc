@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Em conta pessoal, treinamento de modelo é escolha sua</title>
+<link rel="icon" href="favicon.ico" sizes="any"/>
+<link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
+<link rel="apple-touch-icon" href="Imagens/apple-touch-icon.png"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  html { font-size: 26px; }
+  body { margin:0; padding:0; background-color:#f3f4f6; overflow:hidden; font-family:'Open Sans', sans-serif; }
+  .slide-container { width:100vw; height:100vh; position:relative; display:flex; flex-direction:column; background-color:#ffffff; overflow:hidden; }
+  .font-montserrat { font-family:'Montserrat', sans-serif; }
+  .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
+  .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
+
+  .linha { display:flex; align-items:stretch; gap:34px; }
+
+
+  .cartao { background:#F8FAFC; border:2px solid #E2E8F0; border-left:8px solid #0066CC;
+    border-radius:16px; padding:28px 34px; box-shadow:0 2px 8px rgba(0,0,0,.06); }
+  .cartao-txt { font-size:33px; line-height:1.4; color:#374151; }
+  .realce { background:#DBEAFE; color:#003366; font-weight:800; border-radius:8px; padding:2px 10px; }
+
+  .rotulo { font-family:'Montserrat',sans-serif; font-weight:800; font-size:20px;
+    text-transform:uppercase; letter-spacing:.14em; }
+
+  .retencao { display:flex; gap:22px; }
+  .retencao-bloco { flex:1; border-radius:14px; padding:20px 24px; text-align:center; }
+  .retencao-num { font-family:'Montserrat',sans-serif; font-weight:900; font-size:86px; line-height:1;
+    letter-spacing:-2px; margin:0 10px; }
+  .retencao-unid { font-family:'Montserrat',sans-serif; font-weight:800; font-size:33px; }
+  .retencao-pre { font-family:'Montserrat',sans-serif; font-weight:600; font-size:26px; }
+
+  .passo { display:inline-flex; align-items:center; font-family:'Montserrat',sans-serif;
+    font-weight:700; font-size:28px; color:#1E3A8A; background:#DBEAFE; border-radius:999px;
+    padding:12px 26px; }
+  .caminho { display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin-top:14px; }
+
+  .bg-marca { position:absolute; bottom:-70px; right:-40px; font-size:21rem; opacity:.035; z-index:0; color:#003366; pointer-events:none; line-height:0; }
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div style="height:12px;background:#003366;width:100%;"></div>
+  <div style="height:6px;background:#0066CC;width:100%;"></div>
+
+  <!-- Cabeçalho -->
+  <div class="flex items-center justify-between px-16 pt-7 pb-2 z-10">
+    <div>
+      <div class="flex items-center gap-3">
+        <div class="bg-brand-secondary flex-shrink-0" style="width:7px; height:100px;"></div>
+        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:44px; line-height:1.14; letter-spacing:-0.02em;">
+          Em conta pessoal, treinamento<br/>de modelo é escolha sua
+        </h1>
+      </div>
+    </div>
+    <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
+      <i class="fas fa-user-shield" style="font-size:26px;"></i>
+      <p class="font-montserrat font-bold text-gray-400" style="font-size:19px; letter-spacing:.16em;">GOVERNANÇA</p>
+    </div>
+  </div>
+
+  <!-- Conteúdo -->
+  <div class="flex-1 flex flex-col justify-center px-16 pb-4 z-10 min-h-0">
+
+    <div class="linha" style="flex-direction:column; gap:28px;">
+
+      <div class="cartao">
+        <p class="cartao-txt">
+          Em contas de consumo (gratuita e individuais pagas), o uso das conversas para treinamento é
+          configuração do usuário, e há forte indicação de que vem <span class="realce">ligada</span> por padrão.
+        </p>
+      </div>
+
+      <div class="cartao" style="border-left-color:#003366;">
+        <p class="rotulo" style="color:#0066CC;">Retenção das conversas</p>
+        <div class="retencao" style="margin-top:20px;">
+          <div class="retencao-bloco" style="background:#FEF2F2; border:3px solid #FCA5A5;">
+            <p class="rotulo" style="color:#B91C1C;">Ligada</p>
+            <p style="margin-top:10px; color:#B91C1C;">
+              <span class="retencao-pre">até</span>
+              <span class="retencao-num">5</span>
+              <span class="retencao-unid">anos</span>
+            </p>
+          </div>
+          <div class="retencao-bloco" style="background:#F0FDF4; border:3px solid #86EFAC;">
+            <p class="rotulo" style="color:#15803D;">Desligada</p>
+            <p style="margin-top:10px; color:#15803D;">
+              <span class="retencao-num">30</span>
+              <span class="retencao-unid">dias</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cartao">
+        <p class="rotulo" style="color:#0066CC;">Caminho</p>
+        <div class="caminho">
+          <span class="passo"><i class="fas fa-gear" style="margin-right:12px;"></i>Configurações</span>
+          <i class="fas fa-chevron-right" style="color:#94A3B8; font-size:22px;"></i>
+          <span class="passo">Privacidade</span>
+          <i class="fas fa-chevron-right" style="color:#94A3B8; font-size:22px;"></i>
+          <span class="passo">controles de privacidade de dados</span>
+        </div>
+      </div>
+
+      <div class="cartao" style="border-left-color:#FFD700; background:#FFFBEB;">
+        <p class="cartao-txt" style="font-size:27px;">
+          O guia federal manda <span class="realce">priorizar a solução aprovada pela instituição</span>.
+          Enquanto a Agência não aprovar nenhuma, o botão acima é a única proteção que existe - e ele é seu.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Rodapé -->
+  <div class="px-16 pb-5 flex justify-between items-end z-10">
+    <div>
+      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+      <p class="text-gray-400" style="font-size:17px; margin-top:4px;">Fonte: documentação pública de privacidade da ferramenta demonstrada; Guia de IA Generativa no Serviço Público (SGD/MGI e SERPRO).</p>
+    </div>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">16 / 41</p>
+  </div>
+
+  <div class="bg-marca"><i class="fas fa-sliders"></i></div>
+</div>
+
+<div id="notas-apresentador" style="display:none;">
+  <p>Este é o slide que muda comportamento de verdade. Trinta segundos de tela, no mínimo, e peça que peguem o telefone para fotografar o caminho.</p>
+  <p>Diga o essencial em uma frase: em conta pessoal, ninguém desligou isso por você. É configuração do usuário, conta por conta, e há forte indicação de que vem ligada por padrão.</p>
+  <p>Aponte para os dois números. Ligada, a conversa pode ficar retida por até cinco anos. Desligada, trinta dias. É a mesma ferramenta, a mesma pessoa, e a diferença é um botão. Traduza para esta sala: cinco anos é mais do que a duração de muito processo sancionador.</p>
+  <p>Depois faça o caminho na tela ao vivo, devagar: Configurações, Privacidade, controles de privacidade de dados. Não corra. Quem não acompanhar aqui não vai fazer depois.</p>
+  <p>Feche na faixa amarela. O guia federal manda priorizar a ferramenta aprovada pela instituição; como a Agência ainda não aprovou nenhuma, sobra a configuração individual. É exatamente por isso que existe uma decisão pendente, e você volta a ela no próximo slide.</p>
+</div>
+<script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
+<script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>
+</body>
+</html>
