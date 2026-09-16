@@ -75,18 +75,29 @@
 
       <p class="font-montserrat" style="font-size:36px; font-weight:800; color:#FFD700; margin-bottom:20px;">Material e contato</p>
 
-      <div class="pl-6" style="border-left:4px solid rgba(255,255,255,0.25);">
-        <p class="font-montserrat" style="font-size:34px; font-weight:800; color:#FFFFFF; line-height:1.25;">
-          Pedro Henrique Soares
-        </p>
-        <p class="font-opensans" style="font-size:23px; color:#BFDBFE; margin-top:8px; line-height:1.35;">
-          Gerência de Planejamento e Inteligência da Fiscalização
-          <span style="color:#FFD700; font-weight:700;">- GPF</span>
-        </p>
-        <p class="font-opensans" style="font-size:20px; color:#93C5FD; margin-top:4px; line-height:1.35;">
-          Superintendência de Fiscalização e Coordenação das Unidades Regionais - SFC
-        </p>
+      <div class="pl-6" style="border-left:4px solid rgba(255,255,255,0.25); display:flex; gap:54px; flex-wrap:wrap;">
+        <div>
+          <p class="font-montserrat" style="font-size:30px; font-weight:800; color:#FFFFFF; line-height:1.25;">
+            Pedro Henrique Soares
+          </p>
+          <p class="font-opensans" style="font-size:21px; color:#BFDBFE; margin-top:8px; line-height:1.35;">
+            Planejamento e Inteligência da Fiscalização
+            <span style="color:#FFD700; font-weight:700;">- GPF</span>
+          </p>
+        </div>
+        <div>
+          <p class="font-montserrat" style="font-size:30px; font-weight:800; color:#FFFFFF; line-height:1.25;">
+            Fábio Queiroz Fonseca
+          </p>
+          <p class="font-opensans" style="font-size:21px; color:#BFDBFE; margin-top:8px; line-height:1.35;">
+            Recursos e de Apoio Técnico
+            <span style="color:#FFD700; font-weight:700;">- GRAT</span>
+          </p>
+        </div>
       </div>
+      <p class="font-opensans" style="font-size:20px; color:#93C5FD; margin-top:14px; padding-left:26px; line-height:1.35;">
+        Superintendência de Fiscalização e Coordenação das Unidades Regionais - SFC
+      </p>
 
       <div class="flex flex-col gap-4" style="margin-top:28px; max-width:980px;">
         <a href="mailto:gpf@antaq.gov.br" class="contact-card">
@@ -146,7 +157,7 @@
       </div>
     </div>
     <div class="flex items-center gap-5">
-      <p class="font-montserrat" style="font-size:18px; color:#BFDBFE; opacity:.75;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+      <p class="font-montserrat" style="font-size:18px; color:#BFDBFE; opacity:.75;">IA no dia a dia da Fiscalização · SFC · ANTAQ</p>
       <p class="font-mono" style="font-size:18px; color:#BFDBFE; opacity:.75;">41 / 41</p>
     </div>
   </div>
@@ -154,10 +165,11 @@
 </div>
 
 <div id="notas-apresentador" style="display:none;">
-  <p>Slide de contato e último da apresentação. Deixe-o projetado durante todas as perguntas: é ele que fica na tela enquanto a sala conversa.</p>
-  <p>Peça que peguem o telefone e apontem a câmera para o código: ele abre esta mesma apresentação, com as notas e o material de apoio. Diga o endereço em voz alta também, para quem preferir anotar. Para quem está nas unidades regionais, o endereço é o caminho mais prático, porque o material fica disponível depois.</p>
-  <p>Antes de encerrar, faça as duas ofertas que não estão projetadas em lugar nenhum: a GPF monta a primeira habilidade junto com a equipe da unidade que pedir, e a GPF abre o conector de dados abertos para quem quiser experimentar. Sem essas frases, a apresentação termina sem próximo passo.</p>
+  <p>Slide de contato e último da apresentação. Deixem-no projetado durante todas as perguntas: é ele que fica na tela enquanto a sala conversa.</p>
+  <p>Peçam que peguem o telefone e apontem a câmera para o código: ele abre esta mesma apresentação, com as notas e o material de apoio. Digam o endereço em voz alta também, para quem preferir anotar. Para quem está nas unidades regionais, o endereço é o caminho mais prático, porque o material fica disponível depois.</p>
+  <p>Antes de encerrar, façam as duas ofertas que não estão projetadas em lugar nenhum: as duas gerências montam a primeira habilidade junto com a equipe da unidade que pedir, e abrem o conector de dados abertos para quem quiser experimentar. Sem essas frases, a apresentação termina sem próximo passo.</p>
   <p>Se alguém pedir a política de uso de IA da Agência, a resposta honesta é a do slide 11: ela não existe ainda, e enquanto não existir valem as orientações federais que estão ali listadas.</p>
+  <p>O endereço projetado é o da caixa da GPF. Se quiserem dar também o canal da GRAT, digam em voz alta, porque só um endereço cabe no cartão.</p>
 </div>
 <script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
 <script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>

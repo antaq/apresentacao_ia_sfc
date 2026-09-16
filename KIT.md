@@ -152,7 +152,7 @@ em conteúdo (só no rodapé, e ainda assim com `px` explícito).
   <!-- Rodapé -->
   <div class="px-16 pb-6 flex justify-between items-end z-10">
     <div>
-      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · SFC · ANTAQ</p>
       <!-- linha de fonte, quando o slide exibir números (ver 5.4) -->
     </div>
     <p class="text-gray-300 font-mono" style="font-size:18px;">NN / 41</p>
@@ -416,7 +416,7 @@ Se a especificação não trouxer NOTAS para o slide, escreva uma nota curta e �
 | 21 | L4 | O que o Projeto resolve | PROJETO |
 | 22 | L3 | Criando o projeto "SFC - Instrução de processo sancionador" | PROJETO |
 | 23 | L6 | As instruções do projeto | PROJETO |
-| 24 | L4 | O que subir e o que não subir | PROJETO |
+| 24 | L4 | O que subir (publicado) e o que não subir (interno) | PROJETO |
 | 25 | L5 | As quatro camadas | PROJETO |
 | 26 | L4 | Memória: saber desligar vale mais do que saber ligar | PROJETO |
 | 27 | L2 | Como começar | — |

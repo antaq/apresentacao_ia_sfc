@@ -38,8 +38,10 @@
   .item i { color:#16A34A; font-size:34px; flex-shrink:0; width:38px; text-align:center; }
   .item p { font-size:29px; line-height:1.35; color:#374151; font-weight:600; }
 
-  .veto-texto { font-family:'Montserrat', sans-serif; font-weight:800; font-size:50px;
-                line-height:1.18; color:#7F1D1D; text-align:center; }
+  .itens-veto .item i { color:#DC2626; }
+  .itens-veto .item p { color:#7F1D1D; }
+  .veto-nota { font-size:23px; line-height:1.3; color:#991B1B; font-weight:600; margin-top:26px;
+                padding-top:20px; border-top:2px solid #FCA5A5; }
 
   .pilula-ref { display:inline-flex; align-items:center; gap:14px; background:#FEE2E2;
                 border:3px solid #DC2626; color:#991B1B; font-family:'Montserrat',sans-serif;
@@ -81,25 +83,30 @@
     <div class="comparativo">
       <!-- Coluna esquerda: SOBE -->
       <div class="coluna coluna-sobe">
-        <span class="pilula pilula-sobe"><i class="fas fa-circle-check"></i>Sobe</span>
+        <span class="pilula pilula-sobe"><i class="fas fa-circle-check"></i>Sobe: o que foi publicado</span>
         <div class="flex-1 flex flex-col justify-center" style="min-height:0;">
           <div class="itens">
-            <div class="item"><i class="fas fa-check"></i><p>Manuais de Fiscalização da SFC</p></div>
             <div class="item"><i class="fas fa-check"></i><p>Resoluções que tipificam infração</p></div>
-            <div class="item"><i class="fas fa-check"></i><p>Ordens de Serviço da SFC</p></div>
+            <div class="item"><i class="fas fa-check"></i><p>Resolução 3.259/2014, do procedimento sancionador</p></div>
+            <div class="item"><i class="fas fa-check"></i><p>Leis e decretos do setor aquaviário</p></div>
             <div class="item"><i class="fas fa-check"></i><p>Regimento Interno da ANTAQ</p></div>
-            <div class="item"><i class="fas fa-check"></i><p>Modelos e listas de verificação da casa</p></div>
+            <div class="item"><i class="fas fa-check"></i><p>Acórdãos e decisões já publicados</p></div>
           </div>
         </div>
       </div>
 
       <!-- Coluna direita: NÃO SOBE -->
       <div class="coluna coluna-veto">
-        <span class="pilula pilula-veto"><i class="fas fa-ban"></i>Não sobe</span>
-        <div class="flex-1 flex flex-col items-center justify-center" style="min-height:0;">
-          <i class="fas fa-ban" style="color:#DC2626; font-size:92px; opacity:.85; margin-bottom:30px;"></i>
-          <p class="veto-texto">Qualquer coisa<br/>do slide 13.</p>
-          <span class="pilula-ref" style="margin-top:30px;"><i class="fas fa-arrow-left-long"></i>ver slide 13</span>
+        <span class="pilula pilula-veto"><i class="fas fa-ban"></i>Não sobe: o que é interno</span>
+        <div class="flex-1 flex flex-col justify-center" style="min-height:0;">
+          <div class="itens itens-veto">
+            <div class="item"><i class="fas fa-xmark"></i><p>Manuais de Fiscalização da SFC</p></div>
+            <div class="item"><i class="fas fa-xmark"></i><p>Ordens de Serviço da SFC</p></div>
+            <div class="item"><i class="fas fa-xmark"></i><p>Modelos e minutas internas da casa</p></div>
+            <div class="item"><i class="fas fa-xmark"></i><p>Qualquer coisa do slide 13</p></div>
+          </div>
+          <p class="veto-nota">Documento interno não publicado não sobe para ferramenta de terceiro, ainda que não tenha dado pessoal.</p>
+          <span class="pilula-ref" style="margin-top:22px; align-self:flex-start;"><i class="fas fa-arrow-left-long"></i>ver slide 13</span>
         </div>
       </div>
     </div>
@@ -107,8 +114,8 @@
     <!-- Faixa de fechamento -->
     <div class="faixa-destaque">
       <i class="fas fa-folder-open" style="color:#0066CC; font-size:40px; flex-shrink:0;"></i>
-      <p class="font-montserrat" style="font-size:34px; font-weight:800; color:#003366; line-height:1.25;">
-        Dois ou três arquivos bem escolhidos rendem mais do que trinta.
+      <p class="font-montserrat" style="font-size:30px; font-weight:800; color:#003366; line-height:1.25;">
+        O teste é simples: foi publicado? Então sobe. Não foi? Fica fora, e dois ou três arquivos bem escolhidos já bastam.
       </p>
     </div>
 
@@ -117,7 +124,7 @@
   <!-- Rodapé -->
   <div class="px-16 pb-5 flex justify-between items-end z-10">
     <div>
-      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · GPF / SFC · ANTAQ</p>
+      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · SFC · ANTAQ</p>
       <p class="text-gray-400" style="font-size:17px;">Fonte: vedações do slide 13 desta apresentação (Regimento Interno da ANTAQ e guias federais).</p>
     </div>
     <p class="text-gray-300 font-mono" style="font-size:18px;">24 / 41</p>
@@ -127,11 +134,12 @@
 </div>
 
 <div id="notas-apresentador" style="display:none;">
-  <p>Conhecimento do projeto é o armário de arquivos que fica disponível para toda conversa daquele projeto. Aqui a plateia decide o que vai para dentro do armário.</p>
-  <p>Leia a coluna verde rápido, item por item. Todos são documentos públicos ou que já circulam livremente dentro da casa: os Manuais de Fiscalização, as resoluções que tipificam infração, as Ordens de Serviço da SFC, o Regimento e os modelos internos. Nada de novidade e nada de risco.</p>
-  <p>Vale um aviso técnico aqui, porque a sala é de fiscalização: manual não tipifica. O manual comenta o dispositivo de outra norma, então "art. 28 do Manual" não sustenta autuação nenhuma. Subir o manual ajuda a instruir; citar o manual como tipo infracional é erro.</p>
-  <p>Na coluna vermelha, não invente lista nova. Aponte para trás: qualquer coisa do slide 13 não sobe. Se alguém não lembrar, volte um instante ao slide 13 em vez de repetir de cabeça.</p>
-  <p>Feche com a faixa azul: dois ou três arquivos bem escolhidos rendem mais do que trinta. Arquivo demais dilui o contexto e ainda aumenta a superfície de risco. Cerca de um minuto e meio.</p>
+  <p>Conhecimento do projeto é o armário de arquivos que fica disponível para toda conversa daquele projeto. Aqui a plateia decide o que vai para dentro do armário, e este slide mudou: a régua não é mais "é sensível?", é <strong>"foi publicado?"</strong>.</p>
+  <p>Leiam a coluna verde rápido. Tudo ali saiu no diário oficial ou está no sítio da Agência: as resoluções que tipificam infração, a 3.259 do procedimento sancionador, as leis e decretos do setor, o Regimento e as decisões já publicadas. Subir isso não cria risco nenhum, porque qualquer pessoa já pode ler.</p>
+  <p>A coluna vermelha é a correção importante, e digam com todas as letras: <strong>os Manuais de Fiscalização e as Ordens de Serviço da SFC são documentos internos, não são publicados, e por isso não sobem para ferramenta de terceiro</strong> - ainda que não contenham nenhum dado pessoal. O mesmo vale para modelos e minutas da casa. Quem quiser usar o manual continua usando o manual, na tela ao lado; o que não se faz é entregar o arquivo à ferramenta.</p>
+  <p>Vale um aviso técnico, porque a sala é de fiscalização: manual não tipifica. O manual comenta o dispositivo de outra norma, então "art. 28 do Manual" não sustenta autuação nenhuma. Isso é mais um motivo para o projeto se apoiar na norma publicada, e não no manual.</p>
+  <p>Se alguém perguntar do slide 13, aponte para trás em vez de repetir de cabeça: o slide 13 continua valendo inteiro, e esta coluna acrescenta a ele.</p>
+  <p>Fechem com a faixa azul, que é a régua que a pessoa leva para casa: foi publicado, sobe; não foi, fica fora. Cerca de dois minutos.</p>
 </div>
 <script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
 <script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>

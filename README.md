@@ -3,7 +3,10 @@
 Encontro interno da **Superintendência de Fiscalização e Coordenação das Unidades
 Regionais (SFC)** da ANTAQ, com as gerências da sede e as Gerências e Unidades Regionais.
 
-**Gerência de Planejamento e Inteligência da Fiscalização · GPF/SFC · ANTAQ**
+Apresentação conjunta de duas gerências da SFC:
+
+- **Pedro Henrique Soares** - Gerência de Planejamento e Inteligência da Fiscalização (GPF)
+- **Fábio Queiroz Fonseca** - Gerência de Recursos e de Apoio Técnico (GRAT)
 
 🔗 **Página publicada:** https://antaq.github.io/apresentacao_ia_sfc/
 
@@ -18,7 +21,7 @@ Regionais (SFC)** da ANTAQ, com as gerências da sede e as Gerências e Unidades
 
 - **Subtítulo:** o que dá para fazer hoje, o que não pode ser feito nunca, e a decisão que está na mesa
 - **Duração prevista:** 90 minutos (72 de exposição, conforme os chips de tempo das divisórias, e o restante em demonstração ao vivo e perguntas)
-- **Plateia:** toda a SFC - gerências da sede (GAT, GCOR, GPF) e Gerências e Unidades Regionais
+- **Plateia:** toda a SFC - gerências da sede (GCOR, GPF, GRAT) e Gerências e Unidades Regionais
 - **Data:** 21 de setembro de 2026, às 16h20
 - **Formato:** 41 slides em sequência única, em HTML 1920×1080
 

@@ -14,8 +14,8 @@ afirmação e por que ela mudou em relação ao deck da SAF.
 
 ### Contexto da apresentação
 - **Evento**: encontro interno da Superintendência de Fiscalização e Coordenação das Unidades Regionais (SFC).
-- **Plateia**: toda a SFC - gerências da sede (GAT, GCOR, GPF) e as Gerências e Unidades Regionais. Parte da sala participa a distância. Letramento em IA heterogêneo, majoritariamente baixo a médio; não são pessoas de tecnologia.
-- **Apresentador**: Gerente de Planejamento e Inteligência da Fiscalização (GPF/SFC). A GPF é gerência **desta mesma Superintendência** e constrói os sistemas que a plateia usa (SFIS, SisPAT, SAI e os conectores). O apresentador não é visita.
+- **Plateia**: toda a SFC - gerências da sede (GCOR, GPF, GRAT) e as Gerências e Unidades Regionais. Parte da sala participa a distância. Letramento em IA heterogêneo, majoritariamente baixo a médio; não são pessoas de tecnologia.
+- **Apresentadores**: **Pedro Henrique Soares** (GPF) e **Fábio Queiroz Fonseca** (GRAT), em parceria. As duas são gerências **desta mesma Superintendência**, e nenhuma das duas é área de tecnologia: a GPF propõe os Planos de Fiscalização, define métodos e rotinas para aumentar a efetividade das ações e mantém o banco de jurisprudência administrativa (Regimento, art. 80); a GRAT aprecia recurso, presta apoio técnico à SFC e mantém o repositório de melhores práticas e diretrizes de fiscalização (art. 82). O que a dupla traz é **método de trabalho, não sistema**. Não são visita.
 - **Data e hora**: 21 de setembro de 2026, às 16h20.
 - **Duração**: 90 minutos. Os chips de tempo das divisórias somam **72 minutos** de exposição; a folga vai para demonstração ao vivo e perguntas, **não para slides novos**.
 - **Restrições de fato**: a Agência **não tem política de uso de IA** e **não tem assinatura corporativa** de nenhuma ferramenta. O que existe é orientação federal publicada, e o slide 11 a nomeia.
@@ -76,7 +76,7 @@ A abertura (slides 1 a 3) não tem divisória.
 | # | Leiaute | Conteúdo | Fonte |
 |---|---|---|---|
 | 1 | L1 | Capa. "IA no dia a dia da **Fiscalização**". Rótulo "Encontro interno · SFC". Data: 21 de setembro de 2026, 16h20. | — |
-| 2 | L3 | Duas declarações. (1) A GPF é a gerência que constrói e mantém os sistemas que vocês usam todo dia. (2) A Agência não tem política de uso de IA; o que existe é orientação federal, e ela já diz bastante coisa. | — |
+| 2 | L3 | Duas declarações, ditas no plural porque são dois apresentadores. (1) Somos duas gerências desta Superintendência, não somos fornecedor. (2) A Agência não tem política de uso de IA; o que existe é orientação federal, e ela já diz bastante coisa. | Regimento Interno da ANTAQ, arts. 80 e 82 |
 | 3 | L3 | Três perguntas de mão levantada. A segunda cita relatório, auto de infração e defesa. A terceira (quem sabe dizer se a conta usada treina modelo com o conteúdo) fica sem mãos, e esse silêncio é o gancho do bloco 2. | — |
 
 ### Bloco 1 · Como funciona e onde quebra (10 min)
@@ -102,7 +102,7 @@ configuração. Aqui são 10 slides, e o eixo é a orientação federal já publ
 | 12 | L3 | **Cinco princípios, e nenhum deles é novo**: legalidade, imparcialidade (ferramenta não gradua sanção), ética, publicidade (o que você não consegue explicar não vai para os autos) e eficiência. Faixa: a responsabilidade do servidor sobre o documento produzido permanece inalterada, com ou sem IA. | Guias federais citados no slide 11 |
 | 13 | L3 | **O que nunca entra**, seis vedações escritas para a fiscalização: dado pessoal ou sensível, inclusive de tripulante e passageiro; retorno do Sinesp Infoseg ou de base credenciada; processo em sigilo ou denúncia identificável; planejamento de ação fiscal não deflagrada (ordem de serviço, alvo, data, roteiro); informação econômico-financeira de regulado; credencial e correio eletrônico institucional para abrir conta não aprovada. | Regimento Interno da ANTAQ, art. 86; guias federais |
 | 14 | L2 | "90% público" não protege ninguém. O incidente acontece nos 10%, e a fiscalização trabalha dentro deles todo dia. | — |
-| 15 | L5 | **Os 10% ficam aqui**: mapa de risco por unidade. GREs e UREs (planejamento de ação não deflagrada, denúncia); GAT (minuta de decisão recursal); GPF (critérios de seleção de alvo); GCOR (escala e deslocamento de equipes); transversal (art. 86 e retorno do Sinesp Infoseg). | Regimento Interno da ANTAQ; Ofício Circular nº 3/2023/SFC/ANTAQ |
+| 15 | L5 | **Os 10% ficam aqui**: mapa de risco por unidade. GREs e UREs (planejamento de ação não deflagrada, denúncia); GRAT (minuta de decisão recursal); GPF (critérios de seleção de alvo); GCOR (escala e deslocamento de equipes); transversal (art. 86 e retorno do Sinesp Infoseg). | Regimento Interno da ANTAQ; Ofício Circular nº 3/2023/SFC/ANTAQ |
 | 16 | L4 | Treinamento de modelo é escolha sua, e o botão fica na configuração. Cartão adicional: o guia federal manda priorizar a solução aprovada pela instituição; enquanto a Agência não aprovar nenhuma, aquele botão é a única proteção que existe. | Documentação pública de privacidade da ferramenta demonstrada; guias federais |
 | 17 | L5 | Conta pessoal x conta institucional. A diferença não é o preço, é o contrato. | Documentação pública de privacidade da ferramenta demonstrada |
 | 18 | L4 | **Para testar, use dado que não existe.** Coluna vermelha (como quase todo mundo testa) contra coluna azul (como o guia manda testar), mais quatro técnicas: mascaramento, tokenização, generalização e dado sintético. Faixa dourada sobre credencial genérica desvinculada da instituição. | Guias federais citados no slide 11 |
@@ -116,7 +116,7 @@ configuração. Aqui são 10 slides, e o eixo é a orientação federal já publ
 | 21 | L4 | O que o projeto resolve: sem projeto, você reexplica o que é uma NOCI, qual resolução tipifica o quê e o que a sua unidade fiscaliza, e recola os mesmos manuais. | — |
 | 22 | L3 | Criando o projeto **"SFC - Instrução de processo sancionador"**, em quatro passos. | Resolução ANTAQ nº 3.259/2014 |
 | 23 | L6 | **As instruções do projeto**, escritas uma vez e válidas para sempre. É o slide central do deck. Contexto (regime legal, produtos, SFIS e SEI), como trabalhar (nunca inventar norma; citar norma, artigo, inciso e alínea com aviso de conferir vigência; confrontar conduta com dispositivo e evidência; devolver achados como CRÍTICO / RELEVANTE / FORMAL) e um bloco dourado de vedações (não decidir nem graduar sanção; dado aberto é indício, não prova; nada de dado pessoal, sigilo ou base credenciada). | Lei 10.233/2001, Lei 12.815/2013, Resolução ANTAQ nº 3.259/2014 |
-| 24 | L4 | O que subir: manuais de fiscalização da SFC, resoluções que tipificam infração, ordens de serviço da SFC, Regimento Interno, modelos e listas de verificação da casa. O que não subir: qualquer coisa do slide 13. | — |
+| 24 | L4 | **A régua é "foi publicado?"**. Sobe: resoluções que tipificam infração, Resolução 3.259/2014, leis e decretos do setor, Regimento Interno, acórdãos e decisões já publicados. Não sobe: **Manuais de Fiscalização da SFC, Ordens de Serviço da SFC, modelos e minutas internas** (documento interno não publicado não vai para ferramenta de terceiro, ainda que não tenha dado pessoal) e qualquer coisa do slide 13. | Regimento Interno da ANTAQ; vedações do slide 13 |
 | 25 | L5 | As quatro camadas que todo mundo confunde: instruções, conhecimento, contexto e memória. | — |
 | 26 | L4 | Memória: saber desligar vale mais do que saber ligar. O isolamento impede que a conversa de um processo sancionador vaze para o projeto de outro. | — |
 | 27 | L2 | Como começar: "Vou criar um projeto para a minha Unidade Regional, que fiscaliza navegação interior." | — |
@@ -131,7 +131,7 @@ construído na GPF sobre os painéis e o acervo normativo que a Agência já pub
 |---|---|---|---|
 | 28 | L10 | Divisória. Chips: protocolo aberto (MCP), enquadramento, histórico do fiscalizado, qualidade do dado. | — |
 | 29 | L4 | A diferença que um conector faz: sem conector a IA fala sobre fiscalização; com conector ela consultou o painel de Fiscalização agora e trouxe o dado. | — |
-| 30 | L3 | O conector de Dados Abertos da ANTAQ foi feito aqui: protocolo aberto, desenvolvido na GPF sem custo de contratação, consumindo só o que a Agência publica. Último item: nenhum processo em tramitação sai daqui. **Faixa-âncora #2.** | — |
+| 30 | L3 | O conector de Dados Abertos da ANTAQ foi feito aqui: protocolo aberto, feito dentro da própria Superintendência sem custo de contratação, consumindo só o que a Agência publica. Último item: nenhum processo em tramitação sai daqui. **Faixa-âncora #2.** | — |
 | 31 | L6+L8 | **Demonstração 1 - o enquadramento que mais soma multa é o genérico.** O tipo residual da Resolução ANTAQ nº 3.274/2014, art. 32, XXXVIII, traz dentro de si a ressalva "exceto quando a conduta infracional se enquadrar em tipo específico contemplado nesta norma". Destaque: R$ 18,7 milhões de R$ 106,4 milhões, em 281 infrações julgadas. | Painel Fiscalização, quadros "Base de Dados" e "Objeto das Normas", via conector MCP (GPF), 16/09/2026; valores nominais |
 | 32 | L3 | **Enquadramento genérico não é detalhe de redação**: o tipo residual só cabe sem tipo específico; tipificação frouxa dificulta a defesa; o erro aparece no recurso, anos depois. Cartão de alerta em vermelho. | Curso de introdução à fiscalização da SFC |
 | 33 | L6+L8 | **Demonstração 2 - o histórico do fiscalizado, antes de autuar.** 2.824 empresas, 17.505 processos, 19.708 registros. Recortes por empresa, unidade, infração, tipo de decisão e ano. Faixa: não substitui a consulta ao SFIS e só alcança processo já julgado. | Painel Fiscalização via conector MCP (GPF), 16/09/2026 |
@@ -162,8 +162,8 @@ Este deck deriva do `apresentacao_ia_saf`, apresentado em 5 de agosto de 2026. O
 
 1. **Plateia e vocabulário.** Todo exemplo de contratações públicas foi trocado por exemplo
    de fiscalização. "Termo de Referência" virou "relatório de fiscalização"; "acórdão,
-   artigo, súmula" virou "norma, artigo, inciso"; GLC, GGP, GOF, GRL e NCR saíram, e GAT,
-   GCOR, GPF, GREs e UREs entraram.
+   artigo, súmula" virou "norma, artigo, inciso"; GLC, GGP, GOF, GRL e NCR saíram, e GCOR,
+   GPF, GRAT, GREs e UREs entraram.
 2. **Bloco 2 reescrito e ampliado de 6 para 10 slides** (10 para 14 minutos), para
    incorporar as orientações federais publicadas sobre IA generativa: os documentos em vigor
    (11), os princípios (12), o teste com dado que não existe (18) e a transparência sobre o

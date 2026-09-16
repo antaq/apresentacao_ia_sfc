@@ -1,6 +1,8 @@
 # Notas do apresentador
 
-**IA no dia a dia da Fiscalização** · Gerência de Planejamento e Inteligência da Fiscalização · GPF/SFC · ANTAQ
+**IA no dia a dia da Fiscalização** · SFC · ANTAQ
+
+Apresentação conjunta de **Pedro Henrique Soares** (GPF) e **Fábio Queiroz Fonseca** (GRAT).
 
 Roteiro falado, slide a slide. Este arquivo é gerado a partir do bloco de notas embutido
 em cada `slide-NN.html`, portanto reproduz exatamente o que aparece no painel lateral do
@@ -12,21 +14,25 @@ em cada `slide-NN.html`, portanto reproduz exatamente o que aparece no painel la
 
 ### Slide 1 / 41 - IA no dia a dia da Fiscalização · Capa
 
-**Não comece pelo assunto.** Fique poucos segundos nesta tela, só o tempo de agradecer e dizer o seu nome e a sua unidade. Aqui você não é visita: a GPF é uma gerência desta Superintendência, e quem está na sala usa todo dia os sistemas que a Gerência mantém.
+**Não comecem pelo assunto.** Fiquem poucos segundos nesta tela, só o tempo de agradecer e de os dois se apresentarem. Aqui vocês não são visita: GPF e GRAT são gerências desta mesma Superintendência, e a plateia é a casa de vocês.
 
-Comece de verdade pelas *duas declarações do slide 2*. Não abra explicação sobre inteligência artificial aqui.
+Se alguém esperar uma palestra de tecnologia, corrijam já: nenhuma das duas gerências é área de tecnologia. O que vocês trazem é método de trabalho, do mesmo tipo que a GPF já define em diretriz e que a GRAT já reúne no repositório de melhores práticas.
 
-A data já está na capa: **21 de setembro de 2026, 16h20**. Lembre que a sala tem gente da sede e das regionais, presencial e a distância.
+Comecem de verdade pelas *duas declarações do slide 2*. Não abram explicação sobre inteligência artificial aqui.
+
+A data já está na capa: **21 de setembro de 2026, 16h20**. Lembrem que a sala tem gente da sede e das regionais, presencial e a distância.
 
 ### Slide 2 / 41 - Antes de começar, duas declarações
 
-Diga as duas declarações **textualmente**, sem improvisar. Elas protegem você e preparam o fechamento da palestra.
+Digam as duas declarações **textualmente**, sem improvisar. Elas protegem vocês e preparam o fechamento da palestra.
 
-Na primeira, deixe claro de onde você fala: a GPF constrói SFIS, SisPAT, SAI e os conectores. É o que dá autoridade ao que vem depois e afasta a leitura de que você veio vender alguma coisa. Diga também que nada do que vem a seguir depende de comprar ferramenta.
+Na primeira, deixem claro de onde falam, e ancorem no Regimento: a GPF propõe os Planos de Fiscalização, define métodos e rotinas para aumentar a efetividade das ações e mantém o banco de jurisprudência administrativa (art. 80); a GRAT aprecia recurso, presta apoio técnico à SFC e mantém o repositório de melhores práticas e diretrizes de fiscalização (art. 82). Nenhuma das duas é área de tecnologia, e é justamente esse o ponto: o que vem a seguir é método de trabalho, não sistema, e não depende de comprar ferramenta.
 
-Na segunda, *olhe para o Superintendente*. E complete o que está na tela: a Agência não tem política, mas a administração pública federal já publicou guias, e o slide 11 mostra quais. É a semente da decisão que você vai cobrar no encerramento.
+Na segunda, *olhem para o Superintendente*. E completem o que está na tela: a Agência não tem política, mas a administração pública federal já publicou guias, e o slide 11 mostra quais. É a semente da decisão que vocês vão cobrar no encerramento.
 
-Ritmo: cerca de 40 segundos no total. Não abra debate aqui, apenas anuncie.
+Combinem antes quem diz qual declaração. A plateia precisa entender, já no slide 2, que são dois apresentadores e duas gerências.
+
+Ritmo: cerca de 40 segundos no total. Não abram debate aqui, apenas anunciem.
 
 ### Slide 3 / 41 - Três perguntas, de mão levantada
 
@@ -232,7 +238,7 @@ Emende com a frase-ponte: até aqui a gente falou do que não fazer; a partir de
 
 Este slide é de contraste puro. A coluna da esquerda é longa e cansativa de propósito; a da direita tem cinco palavras. A diferença de tamanho entre as duas é a mensagem.
 
-Leia a coluna da esquerda em voz alta, devagar, com cara de tédio: toda conversa começa do zero, você reexplica o que é uma NOCI, qual resolução tipifica o quê, o que a sua unidade fiscaliza, e recola os mesmos manuais. A sala se reconhece nisso na hora.
+Leia a coluna da esquerda em voz alta, devagar, com cara de tédio: toda conversa começa do zero, você reexplica o que é uma NOCI, qual resolução tipifica o quê, o que a sua unidade fiscaliza, e recola os mesmos textos normativos. A sala se reconhece nisso na hora.
 
 Depois aponte para a direita e diga só a frase, sem completar nada: "Com projeto, você explica uma vez." Faça uma pausa e deixe o silêncio trabalhar.
 
@@ -246,7 +252,7 @@ Regra de ouro: tenha o texto das instruções pronto em arquivo, aberto ao lado,
 
 Nomeie o projeto na frente deles, letra por letra: SFC - Instrução de processo sancionador. O nome importa porque é o que separa este espaço de trabalho dos outros, e porque o isolamento entre projetos é assunto do slide 26.
 
-No passo 3, diga que dois ou três arquivos bem escolhidos rendem mais do que trinta, e lembre que o que sobe é só o que pode subir, conforme o slide 13. Use manual e resolução, que são públicos, e diga isso em voz alta.
+No passo 3, digam que dois ou três arquivos bem escolhidos rendem mais do que trinta, e que o que sobe é só documento publicado, conforme o slide 24. Resolução e Regimento sobem; manual e ordem de serviço, não. Digam isso em voz alta, porque é contraintuitivo.
 
 Se a rede falhar, narre o procedimento pelos quatro passos que estão na tela. Cerca de quatro minutos, contando a demonstração.
 
@@ -266,21 +272,23 @@ Cerca de três minutos. Ofereça o texto por escrito depois, para ninguém tenta
 
 ### Slide 24 / 41 - O que subir, e o que não subir
 
-Conhecimento do projeto é o armário de arquivos que fica disponível para toda conversa daquele projeto. Aqui a plateia decide o que vai para dentro do armário.
+Conhecimento do projeto é o armário de arquivos que fica disponível para toda conversa daquele projeto. Aqui a plateia decide o que vai para dentro do armário, e este slide mudou: a régua não é mais "é sensível?", é **"foi publicado?"**.
 
-Leia a coluna verde rápido, item por item. Todos são documentos públicos ou que já circulam livremente dentro da casa: os Manuais de Fiscalização, as resoluções que tipificam infração, as Ordens de Serviço da SFC, o Regimento e os modelos internos. Nada de novidade e nada de risco.
+Leiam a coluna verde rápido. Tudo ali saiu no diário oficial ou está no sítio da Agência: as resoluções que tipificam infração, a 3.259 do procedimento sancionador, as leis e decretos do setor, o Regimento e as decisões já publicadas. Subir isso não cria risco nenhum, porque qualquer pessoa já pode ler.
 
-Vale um aviso técnico aqui, porque a sala é de fiscalização: manual não tipifica. O manual comenta o dispositivo de outra norma, então "art. 28 do Manual" não sustenta autuação nenhuma. Subir o manual ajuda a instruir; citar o manual como tipo infracional é erro.
+A coluna vermelha é a correção importante, e digam com todas as letras: **os Manuais de Fiscalização e as Ordens de Serviço da SFC são documentos internos, não são publicados, e por isso não sobem para ferramenta de terceiro** - ainda que não contenham nenhum dado pessoal. O mesmo vale para modelos e minutas da casa. Quem quiser usar o manual continua usando o manual, na tela ao lado; o que não se faz é entregar o arquivo à ferramenta.
 
-Na coluna vermelha, não invente lista nova. Aponte para trás: qualquer coisa do slide 13 não sobe. Se alguém não lembrar, volte um instante ao slide 13 em vez de repetir de cabeça.
+Vale um aviso técnico, porque a sala é de fiscalização: manual não tipifica. O manual comenta o dispositivo de outra norma, então "art. 28 do Manual" não sustenta autuação nenhuma. Isso é mais um motivo para o projeto se apoiar na norma publicada, e não no manual.
 
-Feche com a faixa azul: dois ou três arquivos bem escolhidos rendem mais do que trinta. Arquivo demais dilui o contexto e ainda aumenta a superfície de risco. Cerca de um minuto e meio.
+Se alguém perguntar do slide 13, aponte para trás em vez de repetir de cabeça: o slide 13 continua valendo inteiro, e esta coluna acrescenta a ele.
+
+Fechem com a faixa azul, que é a régua que a pessoa leva para casa: foi publicado, sobe; não foi, fica fora. Cerca de dois minutos.
 
 ### Slide 25 / 41 - Quatro coisas diferentes que todo mundo confunde
 
 Este é o slide que a plateia mais vai fotografar. Anuncie isso: "se você for guardar um slide desta apresentação, guarde este". Depois pare de falar por alguns segundos e deixe a sala registrar.
 
-São só quatro linhas, então não corra. Leia cada uma pela coluna da direita, que é a analogia, porque é ela que fixa: a Ordem de Serviço da unidade, o armário de manuais e resoluções da sala, o processo que está na sua mesa hoje, e o colega que lembra do que foi combinado.
+São só quatro linhas, então não corra. Leia cada uma pela coluna da direita, que é a analogia, porque é ela que fixa: a Ordem de Serviço da unidade, o armário de normas e decisões da sala, o processo que está na sua mesa hoje, e o colega que lembra do que foi combinado.
 
 A primeira analogia é literal nesta casa, e vale dizer: instrução de projeto é Ordem de Serviço. Vocês já sabem o que acontece quando a unidade não tem uma, e é exatamente o que acontece com uma ferramenta sem instruções.
 
@@ -338,15 +346,13 @@ Não gaste mais de um minuto. As quatro demonstrações que vêm a seguir é que
 
 ### Slide 30 / 41 - O conector de dados abertos da ANTAQ foi feito aqui
 
-Este slide protege a apresentação da acusação de estar vendendo alguma coisa, e é ainda mais importante aqui do que em outras plateias, porque a GPF é parte da casa. Faça os quatro pontos com calma.
+Este slide protege a apresentação da acusação de estar vendendo alguma coisa, e é ainda mais importante aqui do que em outras plateias, porque quem fala é parte da casa. Façam os quatro pontos com calma.
 
-Primeiro: MCP é protocolo aberto, não é produto. Funciona com qualquer ferramenta compatível, de qualquer fornecedor. Segundo: foi desenvolvido aqui dentro, na GPF, sem custo de contratação, no mesmo espírito do SisPAT e do SAI. Terceiro: só consome dado que a própria Agência já publica, e vale nomear as fontes.
+Primeiro: MCP é protocolo aberto, não é produto. Funciona com qualquer ferramenta compatível, de qualquer fornecedor. Segundo: foi feito aqui dentro, sem custo de contratação. Se perguntarem de onde vem a competência para isso, a resposta está no Regimento: cabe à GPF definir métodos e rotinas para aumentar a efetividade das ações fiscalizadoras e apoiar o desenvolvimento dos recursos tecnológicos envolvidos na fiscalização (art. 80, VII e IX). Não é sistema da casa nem substitui nenhum: é um método de consulta. Terceiro: só consome dado que a própria Agência já publica, e vale nomear as fontes.
 
 O quarto ponto é o que importa a esta sala, e não é o mesmo da versão anterior desta palestra: o conector não enxerga processo em tramitação. Ele lê o painel público, que só tem processo já julgado. Nada do SFIS, nada do SEI, nada em sigilo.
 
-Segunda das três repetições da frase-âncora. Leia a faixa dourada em voz alta: a IA não assina, quem assina é você, e quem assina responde.
-
-Se alguém perguntar se dá para usar em outra ferramenta, a resposta é sim, e é justamente esse o ponto do protocolo aberto.
+Fechem na faixa dourada, segunda das três repetições: a IA não assina, quem assina é você, e quem assina responde.
 
 ### Slide 31 / 41 - O enquadramento que mais soma multa é o genérico
 
@@ -466,16 +472,18 @@ Os exemplos úteis para esta sala são quadro de acompanhamento do plano de fisc
 
 Feche no terceiro item, sem suavizar: o arquivo ainda precisa ser conferido, sempre. É a mesma regra do slide 9, agora aplicada ao produto final. E vale lembrar o slide 35: se o dado de origem tem três estados, a planilha bonita continua tendo três estados.
 
-Ponte verbal obrigatória para o encerramento, porque não está projetada em lugar nenhum: a GPF se oferece para montar a primeira habilidade junto com a equipe da unidade que pedir. O slide de convite foi suprimido do deck, então essa oferta precisa ser dita em voz alta, aqui.
+Ponte verbal obrigatória para o encerramento, porque não está projetada em lugar nenhum: a GPF e a GRAT se oferecem para montar a primeira habilidade junto com a equipe da unidade que pedir. O slide de convite foi suprimido do deck, então essa oferta precisa ser dita em voz alta, aqui.
 
 ## Encerramento
 
 ### Slide 41 / 41 - Material e contato
 
-Slide de contato e último da apresentação. Deixe-o projetado durante todas as perguntas: é ele que fica na tela enquanto a sala conversa.
+Slide de contato e último da apresentação. Deixem-no projetado durante todas as perguntas: é ele que fica na tela enquanto a sala conversa.
 
-Peça que peguem o telefone e apontem a câmera para o código: ele abre esta mesma apresentação, com as notas e o material de apoio. Diga o endereço em voz alta também, para quem preferir anotar. Para quem está nas unidades regionais, o endereço é o caminho mais prático, porque o material fica disponível depois.
+Peçam que peguem o telefone e apontem a câmera para o código: ele abre esta mesma apresentação, com as notas e o material de apoio. Digam o endereço em voz alta também, para quem preferir anotar. Para quem está nas unidades regionais, o endereço é o caminho mais prático, porque o material fica disponível depois.
 
-Antes de encerrar, faça as duas ofertas que não estão projetadas em lugar nenhum: a GPF monta a primeira habilidade junto com a equipe da unidade que pedir, e a GPF abre o conector de dados abertos para quem quiser experimentar. Sem essas frases, a apresentação termina sem próximo passo.
+Antes de encerrar, façam as duas ofertas que não estão projetadas em lugar nenhum: as duas gerências montam a primeira habilidade junto com a equipe da unidade que pedir, e abrem o conector de dados abertos para quem quiser experimentar. Sem essas frases, a apresentação termina sem próximo passo.
 
 Se alguém pedir a política de uso de IA da Agência, a resposta honesta é a do slide 11: ela não existe ainda, e enquanto não existir valem as orientações federais que estão ali listadas.
+
+O endereço projetado é o da caixa da GPF. Se quiserem dar também o canal da GRAT, digam em voz alta, porque só um endereço cabe no cartão.
