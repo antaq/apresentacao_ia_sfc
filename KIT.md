@@ -4,8 +4,12 @@ Sistema visual EXATO desta apresentação. Deriva do KIT da Trilha Técnica (mod
 **Referência de ouro:** `../GPFTrilhaTecnico/apresentacao/` (KIT.md + slide-01, 04, 20, 29, 61).
 Onde a especificação de conteúdo divergir deste KIT, **prevalece o KIT**.
 
-Total de arquivos: **41** — `slide-01.html` a `slide-41.html`, em sequência única.
+Total de arquivos: **31** — `slide-01.html` a `slide-31.html`, em sequência única.
 Não há slides de reserva.
+
+O antigo bloco 4 (conector e dados abertos) saiu deste deck e virou apresentação própria,
+em `../Dados-Abertos-Analise-Tecnica/`, marcada para 22/09/2026. O bloco de habilidades e
+artefatos, que era o 5, passou a ser o 4.
 
 Cada slide é um arquivo HTML autossuficiente 1920×1080 (16:9), carregado em `<iframe>`
 pelo `index.html`, que escala para a tela e navega por `postMessage`.
@@ -155,7 +159,7 @@ em conteúdo (só no rodapé, e ainda assim com `px` explícito).
       <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · SFC · ANTAQ</p>
       <!-- linha de fonte, quando o slide exibir números (ver 5.4) -->
     </div>
-    <p class="text-gray-300 font-mono" style="font-size:18px;">NN / 41</p>
+    <p class="text-gray-300 font-mono" style="font-size:18px;">NN / 31</p>
   </div>
 </div>
 ```
@@ -170,19 +174,21 @@ Se o título for longo, reduza para 44px em vez de quebrar o leiaute.
 | 6–8 | `FUNDAMENTOS` | `fa-diagram-project` |
 | 11–13, 15–19 | `GOVERNANÇA` | `fa-user-shield` |
 | 21–26 | `PROJETO` | `fa-folder-tree` |
-| 29–35, 37 | `DADOS ABERTOS` | `fa-plug` |
-| 39, 40 | `HABILIDADES` | `fa-toolbox` |
-| 41 | (sem tag; o slide L11 usa a faixa "OBRIGADO") | — |
+| 29, 30 | `HABILIDADES` | `fa-toolbox` |
+| 31 | (sem tag; o slide L11 usa a faixa "OBRIGADO") | — |
 
 A tag `PRIVACIDADE` do deck da SAF virou **`GOVERNANÇA`** aqui: o bloco 2 deixou de tratar
 só de privacidade e passou a tratar também das orientações federais em vigor, da vedação
 de credencial e da transparência sobre o uso.
 
-Slides sem tag: 1, 4, 5, 9, 10, 14, 20, 27, 28, 36, 38 (capas, divisórias e frases L2).
+A tag `DADOS ABERTOS` saiu junto com o bloco 4: ela agora só existe no deck de
+`../Dados-Abertos-Analise-Tecnica/`.
+
+Slides sem tag: 1, 4, 5, 9, 10, 14, 20, 27, 28 (capas, divisórias e frases L2).
 
 ### 5.2 Numeração no rodapé
 
-- Slides 2 a 41: `NN / 41` (sem zero à esquerda; use `7 / 41`, `27 / 41`).
+- Slides 2 a 31: `NN / 31` (sem zero à esquerda; use `7 / 31`, `27 / 31`).
 - Capa (slide 1): sem numeração.
 
 ### 5.3 Rodapé de slides escuros
@@ -198,19 +204,14 @@ Logo abaixo do texto-base do rodapé, em 17px, `#9CA3AF`:
 ```
 
 Fontes canônicas desta apresentação (use exatamente):
-- Painel de Fiscalização (slides 31, 33, 35, 36):
-  `Fonte: painel Fiscalização da ANTAQ, quadro "Base de Dados", via conector MCP de Dados Abertos da ANTAQ (GPF), em 16 de setembro de 2026.`
-- Acervo normativo (slide 34):
-  `Fonte: acervo normativo do setor aquaviário (50 documentos, 2.530 trechos) via conector MCP de Dados Abertos da ANTAQ (GPF), em 16 de setembro de 2026.`
 - Orientação federal sobre IA generativa (slides 8, 11, 12, 16, 18, 19):
   nomear o documento e o órgão emissor, com a data de consulta: 16 de setembro de 2026.
 - Retenção e treinamento em conta de consumo (slides 16 e 17):
   `Fonte: documentação pública de privacidade da ferramenta demonstrada.`
 - Regimento Interno (slides 13 e 15): `Fonte: Regimento Interno da ANTAQ.`
-- Procedimento sancionador (slides 22 e 37): `Fonte: Resolução ANTAQ nº 3.259, de 30 de janeiro de 2014.`
+- Procedimento sancionador (slide 22): `Fonte: Resolução ANTAQ nº 3.259, de 30 de janeiro de 2014.`
 
-> Regra que não muda: **todo número projetado tem linha de fonte**. Nos slides do bloco 4,
-> a linha de fonte também registra que os valores são nominais, sem correção.
+> Regra que não muda: **todo número projetado tem linha de fonte**.
 
 ---
 
@@ -285,7 +286,7 @@ marcador hoje:** todos foram preenchidos ou removidos em 5 de agosto de 2026.
 Em fundo escuro: `background:rgba(253,224,71,.14); color:#FDE68A; border-color:#FDE68A;`.
 Marcador dentro de linha de rodapé pode usar 19px.
 
-### 6.8 Faixa-âncora (slides 7, 30 e 37 — idêntica nos três)
+### 6.8 Faixa-âncora (slides 7 e 30 — idêntica nos dois)
 
 ```html
 <div style="margin-top:34px;background:linear-gradient(90deg,#002244 0%,#004488 100%);
@@ -338,7 +339,7 @@ com `filter:brightness(0) invert(1)` a `opacity:.07-.08`.
 opacity:.05`. Padrão de pontos opcional:
 `background-image: radial-gradient(rgba(255,255,255,.05) 1px, transparent 1px); background-size:22px 22px;`
 
-### 7.1 Divisórias de bloco (L10) — slides 4, 10, 20, 28, 38
+### 7.1 Divisórias de bloco (L10) — slides 4, 10, 20, 28
 
 Espelham `../GPFTrilhaTecnico/apresentacao/slide-04.html`:
 rótulo "BLOCO" com barra dourada; número em dourado 188px; título 84px;
@@ -354,7 +355,7 @@ linha-resumo 30px; e, no lugar dos "chips", **uma pílula de tempo estimado**:
 ```
 Mais 3 a 4 "chips" com os pontos do bloco (padrão do slide-04 de referência, 22px).
 
-### 7.2 Frase de impacto em tela cheia (L2) — slides 5, 9, 14, 27, 36
+### 7.2 Frase de impacto em tela cheia (L2) — slides 5, 9, 14, 27
 
 Fundo escuro, sem header. Texto centralizado verticalmente, alinhado à esquerda a partir
 de `padding-left:130px`, largura máxima 1560px. Aspas decorativas `fa-quote-left` em
@@ -420,17 +421,7 @@ Se a especificação não trouxer NOTAS para o slide, escreva uma nota curta e �
 | 25 | L5 | As quatro camadas | PROJETO |
 | 26 | L4 | Memória: saber desligar vale mais do que saber ligar | PROJETO |
 | 27 | L2 | Como começar | — |
-| 28 | L10 | Divisória bloco 4 (18 min) | — |
-| 29 | L4 | A diferença que um conector faz | DADOS ABERTOS |
-| 30 | L3 | O conector de Dados Abertos da ANTAQ + faixa-âncora | DADOS ABERTOS |
-| 31 | L6+L8 | Demonstração 1: o enquadramento genérico | DADOS ABERTOS |
-| 32 | L3 | Enquadramento genérico não é detalhe de redação | DADOS ABERTOS |
-| 33 | L6+L8 | Demonstração 2: o histórico do fiscalizado | DADOS ABERTOS |
-| 34 | L6+L8 | Demonstração 3: a citação que a base erra | DADOS ABERTOS |
-| 35 | L5 | Demonstração 4: dado aberto não é dado limpo | DADOS ABERTOS |
-| 36 | L2 | Conclusão do bloco | — |
-| 37 | L3 | Enquadramento honesto + faixa-âncora | DADOS ABERTOS |
-| 38 | L10 | Divisória bloco 5 (7 min) | — |
-| 39 | L3 | Habilidades | HABILIDADES |
-| 40 | L3 | Artefatos | HABILIDADES |
-| 41 | L11 | Contato, material e código de leitura óptica | — |
+| 28 | L10 | Divisória bloco 4 (7 min) | — |
+| 29 | L3 | Habilidades | HABILIDADES |
+| 30 | L3 | Artefatos + faixa-âncora | HABILIDADES |
+| 31 | L11 | Contato, material e código de leitura óptica | — |

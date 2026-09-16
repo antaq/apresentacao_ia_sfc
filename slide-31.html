@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>O enquadramento que mais soma multa é o genérico</title>
+<title>Material e contato</title>
 <link rel="icon" href="favicon.ico" sizes="any"/>
 <link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32.png"/>
 <link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16.png"/>
@@ -14,110 +14,162 @@
 <style>
   html { font-size: 26px; }
   body { margin:0; padding:0; background-color:#f3f4f6; overflow:hidden; font-family:'Open Sans', sans-serif; }
-  .slide-container { width:100vw; height:100vh; position:relative; display:flex; flex-direction:column; background-color:#ffffff; overflow:hidden; }
+  .slide-container {
+    width:100vw; height:100vh; position:relative; display:flex; flex-direction:column;
+    background: linear-gradient(135deg, #002244 0%, #003366 50%, #004488 100%);
+    overflow:hidden; color:white;
+  }
   .font-montserrat { font-family:'Montserrat', sans-serif; }
-  .text-brand-primary { color:#003366; } .bg-brand-primary { background-color:#003366; }
-  .text-brand-secondary { color:#0066CC; } .bg-brand-secondary { background-color:#0066CC; }
+  .font-opensans { font-family:'Open Sans', sans-serif; }
+  .bg-brand-secondary { background-color:#0066CC; }
 
-  .instrucao { background:#0F172A; border-radius:14px; padding:26px 34px; display:flex;
-               align-items:center; gap:18px; }
-  .instrucao code { font-family:'Courier New', monospace; font-size:28px; color:#E2E8F0; line-height:1.4; }
+  .thanks-title { font-family:'Montserrat', sans-serif; font-size:88px; font-weight:900;
+    letter-spacing:-3px; line-height:1; color:#FFFFFF; text-shadow:0 4px 12px rgba(0,0,0,0.35); }
 
-  .resultado { background:#FFFFFF; border:4px solid #003366; border-radius:18px; padding:44px 48px;
-               box-shadow:0 14px 30px -14px rgba(0,0,0,.28); }
-  .resultado-rotulo { font-family:'Montserrat',sans-serif; font-weight:800; font-size:20px;
-    color:#0066CC; text-transform:uppercase; letter-spacing:.14em; margin-bottom:14px; }
-  .resultado-txt { font-size:35px; line-height:1.42; color:#1F2937; font-weight:600; }
-  .erro { background:#FEE2E2; color:#B91C1C; font-weight:900; border-radius:8px; padding:2px 12px; }
-  .classificacao { margin-top:16px; font-family:'Montserrat',sans-serif; font-weight:700;
-    font-size:28px; color:#4B5563; }
+  .contact-card { background-color: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 16px; padding: 20px 26px; display: flex; align-items: center;
+    text-decoration: none; color: white; }
+  .contact-icon { width: 52px; height: 52px; border-radius: 13px; display:flex; align-items:center;
+    justify-content:center; font-size: 22px; margin-right: 20px; flex-shrink:0; }
 
-  .destaque-num { font-family:'Montserrat',sans-serif; font-weight:900; font-size:124px;
-    color:#003366; line-height:1; letter-spacing:-2px; }
-  .destaque-rotulo { font-family:'Montserrat',sans-serif; font-weight:800; font-size:20px;
-    color:#0066CC; text-transform:uppercase; letter-spacing:.14em; }
+  .qr-caixa { width:250px; height:250px; border-radius:18px; background:#FFFFFF; padding:14px;
+    box-shadow:0 10px 30px -8px rgba(0,0,0,.45); flex-shrink:0; }
 
-
-  .bg-marca { position:absolute; bottom:-70px; right:-40px; font-size:21rem; opacity:.035; z-index:0; color:#003366; pointer-events:none; line-height:0; }
+  .shape-circle { position:absolute; border-radius:50%; z-index:0; }
+  .shape-1 { width:600px; height:600px; top:-160px; right:-160px; border:60px solid rgba(255,255,255,0.03); }
+  .shape-2 { width:420px; height:420px; bottom:-120px; left:-120px; border:40px solid rgba(255,255,255,0.03); }
+  .bg-pattern { background-image: radial-gradient(rgba(255,255,255,0.06) 1px, transparent 1px); background-size: 22px 22px; }
 </style>
 </head>
 <body>
 <div class="slide-container">
-  <div style="height:12px;background:#003366;width:100%;"></div>
-  <div style="height:6px;background:#0066CC;width:100%;"></div>
 
-  <!-- Cabeçalho -->
-  <div class="flex items-center justify-between px-16 pt-7 pb-2 z-10">
-    <div>
-      <div class="flex items-center gap-3">
-        <div class="w-1.5 h-9 bg-brand-secondary flex-shrink-0"></div>
-        <h1 class="font-montserrat font-bold text-brand-primary uppercase" style="font-size:46px; line-height:1.12; letter-spacing:-0.02em;">
-          O enquadramento que mais soma multa é o genérico
-        </h1>
-      </div>
-      <p class="text-gray-500 font-medium ml-4" style="font-size:25px; margin-top:4px;">Demonstração 1 · Res. ANTAQ nº 3.274/2014, art. 32, XXXVIII</p>
-    </div>
-    <div class="flex items-center gap-3 opacity-80 text-brand-secondary flex-shrink-0 ml-8">
-      <i class="fas fa-plug" style="font-size:26px;"></i>
-      <p class="font-montserrat font-bold text-gray-400" style="font-size:19px; letter-spacing:.16em;">DADOS ABERTOS</p>
-    </div>
+  <!-- Acentos à esquerda -->
+  <div class="absolute left-0 top-0 h-full w-3 z-20" style="background:#FFD700;"></div>
+  <div class="absolute left-3 top-0 h-full w-1 bg-brand-secondary z-20"></div>
+
+  <!-- Fundo decorativo -->
+  <div class="shape-circle shape-1"></div>
+  <div class="shape-circle shape-2"></div>
+  <div class="absolute inset-0 bg-pattern"></div>
+
+  <!-- Marca d'água -->
+  <img src="Imagens/logo-antaq-azul.png" alt="" class="absolute top-1/2 left-1/2"
+       style="width:48vw; max-width:760px; transform:translate(-50%,-50%); opacity:0.07; z-index:0;
+              pointer-events:none; filter:brightness(0) invert(1);" />
+
+  <!-- Ícone decorativo gigante -->
+  <div class="absolute text-white z-0"
+       style="bottom:-40px; right:-30px; font-size:440px; line-height:0; opacity:0.05;">
+    <i class="fas fa-robot"></i>
   </div>
 
   <!-- Conteúdo -->
-  <div class="flex-1 flex flex-col justify-center px-16 pb-4 z-10 min-h-0" style="gap:20px;">
+  <div class="relative z-10 flex-1 flex items-center" style="padding-left:110px; padding-right:96px; padding-top:20px;">
 
-    <!-- Instrução usada -->
-    <div class="instrucao">
-      <i class="fas fa-terminal" style="color:#7CC0FF; font-size:26px; flex-shrink:0;"></i>
-      <code>"Quais enquadramentos mais somam multa nos processos sancionadores da ANTAQ?"</code>
+    <div style="flex:1;">
+      <img src="Imagens/logo-antaq-branca.png" alt="Logo ANTAQ" style="height:56px; width:auto; margin-bottom:22px;" />
+
+      <h1 class="thanks-title">OBRIGADO</h1>
+      <div style="width:120px; height:8px; background:#FFD700; margin:20px 0 26px 0;"></div>
+
+      <p class="font-montserrat" style="font-size:36px; font-weight:800; color:#FFD700; margin-bottom:20px;">Material e contato</p>
+
+      <div class="pl-6" style="border-left:4px solid rgba(255,255,255,0.25); display:flex; gap:54px; flex-wrap:wrap;">
+        <div>
+          <p class="font-montserrat" style="font-size:30px; font-weight:800; color:#FFFFFF; line-height:1.25;">
+            Pedro Henrique Soares
+          </p>
+          <p class="font-opensans" style="font-size:21px; color:#BFDBFE; margin-top:8px; line-height:1.35;">
+            Planejamento e Inteligência da Fiscalização
+            <span style="color:#FFD700; font-weight:700;">- GPF</span>
+          </p>
+        </div>
+        <div>
+          <p class="font-montserrat" style="font-size:30px; font-weight:800; color:#FFFFFF; line-height:1.25;">
+            Fábio Queiroz Fonseca
+          </p>
+          <p class="font-opensans" style="font-size:21px; color:#BFDBFE; margin-top:8px; line-height:1.35;">
+            Recursos e de Apoio Técnico
+            <span style="color:#FFD700; font-weight:700;">- GRAT</span>
+          </p>
+        </div>
+      </div>
+      <p class="font-opensans" style="font-size:20px; color:#93C5FD; margin-top:14px; padding-left:26px; line-height:1.35;">
+        Superintendência de Fiscalização e Coordenação das Unidades Regionais - SFC
+      </p>
+
+      <div class="flex flex-col gap-4" style="margin-top:28px; max-width:980px;">
+        <a href="mailto:sfc@antaq.gov.br" class="contact-card">
+          <div class="contact-icon" style="background-color:rgba(0,102,204,0.28); color:#93c5fd;">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="text-left">
+            <p class="font-montserrat" style="font-size:17px; color:#93c5fd; text-transform:uppercase; letter-spacing:.12em; font-weight:700; margin-bottom:6px;">Contato</p>
+            <p class="font-montserrat" style="font-size:28px; font-weight:700; color:#FFFFFF;">sfc@antaq.gov.br</p>
+          </div>
+        </a>
+
+        <a href="https://antaq.github.io/apresentacao_ia_sfc/" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <div class="contact-icon" style="background-color:rgba(0,102,204,0.28); color:#60a5fa;">
+            <i class="fa-solid fa-folder-open"></i>
+          </div>
+          <div class="text-left">
+            <p class="font-montserrat" style="font-size:17px; color:#93c5fd; text-transform:uppercase; letter-spacing:.12em; font-weight:700; margin-bottom:6px;">Material de apoio</p>
+            <p class="font-montserrat" style="font-size:28px; font-weight:700; color:#FFFFFF;">antaq.github.io/apresentacao_ia_sfc</p>
+          </div>
+        </a>
+      </div>
     </div>
 
-    <!-- Resultado + apoio lateral -->
-    <div style="display:flex; gap:26px; align-items:stretch;">
-
-      <div class="resultado" style="flex:1.75; padding:32px 40px;">
-        <p class="resultado-rotulo">1º lugar &middot; texto oficial da infração</p>
-        <p class="resultado-txt" style="font-size:28px;">
-          &ldquo;não cumprir ou não fazer cumprir as leis, a regulamentação da ANTAQ, o contrato de
-          concessão, o convênio de delegação, o contrato de arrendamento (...),
-          <span class="erro">exceto quando a conduta infracional se enquadrar em tipo específico
-          contemplado nesta norma</span>: multa de até R$ 1.000.000,00&rdquo;
-        </p>
-        <p class="classificacao" style="font-size:25px;">Res. ANTAQ nº 3.274/2014, art. 32, XXXVIII &nbsp;|&nbsp; 281 infrações julgadas</p>
+    <!-- Código de leitura óptica -->
+    <div style="flex-shrink:0; margin-left:70px; display:flex; flex-direction:column; align-items:center; gap:16px;">
+      <div class="qr-caixa">
+        <img src="Imagens/qr-material-apoio.svg" alt="Código de leitura óptica para o material de apoio" style="width:100%; height:100%; display:block;"/>
       </div>
-
-      <!-- Destaque numérico -->
-      <div style="flex:1; background:#F0F9FF; border:3px solid #BAE6FD; border-radius:18px;
-                  padding:28px 30px; display:flex; flex-direction:column;
-                  align-items:center; justify-content:center;">
-        <p class="destaque-rotulo" style="text-align:center;">Soma das multas<br/>nesse único inciso</p>
-        <p class="destaque-num" style="margin-top:14px; font-size:96px;">R$ 18,7</p>
-        <p class="font-montserrat" style="font-size:30px; font-weight:700; color:#003366; margin-top:6px;">milhões</p>
-        <p class="font-montserrat" style="font-size:21px; font-weight:600; color:#4B5563; margin-top:12px; text-align:center;">de R$ 106,4 milhões<br/>em toda a série</p>
-      </div>
-
+      <p class="font-montserrat" style="font-size:19px; color:#BFDBFE; text-align:center; max-width:260px; line-height:1.35;">
+        Aponte a câmera<br/>para abrir o material
+      </p>
     </div>
 
   </div>
 
-  <!-- Rodapé -->
-  <div class="px-16 pb-5 flex justify-between items-end z-10">
-    <div>
-      <p class="text-gray-400 font-montserrat" style="font-size:18px;">IA no dia a dia da Fiscalização · SFC · ANTAQ</p>
-      <p class="text-gray-400" style="font-size:17px;">Fonte: painel Fiscalização da ANTAQ, quadros "Base de Dados" e "Objeto das Normas", via conector MCP de Dados Abertos da ANTAQ (GPF), em 16 de setembro de 2026. Valores nominais, sem correção.</p>
+  <!-- Rodapé com canais oficiais -->
+  <div class="relative z-10 flex justify-between items-end" style="padding:16px 96px 26px 110px; border-top:1px solid rgba(255,255,255,0.12);">
+    <div class="flex flex-col gap-1" style="color:#BFDBFE; font-size:17px;">
+      <span class="font-montserrat font-semibold uppercase" style="letter-spacing:.1em; color:#DBEAFE; font-size:18px;">Canais oficiais ANTAQ</span>
+      <div class="flex flex-wrap items-center gap-5" style="margin-top:4px;">
+        <a href="https://www.facebook.com/ANTAQ.oficial" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:text-white transition-colors" style="color:#BFDBFE;">
+          <i class="fa-brands fa-facebook"></i><span>ANTAQ.oficial</span>
+        </a>
+        <a href="https://www.instagram.com/antaq_oficial/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:text-white transition-colors" style="color:#BFDBFE;">
+          <i class="fa-brands fa-instagram"></i><span>@antaq_oficial</span>
+        </a>
+        <a href="https://www.youtube.com/c/CanalANTAQ/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:text-white transition-colors" style="color:#BFDBFE;">
+          <i class="fa-brands fa-youtube"></i><span>CanalANTAQ</span>
+        </a>
+        <a href="https://www.linkedin.com/company/antaq" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:text-white transition-colors" style="color:#BFDBFE;">
+          <i class="fa-brands fa-linkedin"></i><span>company/antaq</span>
+        </a>
+        <a href="https://x.com/ANTAQ_oficial" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:text-white transition-colors" style="color:#BFDBFE;">
+          <i class="fa-brands fa-twitter"></i><span>@ANTAQ_oficial</span>
+        </a>
+      </div>
     </div>
-    <p class="text-gray-300 font-mono" style="font-size:18px;">31 / 41</p>
+    <div class="flex items-center gap-5">
+      <p class="font-montserrat" style="font-size:18px; color:#BFDBFE; opacity:.75;">IA no dia a dia da Fiscalização · SFC · ANTAQ</p>
+      <p class="font-mono" style="font-size:18px; color:#BFDBFE; opacity:.75;">31 / 31</p>
+    </div>
   </div>
 
-  <div class="bg-marca"><i class="fas fa-gavel"></i></div>
 </div>
 
 <div id="notas-apresentador" style="display:none;">
-  <p>Primeira demonstração, e ela é sobre nós. Comece dizendo isso com todas as letras: "não vim mostrar erro de vocês, vim mostrar um número que é da nossa casa e que a gente nunca olhou de frente".</p>
-  <p>Leia o texto do inciso devagar, até o trecho em vermelho. É um tipo <em>residual</em>: ele só cabe quando a conduta não se enquadra em nenhum tipo específico da própria norma. A norma diz isso dentro do próprio dispositivo.</p>
-  <p>Agora dê o número: esse inciso residual é o que mais soma multa em toda a série, dezoito milhões e setecentos mil de um total de cento e seis milhões e quatrocentos mil. Quase um sexto do dinheiro da série está no tipo que deveria ser exceção.</p>
-  <p>Não conclua nada aqui. Deixe a sala concluir. Se alguém disser "mas em muitos casos não existe tipo específico mesmo", concorde: é uma leitura possível, e é exatamente por isso que o dado sozinho não responde. O próximo slide diz por que a pergunta importa.</p>
-  <p>Cuidado com o tom: a sala instruiu esses processos. O achado é da instituição, não de ninguém em particular. Cerca de três minutos.</p>
+  <p>Slide de contato e último da apresentação. Deixem-no projetado durante todas as perguntas: é ele que fica na tela enquanto a sala conversa.</p>
+  <p>Peçam que peguem o telefone e apontem a câmera para o código: ele abre esta mesma apresentação, com as notas e o material de apoio. Digam o endereço em voz alta também, para quem preferir anotar. Para quem está nas unidades regionais, o endereço é o caminho mais prático, porque o material fica disponível depois.</p>
+  <p>Antes de encerrar, façam as duas ofertas que não estão projetadas em lugar nenhum: as duas gerências montam a primeira habilidade junto com a equipe da unidade que pedir, e convidam a sala para a apresentação de amanhã, às 10h20, sobre o conector de Dados Abertos da ANTAQ. Sem essas frases, a apresentação termina sem próximo passo.</p>
+  <p>Se alguém pedir a política de uso de IA da Agência, a resposta honesta é a do slide 11: ela não existe ainda, e enquanto não existir valem as orientações federais que estão ali listadas.</p>
+  <p>O endereço projetado é o da caixa da Superintendência, e ele vale para as duas gerências. Se alguém preferir falar com uma delas diretamente, digam o canal em voz alta, porque só um endereço cabe no cartão.</p>
 </div>
 <script>window.addEventListener("load",function(){var n=document.getElementById("notas-apresentador");window.parent.postMessage({type:"slide-notes",html:n?n.innerHTML:""},"*");});</script>
 <script>document.addEventListener("keydown",function(e){if(["ArrowRight","ArrowLeft","PageDown","PageUp","Home","End"," ","f","F","n","N"].indexOf(e.key)!==-1){e.preventDefault();window.parent.postMessage({type:"slide-nav",key:e.key},"*");}});</script>

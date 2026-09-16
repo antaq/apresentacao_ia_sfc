@@ -29,7 +29,7 @@ afirmação e por que ela mudou em relação ao deck da SAF.
 ### Tese central, reforçada três vezes
 > **A IA é revisora, pesquisadora e tradutora de dados. O autor e o responsável continuam sendo o servidor.**
 
-Frase-âncora, idêntica nos slides **7, 30 e 37**:
+Frase-âncora, idêntica nos slides **7 e 30**:
 > **"A IA não assina. Quem assina é você - e quem assina responde."**
 
 ### Regras de escrita (obrigatórias em todo texto do deck)
@@ -44,8 +44,8 @@ Frase-âncora, idêntica nos slides **7, 30 e 37**:
 ### Regras de conteúdo (obrigatórias)
 - **Não invente nada.** Todo número, data, valor e norma deste deck foi conferido na fonte antes de entrar.
 - **Neutralidade de fornecedor**: o deck não recomenda produto.
-- Nenhuma demonstração usa processo em tramitação, dado pessoal ou base credenciada. Só dado que a própria Agência publica. Isso é argumento, não acaso: dizer isso em voz alta faz parte do roteiro do slide 37.
-- Rodapé padrão em todos os slides de conteúdo: identificação da unidade, fonte e numeração `NN / 41`.
+- Nenhuma demonstração usa processo em tramitação, dado pessoal ou base credenciada. Só dado que a própria Agência publica. Isso é argumento, não acaso, e passou a ser o assunto da apresentação de 22/09/2026 sobre dados abertos.
+- Rodapé padrão em todos os slides de conteúdo: identificação da unidade, fonte e numeração `NN / 31`.
 
 ### Vocabulário de leiaute
 | Código | Leiaute |
@@ -64,7 +64,7 @@ O leiaute **L7** (captura de tela) não é usado. O deck foi entregue sem nenhum
 decisão tomada ainda no deck da SAF; o conteúdo ocupa a largura cheia, com corpo maior.
 
 ### Divisórias
-Uma divisória **L10** antes de cada bloco, com número, título e tempo: slides **4, 10, 20, 28 e 38**.
+Uma divisória **L10** antes de cada bloco, com número, título e tempo: slides **4, 10, 20 e 28**.
 A abertura (slides 1 a 3) não tem divisória.
 
 ---
@@ -121,38 +121,27 @@ configuração. Aqui são 10 slides, e o eixo é a orientação federal já publ
 | 26 | L4 | Memória: saber desligar vale mais do que saber ligar. O isolamento impede que a conversa de um processo sancionador vaze para o projeto de outro. | — |
 | 27 | L2 | Como começar: "Vou criar um projeto para a minha Unidade Regional, que fiscaliza navegação interior." | — |
 
-### Bloco 4 · Conector e dados abertos (18 min)
-
-Bloco inteiramente refeito. O deck da SAF demonstrava um conector de Compras Públicas sobre
-o PNCP; aqui as quatro demonstrações usam o **conector MCP de Dados Abertos da ANTAQ**,
-construído na GPF sobre os painéis e o acervo normativo que a Agência já publica.
+### Bloco 4 · Habilidades e artefatos (7 min)
 
 | # | Leiaute | Conteúdo | Fonte |
 |---|---|---|---|
-| 28 | L10 | Divisória. Chips: protocolo aberto (MCP), enquadramento, histórico do fiscalizado, qualidade do dado. | — |
-| 29 | L4 | A diferença que um conector faz: sem conector a IA fala sobre fiscalização; com conector ela consultou o painel de Fiscalização agora e trouxe o dado. | — |
-| 30 | L3 | O conector de Dados Abertos da ANTAQ foi feito aqui: protocolo aberto, feito dentro da própria Superintendência sem custo de contratação, consumindo só o que a Agência publica. Último item: nenhum processo em tramitação sai daqui. **Faixa-âncora #2.** | — |
-| 31 | L6+L8 | **Demonstração 1 - o enquadramento que mais soma multa é o genérico.** O tipo residual da Resolução ANTAQ nº 3.274/2014, art. 32, XXXVIII, traz dentro de si a ressalva "exceto quando a conduta infracional se enquadrar em tipo específico contemplado nesta norma". Destaque: R$ 18,7 milhões de R$ 106,4 milhões, em 281 infrações julgadas. | Painel Fiscalização, quadros "Base de Dados" e "Objeto das Normas", via conector MCP (GPF), 16/09/2026; valores nominais |
-| 32 | L3 | **Enquadramento genérico não é detalhe de redação**: o tipo residual só cabe sem tipo específico; tipificação frouxa dificulta a defesa; o erro aparece no recurso, anos depois. Cartão de alerta em vermelho. | Curso de introdução à fiscalização da SFC |
-| 33 | L6+L8 | **Demonstração 2 - o histórico do fiscalizado, antes de autuar.** 2.824 empresas, 17.505 processos, 19.708 registros. Recortes por empresa, unidade, infração, tipo de decisão e ano. Faixa: não substitui a consulta ao SFIS e só alcança processo já julgado. | Painel Fiscalização via conector MCP (GPF), 16/09/2026 |
-| 34 | L6+L8 | **Demonstração 3 - a citação que a base erra, e o conector avisa.** O rótulo de artigo da base de origem aponta o dispositivo errado em **68%** dos casos e o de parágrafo em 98%; e em dois documentos do procedimento sancionador a extração do arquivo comeu letras ("instalaçes", "rgãos", "contraditrio"). Faixa: citação errada é vício de tipificação; a busca localiza, o diário oficial transcreve. | Acervo normativo do setor aquaviário (50 documentos, 2.530 trechos) via conector MCP (GPF), 16/09/2026. Documentos com defeito: Resolução ANTAQ nº 3.259/2014 e Resolução Normativa nº 7/2016 |
-| 35 | L5 | **Demonstração 4 - dado aberto não é dado limpo.** Os três estados de "Valor da Multa": 3.319 com número, 11.876 com hífen (arquivado sem irregularidade) e 4.513 com célula vazia (decisão que não foi multa). Mais duas armadilhas: a linha é uma infração julgada e não um processo (19.708 para 17.505, +12,6%), e o detalhe publicado é mais curto que a manchete do painel (710 registros e R$ 3.826.426,96 a menos). | Painel Fiscalização, quadro "Base de Dados", via conector MCP (GPF), 16/09/2026; acervo de 2014 a 2026, valores nominais |
-| 36 | L2 | Conclusão do bloco: a IA acelera o acesso, e não substitui quem olha para "11.876 multas de valor zero" e desconfia. Essa desconfiança é a competência da sala. | — |
-| 37 | L3 | **O conector acha o dispositivo. Ele não lavra o auto.** O rito continua sendo o da Resolução 3.259/2014. **Faixa-âncora #3.** | Resolução ANTAQ nº 3.259, de 30 de janeiro de 2014 |
+| 28 | L10 | Divisória. | — |
+| 29 | L3 | Habilidade é o procedimento da casa virando ferramenta reutilizável. Exemplo: uma "Conferência de relatório de fiscalização" que roda sempre igual, em qualquer unidade. | — |
+| 30 | L3 | Artefato é a resposta virando arquivo: quadro de acompanhamento do plano de fiscalização, consolidação de resultados das unidades, relatórios periódicos. O arquivo ainda precisa ser conferido. Sempre. **Faixa-âncora #2.** | — |
 
-### Bloco 5 · Habilidades e artefatos (7 min)
-
-| # | Leiaute | Conteúdo | Fonte |
-|---|---|---|---|
-| 38 | L10 | Divisória. | — |
-| 39 | L3 | Habilidade é o procedimento da casa virando ferramenta reutilizável. Exemplo: uma "Conferência de relatório de fiscalização" que roda sempre igual, em qualquer unidade. | — |
-| 40 | L3 | Artefato é a resposta virando arquivo: quadro de acompanhamento do plano de fiscalização, consolidação de resultados das unidades, relatórios periódicos. O arquivo ainda precisa ser conferido. Sempre. | — |
+> **Bloco removido.** O bloco "Conector e dados abertos" (ex-slides 28 a 37, 18 min) saiu
+> deste deck em 16/09/2026 e virou apresentação própria, *"Utilização de Dados Abertos da
+> ANTAQ para Análise Técnica"*, marcada para 22/09/2026 às 10h20, em
+> `../Dados-Abertos-Analise-Tecnica/`. Os dez slides foram para lá sem mudança de conteúdo,
+> e ganharam um slide de recapitulação deste encontro. A especificação daquele bloco passou
+> a viver no `KIT.md` daquele deck.
 
 ### Encerramento
 
 | # | Leiaute | Conteúdo | Fonte |
 |---|---|---|---|
-| 41 | L11 | Contato, material de apoio e código de leitura óptica apontando para `antaq.github.io/apresentacao_ia_sfc`. | — |
+| 31 | L11 | Contato, material de apoio e código de leitura óptica apontando para `antaq.github.io/apresentacao_ia_sfc`. | — |
+
 
 ---
 
@@ -169,15 +158,15 @@ Este deck deriva do `apresentacao_ia_saf`, apresentado em 5 de agosto de 2026. O
    (11), os princípios (12), o teste com dado que não existe (18) e a transparência sobre o
    uso (19). As vedações do slide 13 passaram de 5 para 6 e foram reescritas para o trabalho
    de fiscalização. A tag do bloco mudou de `PRIVACIDADE` para `GOVERNANÇA`.
-3. **Bloco 4 refeito.** As quatro demonstrações passaram do conector de Compras Públicas
-   para o conector de Dados Abertos da ANTAQ. A escolha não é só temática: as armadilhas de
-   qualidade de dado que o conector mede (rótulo de artigo errado em 68%, três estados do
-   valor da multa, linha que não é processo, base mais curta que o painel) são o melhor
-   material possível para o argumento do slide 36.
+3. **Bloco 4 refeito e depois removido.** As quatro demonstrações passaram do conector de
+   Compras Públicas para o conector de Dados Abertos da ANTAQ. Em 16/09/2026 o bloco inteiro
+   saiu deste deck e virou apresentação própria para 22/09/2026, porque o assunto ganhou
+   horário próprio na agenda. O deck perdeu 10 slides e 18 minutos de exposição.
 4. **Instruções do projeto (slide 23) reescritas do zero**, com o regime legal do setor
    aquaviário e vedações explícitas sobre decisão, graduação de sanção e uso de dado aberto
    como prova.
-5. **Deck de 37 para 41 slides.** A especificação da SAF mandava gastar a folga dos 90
-   minutos em demonstração, não em slides novos. Aqui a folga foi gasta em quatro slides
-   novos de governança (11, 12, 18 e 19), e a divergência está registrada no
-   [`PENDENCIAS.md`](PENDENCIAS.md).
+5. **Deck de 37 para 41 e depois para 31 slides.** A especificação da SAF mandava gastar a
+   folga dos 90 minutos em demonstração, não em slides novos. Aqui a folga foi gasta em
+   quatro slides novos de governança (11, 12, 18 e 19), o que levou o deck a 41 slides. Com
+   a saída do bloco de dados abertos, ele fechou em 31 slides e 54 minutos de exposição. A
+   divergência está registrada no [`PENDENCIAS.md`](PENDENCIAS.md).
