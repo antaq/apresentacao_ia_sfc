@@ -3,18 +3,19 @@
 Situação em: **16/09/2026** · Apresentação marcada para **21/09/2026, às 16h20**
 
 > Não há marcador `[CONFIRMAR]`, `[DATA]` ou `[CAPTURA]` em aberto no deck. Os 41 slides
-> passaram pela verificação automática de leiaute em 16/09/2026 (ver seção 4). O que
-> continua pendente é **fora do HTML**: a publicação da página e duas falas que não estão
-> projetadas em tela nenhuma.
+> passaram pela verificação automática de leiaute em 16/09/2026 (ver seção 4). A página já
+> está publicada em **https://antaq.github.io/apresentacao_ia_sfc/**, e o código de leitura
+> óptica do slide 41 foi conferido contra ela. O que continua pendente é **fora do HTML**:
+> duas falas que não estão projetadas em tela nenhuma e três atribuições a conferir.
 
 ---
 
-## 1. Bloqueia a publicação
+## 1. Publicação
 
 | Item | Situação |
 |---|---|
 | **Repositório `antaq/apresentacao_ia_sfc`** | ✅ Criado e publicado na `main` em 16/09/2026. |
-| **GitHub Pages** | ⏳ **Falta ligar.** Em *Settings → Pages*, *Source* = **Deploy from a branch** → `main` → `/ (root)`. Não foi possível ligar pela linha de comando: a credencial local não tem o escopo `pages`. **Enquanto o Pages não estiver ligado, o código de leitura óptica do slide 41 abre uma página que não existe.** Confira depois em `https://antaq.github.io/apresentacao_ia_sfc/`. |
+| **GitHub Pages** | ✅ Ligado em *Deploy from a branch* → `main` → `/ (root)`. A primeira compilação não disparou sozinha ao ligar o Pages e precisou ser pedida à mão; se isso se repetir num próximo deck, o caminho é `gh api -X POST repos/<org>/<repo>/pages/builds`. Página no ar e conferida em 16/09/2026. |
 | **Código de leitura óptica** | ✅ Regerado em 16/09/2026 e conferido por decodificação: aponta para `https://antaq.github.io/apresentacao_ia_sfc/`. Os arquivos `Imagens/qr-material-apoio.svg` e `.png` já foram substituídos. |
 
 ---
