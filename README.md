@@ -74,6 +74,8 @@ python3 -m http.server 8130
 | [`index.html`](index.html) | Navegador dos slides (escala, teclado, notas, progresso) |
 | `slide-01.html` … `slide-32.html` | Os 32 slides |
 | [`KIT.md`](KIT.md) | Sistema visual (paleta, tipografia, componentes, mapa dos slides) |
+| `Imagens/og-capa.jpg` | Cartão 1200x630 que aparece ao compartilhar o endereço |
+| `Imagens/og-fonte.html` | Página que gera o cartão. Não faz parte da apresentação |
 | [`spec-slides-ia-sfc.md`](spec-slides-ia-sfc.md) | Especificação de conteúdo que originou o deck |
 | [`notas-apresentador.md`](notas-apresentador.md) | Roteiro falado por slide, para impressão |
 | [`PENDENCIAS.md`](PENDENCIAS.md) | O que foi resolvido, o que sobrou e as divergências registradas |
@@ -91,3 +93,11 @@ apresentações da Gerência: em **Settings → Pages**, *Source* é **Deploy fr
 iniciados por `_`.
 
 A partir daí, todo `push` na `main` republica a página automaticamente.
+
+### Cartão de compartilhamento
+
+O `index.html` traz as metaetiquetas Open Graph, e por isso o endereço colado no WhatsApp ou
+no Teams abre com o cartão [`Imagens/og-capa.jpg`](https://antaq.github.io/apresentacao_ia_sfc/Imagens/og-capa.jpg) em vez do endereço cru.
+Para trocar a arte, use `Imagens/og-fonte.html` e siga a seção 11 do [`KIT.md`](KIT.md).
+O arquivo precisa continuar com **1200x630** e **abaixo de 300 KB**, senão a prévia não
+aparece. A prévia fica em cache no aplicativo por alguns dias depois de publicada.
