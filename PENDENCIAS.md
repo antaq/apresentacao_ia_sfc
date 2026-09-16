@@ -13,8 +13,9 @@ Situação em: **16/09/2026** · Apresentação marcada para **21/09/2026, às 1
 
 | Item | Situação |
 |---|---|
-| **Repositório `antaq/apresentacao_ia_sfc`** | Ainda não existe. O slide 41 e o código de leitura óptica já apontam para `antaq.github.io/apresentacao_ia_sfc`. **Enquanto o repositório não for criado e publicado, o código de leitura óptica abre uma página que não existe.** Criar, empurrar na `main` e ligar o Pages em *Settings → Pages* → *Deploy from a branch* → `main` → `/ (root)`. |
-| **Código de leitura óptica** | Regerado em 16/09/2026 e conferido por decodificação: aponta para `https://antaq.github.io/apresentacao_ia_sfc/`. Os arquivos `Imagens/qr-material-apoio.svg` e `.png` já foram substituídos. |
+| **Repositório `antaq/apresentacao_ia_sfc`** | ✅ Criado e publicado na `main` em 16/09/2026. |
+| **GitHub Pages** | ⏳ **Falta ligar.** Em *Settings → Pages*, *Source* = **Deploy from a branch** → `main` → `/ (root)`. Não foi possível ligar pela linha de comando: a credencial local não tem o escopo `pages`. **Enquanto o Pages não estiver ligado, o código de leitura óptica do slide 41 abre uma página que não existe.** Confira depois em `https://antaq.github.io/apresentacao_ia_sfc/`. |
+| **Código de leitura óptica** | ✅ Regerado em 16/09/2026 e conferido por decodificação: aponta para `https://antaq.github.io/apresentacao_ia_sfc/`. Os arquivos `Imagens/qr-material-apoio.svg` e `.png` já foram substituídos. |
 
 ---
 
